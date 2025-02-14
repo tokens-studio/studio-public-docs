@@ -2,6 +2,8 @@
 
 Companion by Tokens Studio is a plugin which is meant purely for consumption of design tokens from Studio as variables in Figma.
 
+
+
 {% stepper %}
 {% step %}
 ### Open a Figma design file
@@ -54,5 +56,7 @@ IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 5. You are now connected to Studio and your tokens should reflect in the plugin.
 
 <figure><img src="../../.gitbook/assets/Api key to companion.gif" alt=""><figcaption></figcaption></figure>
+
+For more information on the features of Companion by Tokens Studio, see [Companion by Tokens Studio](../../companion-by-tokens-studio.md).
 {% endstep %}
 {% endstepper %}

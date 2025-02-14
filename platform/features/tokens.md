@@ -57,7 +57,7 @@ Each token row shows:
 1. Token Type – e.g., color, typography, dimension, etc.
 2. Name – the token’s name (can include hierarchical naming conventions).
 3. Value – the token’s raw or referenced value.
-4. Result Value – the final, resolved value taking references into account.
+4. Resolved Value – the final, resolved value taking references into account.
 5. Description – an optional field to clarify the token’s purpose or usage.
 
 #### Inline Editing 

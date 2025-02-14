@@ -29,7 +29,7 @@ This can be an empty file to ensure that your production designs are not affecte
 {% step %}
 ### Setting up Token Studio sync
 
-1. Return to the Studio and go to the dashboad on the left panel.
+1. Return to Studio and go to the dashboad on the left panel.
 2. Click on Find your API key. You can also jump to the API keys page by using the keyboard shortcut cmd+k.
 3. The API key is linked to the user which means that it gives access to all the Organisations and Projects that a user is part of.&#x20;
 
@@ -73,7 +73,5 @@ IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 1. Connection with Studio and the plugin is a bi-directional sync.
 2. Any changes on Studio can be pulled in the plugin by clicking on sync icon at the bottom left of the plugin.
 3. Any changes on the plugin will be automatically updated on the studio.&#x20;
-
-
 {% endstep %}
 {% endstepper %}

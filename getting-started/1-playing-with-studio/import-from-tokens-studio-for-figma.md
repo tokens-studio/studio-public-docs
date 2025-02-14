@@ -1,6 +1,6 @@
 # Import from Tokens Studio for Figma
 
-If you already have design tokens set up in Tokens Studio for Figma plugin, you can easily import them into Tokens Studio. Below is an example workflow using the Tokens Studio for Figma plugin.
+If you already have design tokens set up in Tokens Studio for Figma plugin, you can easily import them into Studio. Below is an example workflow using the Tokens Studio for Figma plugin.
 
 
 
@@ -28,7 +28,7 @@ Ensure that you have your design tokens set up in Tokens Studio for Figma plugin
 {% endstep %}
 
 {% step %}
-### Return to Tokens Studio
+### Return to Studio
 
 1. Go to your Project Dashboard.
 2. Click Upload tokens or drag-and-drop the .zip file into the upload area (make sure to upload a .zip file).
@@ -41,7 +41,7 @@ Ensure that you have your design tokens set up in Tokens Studio for Figma plugin
 {% step %}
 ### Reviewing imported tokens and themes&#x20;
 
-1. Tokens Studio will parse the .zip file and create matching sets (e.g., foundation, light, dark).
+1. Studio will parse the .zip file and create matching sets (e.g., foundation, light, dark).
 2. Verify that your sets and tokens appear correctly in the left-hand panel.
 3. Go to the Themes module on the left panel.
 4. Verify that your theme groups and theme options appear correctly.
