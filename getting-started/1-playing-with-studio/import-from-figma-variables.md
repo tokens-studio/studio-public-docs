@@ -50,9 +50,9 @@ _Tip: You might see collections such as “foundation” or “light” and “d
 1. Go to your Project Dashboard.
 2. Click Upload tokens or drag-and-drop the .zip file into the upload area.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Import Tokens.gif" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
 {% endstep %}
 
 {% step %}
