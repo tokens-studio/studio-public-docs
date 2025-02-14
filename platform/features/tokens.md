@@ -1,6 +1,6 @@
 # Tokens
 
-The Tokens Module in Studio is where you manage and organize your design tokens. This page walks you through the main elements of the interface—navigating sets, creating or uploading tokens, and working within the tokens table. It references other existing sections of the documentation where relevant, so you can easily connect to broader workflows (for example, [Import from Tokens Studio for Figma](../../getting-started/1-playing-with-studio/import-from-tokens-studio-for-figma.md) or [Themes](themes.md)).
+The Tokens Module in Studio is where you manage and organize your design tokens. This page walks you through the main elements of the interface—navigating sets, creating or uploading tokens, and working within the tokens table. It references other existing sections of the documentation where relevant, so you can easily connect to broader workflows (for example, [Import from Tokens Studio for Figma](../../getting-started/setting-up-studio/import-from-tokens-studio-for-figma.md) or [Themes](themes.md)).
 
 ### Overview 
 
@@ -42,7 +42,7 @@ You’ll also see:
 3. Choose Static set (simple list of tokens) or Graph-based set (tokens can reference each other in more advanced ways).
 4. (Optional) Upload an existing set directly from your local JSON files.
 
-For details on uploading tokens from Figma, see [Import from Tokens Studio for Figma](../../getting-started/1-playing-with-studio/import-from-tokens-studio-for-figma.md) or [Import from Figma Variables](../../getting-started/1-playing-with-studio/import-from-figma-variables.md).
+For details on uploading tokens from Figma, see [Import from Tokens Studio for Figma](../../getting-started/setting-up-studio/import-from-tokens-studio-for-figma.md) or [Import from Figma Variables](../../getting-started/setting-up-studio/import-from-figma-variables.md).
 
 ### Tokens Table 
 
@@ -120,8 +120,8 @@ To learn more about theming, see [Themes](themes.md).
 ### Next Steps
 
 * Import tokens from existing sources:
-  * [Import from Figma variables](../../getting-started/1-playing-with-studio/import-from-figma-variables.md)
-  * [Import from Tokens Studio for Figma](../../getting-started/1-playing-with-studio/import-from-tokens-studio-for-figma.md)
+  * [Import from Figma variables](../../getting-started/setting-up-studio/import-from-figma-variables.md)
+  * [Import from Tokens Studio for Figma](../../getting-started/setting-up-studio/import-from-tokens-studio-for-figma.md)
 * Configure or refine your themes: [Themes](https://chatgpt.com/g/platform/features/themes.md)
 * Leverage advanced references with Graph-based sets
 

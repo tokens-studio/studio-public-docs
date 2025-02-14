@@ -57,6 +57,6 @@ IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 
 <figure><img src="../../.gitbook/assets/Api key to companion.gif" alt=""><figcaption></figcaption></figure>
 
-For more information on the features of Companion by Tokens Studio, see [Companion by Tokens Studio](../../companion-by-tokens-studio.md).
+For more information on the features of Companion by Tokens Studio, see [Companion by Tokens Studio](../../plugins/companion-by-tokens-studio.md).
 {% endstep %}
 {% endstepper %}

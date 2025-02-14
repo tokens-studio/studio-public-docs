@@ -2,14 +2,14 @@
 
 * [Why Tokens Studio?](README.md)
 * [Getting Started](getting-started/README.md)
-  * [1 - Playing with Studio](getting-started/1-playing-with-studio/README.md)
-    * [Import from Tokens Studio for Figma](getting-started/1-playing-with-studio/import-from-tokens-studio-for-figma.md)
-    * [Import from Figma variables](getting-started/1-playing-with-studio/import-from-figma-variables.md)
-  * [2 - Connect Studio to Figma](getting-started/2-connect-studio-to-figma/README.md)
-    * [Using Tokens Studio for Figma](getting-started/2-connect-studio-to-figma/using-tokens-studio-for-figma.md)
-    * [Using Companion by Tokens Studio](getting-started/2-connect-studio-to-figma/using-companion-by-tokens-studio.md)
-  * [3 - Connect Studio to Code](getting-started/3-connect-studio-to-code.md)
-  * [4 - Getting ready for production](getting-started/4-getting-ready-for-production.md)
+  * [Setting up Studio](getting-started/setting-up-studio/README.md)
+    * [Import from Tokens Studio for Figma](getting-started/setting-up-studio/import-from-tokens-studio-for-figma.md)
+    * [Import from Figma variables](getting-started/setting-up-studio/import-from-figma-variables.md)
+  * [Connect Studio to Figma](getting-started/connect-studio-to-figma/README.md)
+    * [Using Tokens Studio for Figma](getting-started/connect-studio-to-figma/using-tokens-studio-for-figma.md)
+    * [Using Companion by Tokens Studio](getting-started/connect-studio-to-figma/using-companion-by-tokens-studio.md)
+  * [Connect Studio to Code](getting-started/connect-studio-to-code.md)
+  * [Getting ready for production](getting-started/getting-ready-for-production.md)
 * [Connect](connect.md)
 * [Migrate to Studio](migrate-to-studio.md)
 
@@ -28,12 +28,18 @@
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
 
-***
+## STYLE DICTIONARY
 
-* [Tokens Studio for Figma Plugin](tokens-studio-for-figma-plugin.md)
-* [Companion by Tokens Studio](companion-by-tokens-studio.md)
-* [Style Dictionary](style-dictionary.md)
-* [Graph Engine](graph-engine.md)
+* [Page 2](style-dictionary/page-2.md)
+
+## GRAPH ENGINE
+
+* [Page 1](graph-engine/page-1.md)
+
+## PLUGINS
+
+* [Tokens Studio for Figma Plugin](plugins/tokens-studio-for-figma-plugin.md)
+* [Companion by Tokens Studio](plugins/companion-by-tokens-studio.md)
 
 ## Development
 
