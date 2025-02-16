@@ -1,6 +1,6 @@
 # Using Companion by Tokens Studio
 
-Companion by Tokens Studio is a plugin which is meant purely for consumption of design tokens from Studio as variables in Figma.
+Companion by Tokens Studio is a Figma plugin which is meant purely for consumption of design tokens from Studio as variables in Figma.
 
 
 
