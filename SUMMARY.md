@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Why Tokens Studio?](README.md)
+* [Why Studio?](README.md)
 * [Getting Started](getting-started/README.md)
   * [Setting up Studio](getting-started/setting-up-studio/README.md)
     * [Import from Tokens Studio for Figma](getting-started/setting-up-studio/import-from-tokens-studio-for-figma.md)

@@ -34,7 +34,7 @@ Once the project is created, you’ll be redirected to the **Project Dashboard**
 
 ### Viewing Your Projects
 
-To view your projects, navigate to the **Projects** section in the side panel. Here, you'll see a list of all the projects associated with your organization. The active project will be highlighted.
+To view your projects, navigate to the **Projects** section in the side panel. Here, you'll see a list of all the projects associated with your organization.&#x20;
 
 * Switch between projects by selecting the desired project from the list.
 * Access **Project Settings** directly from this panel.
