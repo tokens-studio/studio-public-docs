@@ -2,12 +2,14 @@
 
 The Tokens Module in Studio is where you manage and organize your design tokens. This page walks you through the main elements of the interface—navigating sets, creating or uploading tokens, and working within the tokens table. It references other existing sections of the documentation where relevant, so you can easily connect to broader workflows (for example, [Import from Tokens Studio for Figma](../../getting-started/setting-up-studio/import-from-tokens-studio-for-figma.md) or [Themes](themes.md)).
 
-### Overview 
+### Overview
 
 When you open the Tokens Module in a Studio project, the layout is divided into two main parts:
 
 1. Left Pane – Displays your token sets and any organizational folders.
 2. Right Pane – Shows detailed views for whichever folder or set you have selected—usually referred to as the Tokens Table.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 You’ll also find:
 
@@ -16,7 +18,6 @@ You’ll also find:
 
 ### Navigating Sets and Folders
 
-\
 On the left side, you’ll see a structure consisting of Sets and Folders:
 
 * Sets: Contain actual tokens (e.g., colors, typography, spacing). You can rename, duplicate, or delete them.
@@ -28,6 +29,8 @@ On the left side, you’ll see a structure consisting of Sets and Folders:
 * Duplicate
 * Delete
 
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
 You’ll also see:
 
 * Last edited timestamp and number of tokens for each set.
@@ -35,23 +38,23 @@ You’ll also see:
 
 ### Creating a New Set
 
-#### To create a new set: 
+#### To create a new set:
 
 1. Click Create a new set in the top bar.
 2. Give your set a Name and Description (optional).
 3. Choose Static set (simple list of tokens) or Graph-based set (tokens can reference each other in more advanced ways).
 4. (Optional) Upload an existing set directly from your local JSON files.
 
+<figure><img src="../../.gitbook/assets/Create New Set.gif" alt=""><figcaption></figcaption></figure>
+
 For details on uploading tokens from Figma, see [Import from Tokens Studio for Figma](../../getting-started/setting-up-studio/import-from-tokens-studio-for-figma.md) or [Import from Figma Variables](../../getting-started/setting-up-studio/import-from-figma-variables.md).
 
-### Tokens Table 
+### Tokens Table
 
-Selecting a set from the left pane will switch the right side to Tokens Table view. This view is similar to a spreadsheet, enabling quick, inline editing.\
-
+Selecting a set from the left pane will switch the right side to Tokens Table view. This view is similar to a spreadsheet, enabling quick, inline editing.
 
 #### Table Columns
 
-\
 Each token row shows:
 
 1. Token Type – e.g., color, typography, dimension, etc.
@@ -60,30 +63,33 @@ Each token row shows:
 4. Resolved Value – the final, resolved value taking references into account.
 5. Description – an optional field to clarify the token’s purpose or usage.
 
-#### Inline Editing 
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+#### Inline Editing
 
 * Enter – switches a cell into edit mode (for simpler tokens like color, dimension, number).
 * Space – opens a more detailed editor for more complex tokens (e.g., typography or shadow) where multiple attributes need configuration.
 
+<figure><img src="../../.gitbook/assets/Opening with Space and Return Key.gif" alt=""><figcaption></figcaption></figure>
+
 #### Referencing and Resolved Value
 
-\
-If a token’s value references another token, you’ll see:\
-
+If a token’s value references another token, you’ll see:
 
 * A badge indicating whether the reference is valid.
 * A Result Value that automatically resolves based on the active theme context.
 
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
 #### Visualizing Token Flows
 
-\
 Each token row has a checkbox on the far left. Selecting one or more tokens enables extra actions. One notable action is Show Token Flow, which provides a visualization of how tokens reference each other—where a token’s value originates and which tokens depend on it.
+
+<figure><img src="../../.gitbook/assets/Token Flow.gif" alt=""><figcaption></figcaption></figure>
 
 #### Bulk Actions
 
-\
-When you select multiple tokens (by checking rows), you can apply bulk actions such as:\
-
+When you select multiple tokens (by checking rows), you can apply bulk actions such as:
 
 * Rename
 * Duplicate
@@ -92,30 +98,34 @@ When you select multiple tokens (by checking rows), you can apply bulk actions s
 * Move
 * Delete
 
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
 #### Folder and File Controls
 
-\
-At the top of the Tokens Table, you’ll see breadcrumbs showing your current folder path and file (set) name. You can:\
-
+At the top of the Tokens Table, you’ll see breadcrumbs showing your current folder path and file (set) name. You can:
 
 * Rename the file (set) name in place.
 * Download the set as JSON.
 * Duplicate the entire set.
 * Delete the set.
 
-On the top-right of the table:\
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-17 at 15.02.16.png" alt=""><figcaption></figcaption></figure>
 
+On the top-right of the table:
 
 * Filter by token type
 * Search tokens by name
 * Adjust nesting level (helpful for sets with hierarchical token naming)
 * Add Token (also available at the bottom of the table in quick-edit mode)
 
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-17 at 14.55.17 (1).png" alt=""><figcaption></figcaption></figure>
+
 ### Theming Context
 
-\
 At the bottom of the left panel, you can pick or create Theme Groups and Theme Options. Choosing a theme changes how references resolve across your tokens.\
 To learn more about theming, see [Themes](themes.md).
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-17 at 14.55.17.png" alt=""><figcaption></figcaption></figure>
 
 ### Next Steps
 

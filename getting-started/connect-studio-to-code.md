@@ -1,4 +1,4 @@
-# 3 - Connect Studio to Code
+# Connect Studio to Code
 
 ## **Using the Studio CLI and API**
 
@@ -8,10 +8,13 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 {% step %}
 ### **Accessing the SDK and CLI Documentation**
 
-1. **Navigate to Studio:**
-   * Open the Studio application.
-   * Go to your **organization dashboard**.
-   * Click the **SDK and CLI** button.
+1.  **Navigate to Studio:**
+
+    * Open the Studio application.
+    * Go to your **organization dashboard**.
+    * Click the **SDK and CLI** button.
+
+    <figure><img src="../.gitbook/assets/CleanShot 2025-02-17 at 12.35.31.png" alt=""><figcaption></figcaption></figure>
 2. **Review the SDK Documentation:**
    * This page contains the **Studio Software Development Kit (SDK)** and CLI instructions.
    * It might seem overwhelming, but the focus is on pulling your tokens into your local file system via the CLI.
@@ -27,6 +30,8 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 2. **Copy and Store the Key:**
    * Copy the key string and **store it securely** (e.g., in a password manager or vault).
    * You won’t be able to view the key again after closing the window.
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-17 at 12.52.32.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
