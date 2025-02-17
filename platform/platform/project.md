@@ -15,6 +15,8 @@ To create a new project:
    * (Optional) Choose a project icon.
    * Select a starter template or begin with a blank project.
 
+<figure><img src="../../.gitbook/assets/Create New Project.gif" alt=""><figcaption></figcaption></figure>
+
 #### Starter Templates
 
 Tokens Studio provides starter templates for popular frameworks:
@@ -27,6 +29,8 @@ Tokens Studio provides starter templates for popular frameworks:
 Choose a template that matches your design system needs, or opt for a blank setup to create your project from scratch.
 
 Once the project is created, you’ll be redirected to the **Project Dashboard**.
+
+<figure><img src="../../.gitbook/assets/New.png" alt=""><figcaption></figcaption></figure>
 
 ### Viewing Your Projects
 
@@ -49,3 +53,5 @@ To open project settings:
 2. Select **Settings** from the dropdown menu.
 
 Alternatively, access **Project Settings** from the side panel.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-17 at 17.54.08.png" alt=""><figcaption></figcaption></figure>
