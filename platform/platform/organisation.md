@@ -13,6 +13,8 @@ To manage your organisations:
    * **Organisation Settings** – to manage settings and policies.
    * **Switch Organisation** – to move between different organisations.
 
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
 ### Organisation Settings
 
 The **Organisation Settings** page provides an overview of your organisation and various management options:
