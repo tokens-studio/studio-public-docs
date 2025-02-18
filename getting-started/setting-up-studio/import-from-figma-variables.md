@@ -19,7 +19,7 @@ In Figma, ensure you have set up Figma Variables that you want to migrate.
 1. Go to Plugins > Tokens Studio for Figma.
 2. In the plugin’s interface, open a "New empty file".
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -29,7 +29,7 @@ In Figma, ensure you have set up Figma Variables that you want to migrate.
 2. Choose whether to convert numbers to dimensions, use rem values, etc.
 3. Select the variable sets you want to import and click Import.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Tip: You might see collections such as “foundation” or “light” and “dark” in Figma, which will become token sets groups and the modes will become token sets in Studio ._
 {% endstep %}

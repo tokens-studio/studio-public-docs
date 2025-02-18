@@ -9,7 +9,7 @@ When you open the Tokens Module in a Studio project, the layout is divided into 
 1. Left Pane – Displays your token sets and any organizational folders.
 2. Right Pane – Shows detailed views for whichever folder or set you have selected—usually referred to as the Tokens Table.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 You’ll also find:
 

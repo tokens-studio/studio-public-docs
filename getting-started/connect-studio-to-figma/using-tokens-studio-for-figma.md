@@ -13,7 +13,7 @@ This can be an empty file to ensure that your production designs are not affecte
 1. Go to Plugins > Tokens Studio for Figma.
 2. In the plugin’s interface, open a "New empty file".
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
