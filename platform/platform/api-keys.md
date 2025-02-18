@@ -2,7 +2,7 @@
 
 ### Overview
 
-API keys provide a secure way to connect **Tokens Studio** to external platforms like **Figma**. These keys enable seamless integration while ensuring secure authentication.
+API keys provide a secure way to connect **Studio** to external platforms like **Figma**. These keys enable seamless integration while ensuring secure authentication.
 
 ***
 
@@ -52,10 +52,10 @@ To generate a new API Key:
 
 ### Using API Keys
 
-* API keys can be used to authenticate connections between **Tokens Studio** and **Figma** (or other external platforms).
+* API keys can be used to authenticate connections between **Studio** and **Figma** (or other external platforms).
 * They are tied to your **user account**, meaning they grant access to all organizations and projects you are part of.
 
-For more details on using API keys for **Figma integration**, refer to the [Connecting Studio to Figma](https://chatgpt.com/g/g-p-67af2314c6908191aca7931e59ca6780-studio-docs/c/67b41546-b79c-8002-b65a-6715aad2dde7) guide.
+For more details on using API keys for **Figma integration**, refer to the [Connecting Studio to Figma](../../getting-started/connect-studio-to-figma/) guide.
 
 ***
 
