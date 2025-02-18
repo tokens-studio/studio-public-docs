@@ -17,7 +17,7 @@
 
 * [Features](platform/features/README.md)
   * [Tokens](platform/features/tokens/README.md)
-    * [Sets](platform/features/tokens/sets.md)
+    * [Token Sets](platform/features/tokens/token-sets.md)
   * [Themes](platform/features/themes.md)
   * [Configuration](platform/features/configuration.md)
   * [Releases](platform/features/releases.md)

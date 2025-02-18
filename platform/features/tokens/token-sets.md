@@ -1,8 +1,8 @@
-# Sets
+# Token Sets
 
 ## Static and Graph-Based Sets
 
-Tokens Studio supports two distinct types of token sets. Understanding the differences between **Static Sets** and **Graph-Based Sets** is key to optimizing your token management workflow.
+Studio supports two distinct types of token sets. Understanding the differences between **Static Sets** and **Graph-Based Sets** is key to optimizing your token management workflow.
 
 ### Static Sets
 
