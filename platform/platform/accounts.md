@@ -4,7 +4,7 @@ The **Accounts Menu** in Studio provides users with access to profile settings, 
 
 ### Accessing the Accounts Menu
 
-1. **Open Tokens Studio** and locate the left panel.
+1. **Open Studio** and locate the left panel.
 2. Scroll to the **bottom left corner** to find your **name and email address**.
 3. Click on your **profile** to open the accounts menu.
 
@@ -31,7 +31,7 @@ For **API key management**, visit the [**API Keys**](api-keys.md) section. Here,
 
 * Generate new API keys.
 * View and manage existing API keys.
-* Copy keys for integration with Tokens Studio.
+* Copy keys for integration with Studio.
 
 > 📌 **Important:** API keys are only shown once upon creation—ensure you store them securely.
 
@@ -45,4 +45,4 @@ For **API key management**, visit the [**API Keys**](api-keys.md) section. Here,
 
 ### Signing Out
 
-* Click **Sign Out** to securely log out of Tokens Studio.
+* Click **Sign Out** to securely log out of Studio.

@@ -1,8 +1,6 @@
 # Organisation
 
-### Overview
-
-Tokens Studio supports **multi-organisation management**, allowing users to be part of multiple organisations. This feature enables seamless collaboration across different teams and projects while maintaining control over access and policies.
+Studio supports **multi-organisation management**, allowing users to be part of multiple organisations. This feature enables seamless collaboration across different teams and projects while maintaining control over access and policies.
 
 ### Accessing Organisations
 
