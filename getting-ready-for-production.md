@@ -1,2 +1,6 @@
-# 4 - Getting ready for production
+---
+hidden: true
+---
+
+# Getting ready for production
 
