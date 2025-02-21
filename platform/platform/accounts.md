@@ -8,6 +8,8 @@ The **Accounts Menu** in Studio provides users with access to profile settings, 
 2. Scroll to the **bottom left corner** to find your **name and email address**.
 3. Click on your **profile** to open the accounts menu.
 
+<figure><img src="../../.gitbook/assets/profile.png" alt=""><figcaption></figcaption></figure>
+
 ### Account Menu Options
 
 After clicking on your profile, you’ll see the following options:
@@ -25,6 +27,8 @@ After clicking on your profile, you’ll see the following options:
 3. Upload an **optional avatar** if desired.
 4. Click **Save** to confirm changes.
 
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-21 at 13.24.53@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Managing API Keys
 
 For **API key management**, visit the [**API Keys**](api-keys.md) section. Here, users can:
@@ -35,6 +39,8 @@ For **API key management**, visit the [**API Keys**](api-keys.md) section. Here,
 
 > 📌 **Important:** API keys are only shown once upon creation—ensure you store them securely.
 
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-21 at 13.25.04@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Providing Feedback
 
 * Selecting **Share Feedback** redirects to the **Tokens Studio feedback platform**, where users can submit feature requests and report issues.
@@ -42,6 +48,8 @@ For **API key management**, visit the [**API Keys**](api-keys.md) section. Here,
 ### Changing the Theme
 
 * Users can **switch to Dark Mode** directly from the account menu to adjust their interface preferences.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-21 at 13.27.06.gif" alt=""><figcaption></figcaption></figure>
 
 ### Signing Out
 
