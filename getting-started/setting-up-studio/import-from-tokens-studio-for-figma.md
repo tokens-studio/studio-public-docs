@@ -33,9 +33,7 @@ Ensure that you have your design tokens set up in Tokens Studio for Figma plugin
 1. Go to your Project Dashboard.
 2. Click Upload tokens or drag-and-drop the .zip file into the upload area (make sure to upload a .zip file).
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Import Tokens.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

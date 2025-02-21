@@ -125,7 +125,7 @@ On the top-right of the table:
 At the bottom of the left panel, you can pick or create Theme Groups and Theme Options. Choosing a theme changes how references resolve across your tokens.\
 To learn more about theming, see [Themes](../themes.md).
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-02-17 at 14.55.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Themes.png" alt=""><figcaption></figcaption></figure>
 
 ### Next Steps
 
