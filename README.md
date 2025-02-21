@@ -26,9 +26,9 @@ Enable designers and developers to work together seamlessly. With built-in versi
 
 Ready to transform your design system workflow? Follow our step-by-step guide:
 
-1. [Start your journey](getting-started/) - Create your account and first project
-2. [Connect to Figma](getting-started/connect-studio-to-figma/) - Sync your design tokens
-3. [Connect to code](getting-started/connect-studio-to-code.md) - Integrate with your development workflow
+1. [Start your journey](getting-started.md) - Create your account and first project
+2. [Connect to Figma](connect-studio-to-figma/) - Sync your design tokens
+3. [Connect to code](connect-studio-to-code.md) - Integrate with your development workflow
 
 ### Key features
 

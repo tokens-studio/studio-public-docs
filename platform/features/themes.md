@@ -71,5 +71,5 @@ The **Themes Module** in Studio allows you to configure and manage T**heme group
 ### Themes in the Configuration Page
 
 * Theme groups are used in the **Configuration Page** to ensure **token resolution** functions correctly across themes.s
-* When Tokens Studio is **linked to the** [**Companion plugin**](../../getting-started/connect-studio-to-figma/using-companion-by-tokens-studio.md) **or** [**Tokens Studio for Figma**](../../getting-started/connect-studio-to-figma/using-tokens-studio-for-figma.md), theme groups translates as **Figma Variable collections**.&#x20;
+* When Tokens Studio is **linked to the** [**Companion plugin**](../../connect-studio-to-figma/using-companion-by-tokens-studio.md) **or** [**Tokens Studio for Figma**](../../connect-studio-to-figma/using-tokens-studio-for-figma.md), theme groups translates as **Figma Variable collections**.&#x20;
 * Theme **options** translate as **Modes** in **Figma Collections**.

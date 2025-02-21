@@ -67,7 +67,7 @@ To generate a new API Key:
 * API keys can be used to authenticate connections between **Studio** and **Figma** (or other external platforms).
 * They are tied to your **user account**, meaning they grant access to all organizations and projects you are part of.
 
-For more details on using API keys for **Figma integration**, refer to the [Connecting Studio to Figma](../../getting-started/connect-studio-to-figma/) guide.
+For more details on using API keys for **Figma integration**, refer to the [Connecting Studio to Figma](../../connect-studio-to-figma/) guide.
 
 ***
 
