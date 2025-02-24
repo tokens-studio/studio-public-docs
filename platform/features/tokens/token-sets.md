@@ -12,6 +12,8 @@ Static sets are the traditional token sets you are familiar with. They have the 
 * **Manual Token Management:** You directly edit token values and metadata—ideal for straightforward token collections that do not require dynamic logic.
 * **Predictable Structure:** Since the values are manually set, static sets offer consistency without additional computation.
 
+<figure><img src="../../../.gitbook/assets/Static Sets.png" alt=""><figcaption></figcaption></figure>
+
 > **Tip:** Use static sets for standard tokens that do not need dynamic calculations.
 
 ### Graph-Based Sets
@@ -22,6 +24,8 @@ Graph-based sets leverage our powerful graph engine to build logic-driven token 
 * **Dynamic Output:** The result is a dynamically generated token set, which you can view in both the graph view and the table view.
 * **Foundational Usage Only:** Graph-based sets should only be used on the foundational layer. They are designed to drive core logic, and you should avoid referencing a graph-based set on top of another logic-driven set. This limitation is due to current constraints in consuming platforms (such as Figma or CSS) regarding the translation of complex logics.
 
+<figure><img src="../../../.gitbook/assets/Graph Based Set.png" alt=""><figcaption></figcaption></figure>
+
 > **Note:** For advanced dynamic calculations like semantic scaling or automated color adjustments, graph-based sets offer powerful capabilities. However, keep them simple to ensure compatibility when the tokens are consumed in different platforms.
 
 ### Switching Between Views
@@ -30,6 +34,8 @@ In graph-based sets, you have the flexibility to switch between:
 
 * **Graph View:** Where you build and modify the logical structure of your token set.
 * **Table View:** Where you can inspect the final output of your dynamic calculations in a familiar tabular format.
+
+<figure><img src="../../../.gitbook/assets/Switch between Graph and Static set.gif" alt=""><figcaption></figcaption></figure>
 
 ### Best Practices
 
