@@ -24,6 +24,8 @@ To set up the connection and sync your tokens:
 2. **View Tokens**:
    * Once synced, all design tokens created in Tokens Studio will be visible in the Companion plugin.
    * Tokens are organized by **collections** and **modes** (modes) which corresponds to Theme Groups and Theme Options in Studio.
+
+<figure><img src="../.gitbook/assets/Api key to companion.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -33,6 +35,8 @@ To set up the connection and sync your tokens:
 2. Variables will be generated in Figma, replicating the structure of your tokens in Studio:
    * Theme Groups as Collections.
    * Theme options structured as modes.
+
+<figure><img src="../.gitbook/assets/Export Tokens to Figma Variables Companion Plugin.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -43,12 +47,16 @@ To set up the connection and sync your tokens:
 * If changes are made in Studio, click **Fetch from Studio** in the plugin to sync the updates.
 * Click **Create** again to generate the updated variables in Figma. Only the differential updates will be applied.
 
+<figure><img src="../.gitbook/assets/Fetch Updates.png" alt=""><figcaption></figcaption></figure>
+
 #### Watch Mode
 
 * Activate **Watch Mode** by clicking the **Watch Icon** in the plugin.
   * This minimizes the plugin but monitors changes in Studio.
   * Every 5 seconds, updates in Studio are automatically fetched and applied in Figma.
 * To stop Watch Mode, simply deactivate it by clicking the cancel button.
+
+<figure><img src="../.gitbook/assets/Watch Mode Companion.gif" alt=""><figcaption></figcaption></figure>
 
 ### Managing Variables
 
