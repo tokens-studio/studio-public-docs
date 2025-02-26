@@ -63,7 +63,7 @@ The **Themes Module** in Studio allows you to configure and manage T**heme group
 
 * Once you set up **theme groups** and **theme options**, they appear in the **Tokens Module**.
 * Located at the **bottom left navigation**, you can see:
-  * **Theme Groups** (e.g., Brand, Team)
+  * **Theme Groups** (e.g., Brand, Theme)
   * **Theme Options** (e.g., Light, Dark)
 
 <figure><img src="../../.gitbook/assets/Themes in Tokens Module.png" alt=""><figcaption></figcaption></figure>
@@ -73,3 +73,14 @@ The **Themes Module** in Studio allows you to configure and manage T**heme group
 * Theme groups are used in the **Configuration Page** to ensure **token resolution** functions correctly across themes.s
 * When Tokens Studio is **linked to the** [**Companion plugin**](../../connect-studio-to-figma/using-companion-by-tokens-studio.md) **or** [**Tokens Studio for Figma**](../../connect-studio-to-figma/using-tokens-studio-for-figma.md), theme groups translates as **Figma Variable collections**.&#x20;
 * Theme **options** translate as **Modes** in **Figma Collections**.
+
+### How Themes Reflect as Figma Variables
+
+* Once you connect Studio to Figma via [**Tokens Studio for Figma plugin**](../../connect-studio-to-figma/using-tokens-studio-for-figma.md) or [**Companion by Tokens Studio**](../../connect-studio-to-figma/using-companion-by-tokens-studio.md)**,** you can create Figma variables using your design tokens.
+* Theme groups are created as Collections in Figma variables (e.g., Brand, Theme).
+* Theme options are created as Modes inside the variable Collection (e.g., Light, Dark).\
+
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-26 at 21.44.22@2x.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-26 at 21.47.27@2x.png" alt=""><figcaption></figcaption></figure>
