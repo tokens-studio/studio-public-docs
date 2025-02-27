@@ -1,6 +1,6 @@
 # Tokens
 
-The Tokens Module in Studio is where you manage and organize your design tokens. This page walks you through the main elements of the interface—navigating sets, creating or uploading tokens, and working within the tokens table. It references other existing sections of the documentation where relevant, so you can easily connect to broader workflows (for example, [Import from Tokens Studio for Figma](../../../setting-up-studio/import-from-tokens-studio-for-figma.md) or [Themes](../themes.md)).
+The Tokens Module in Studio is where you manage and organize your design tokens. This page walks you through the main elements of the interface—navigating sets, creating or uploading tokens, and working within the tokens table. It references other existing sections of the documentation where relevant, so you can easily connect to broader workflows (for example, [Import from Tokens Studio for Figma](../../../setting-up-studio/import-from-tokens-studio-for-figma.md) or [Themes](../themes/)).
 
 ### Overview
 
@@ -14,7 +14,7 @@ When you open the Tokens Module in a Studio project, the layout is divided into 
 You’ll also find:
 
 * A top bar with search capabilities and actions like Create new set, Upload tokens, or Download tokens.
-* A theme selector at the bottom of the left pane, letting you choose which theme context is active (see more in [Themes](../themes.md)).
+* A theme selector at the bottom of the left pane, letting you choose which theme context is active (see more in [Themes](../themes/)).
 
 ### Navigating Sets and Folders
 
@@ -123,7 +123,7 @@ On the top-right of the table:
 ### Theming Context
 
 At the bottom of the left panel, you can pick or create Theme Groups and Theme Options. Choosing a theme changes how references resolve across your tokens.\
-To learn more about theming, see [Themes](../themes.md).
+To learn more about theming, see [Themes](../themes/).
 
 <figure><img src="../../../.gitbook/assets/Themes.png" alt=""><figcaption></figcaption></figure>
 

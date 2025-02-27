@@ -33,7 +33,7 @@ Ready to transform your design system workflow? Follow our step-by-step guide:
 ### Key features
 
 * [**Token Management**](platform/features/tokens/) - Create, organize, and maintain your design tokens
-* [**Theming**](platform/features/themes.md) - Build and manage multiple themes with ease
+* [**Theming**](platform/features/themes/) - Build and manage multiple themes with ease
 * **Version Control** - Track changes and manage releases
 * [**Team Management**](platform/platform/organisation.md) - Collaborate with your team effectively
 
