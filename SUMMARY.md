@@ -36,7 +36,8 @@
 
 ## GRAPH ENGINE
 
-* [Page 1](graph-engine/page-1.md)
+* [Graph engine in Studio](graph-engine/graph-engine-in-studio.md)
+* [Graph Engine UI](graph-engine/graph-engine-ui.md)
 
 ## PLUGINS
 
