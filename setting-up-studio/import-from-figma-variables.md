@@ -27,11 +27,11 @@ In Figma, ensure you have set up Figma Variables that you want to migrate.
 
 1. In the plugin, look for an Import Variables button.
 2. Choose whether to convert numbers to dimensions, use rem values, etc.
-3. Select the variable sets you want to import and click Import.
+3. Click Import.
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-_Tip: You might see collections such as “foundation” or “light” and “dark” in Figma, which will become token sets groups and the modes will become token sets in Studio ._
+_Tip: You might see collections such as “foundation” or “light” and “dark” in Figma, which will become token sets groups and the modes will become token sets in Studio. The Figma collections will be mapped as Theme Groups and modes as Theme Options in Studio._
 {% endstep %}
 
 {% step %}
@@ -71,17 +71,14 @@ _Tip: You might see collections such as “foundation” or “light” and “d
 
 Studio supports theming through the concept of Theme Groups and Theme Options. This allows you to toggle between sets like light and dark, or any other variant (for more information on Themes check out [Features > Themes](../platform/features/themes/)).
 
+The Figma collections will be created as Theme Groups and modes will be created as Theme Options.
+
 1. Open the Theme Panel\
    • In your project, click the Themes tab.
-2. Create a New Theme Group\
-   • For example, name one group Color Mode.\
-   • Add Light and Dark as theme options.\
-   • Click Save.
-3. Assign Token Sets to Theme Options\
-   • For each theme option, enable the corresponding token set.\
-   • E.g., Light enables the light set, Dark enables the dark set.\
-   • Also ensure your foundation set is enabled as the default source of reference for both.
-4. Select Active Theme\
+2. Verify that your collections have been created as Theme Groups (e.g., Color Mode, breakpoint)
+3. Verify that the modes in your collections have been created as Theme Options under the corresponding Theme Group (e.g., Light and Dark in Color Mode)&#x20;
+4. Click on the Theme Option on the left panel to see the sets that are enabled for the Theme Option.
+5. Open the Tokens tab on the left panel. \
    • At the bottom of the left-hand panel, you can select which theme is active (e.g., Default + Light or Default + Dark).\
    • This will update the token values displayed in the UI.
 
