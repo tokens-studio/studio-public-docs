@@ -10,6 +10,8 @@ In Studio, you can create different types of sets to manage your design tokens e
 
 * Open Studio.
 * In the **left panel**, click on the **Tokens module**.
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-28 at 19.53.05@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -39,6 +41,8 @@ In Studio, you can create different types of sets to manage your design tokens e
 ### **Create the Set**
 
 * Click **Create**, and your graph-based set will be generated.
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-28 at 20.07.05.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
