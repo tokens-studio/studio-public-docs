@@ -37,8 +37,12 @@
 
 ## GRAPH ENGINE
 
-* [Graph engine in Studio](graph-engine/graph-engine-in-studio.md)
-* [Graph Engine UI](graph-engine/graph-engine-ui.md)
+* [Introduction](graph-engine/introduction.md)
+* [Editor](graph-engine/editor.md)
+* [Creating a Graph Based Set](graph-engine/creating-a-graph-based-set.md)
+* [Nodes](graph-engine/nodes.md)
+* [Types](graph-engine/types.md)
+* [Editing](graph-engine/editing.md)
 
 ## PLUGINS
 

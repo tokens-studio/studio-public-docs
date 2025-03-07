@@ -1,10 +1,10 @@
-# Graph Engine UI
+# Editor
 
-### Overview
+Overview
 
 The Graph Engine UI provides an intuitive interface for creating, managing, and visualizing nodes and their connections. This guide walks you through the core components of the interface to help you navigate and utilize its features efficiently.&#x20;
 
-[Read more about creating Graph Based sets.](graph-engine-in-studio.md)
+[Read more about creating Graph Based sets.](creating-a-graph-based-set.md)
 
 ### **Main Interface Sections**
 
@@ -33,15 +33,16 @@ The Graph Engine UI consists of several panels and tools that help you manage no
 
 * **Nodes**: Represent individual operations or data points.
 * **Edges**: Connections between nodes that define relationships.
+* **Port:** Ports are the connection points on a **node** that allow data to flow in and out. They define how nodes interact with each other by transmitting values, logic, or actions. Each node has one or more ports, categorized as **inputs** and **outputs**.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-28 at 20.15.42@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-03-04 at 19.15.07@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### **Top Action Bar**
 
 Provides quick actions for managing the graph.
 
-* **Node Access** – Browse and insert nodes.
-* **Zoom Level Control** – Adjust zoom percentage.
+* **Add Node**– Browse and insert nodes.
+* **Zoom Level Control** – Adjust zoom percentage of the canvas.
 * **Node Alignment** – Align and distribute nodes systematically.
 * **Layout Customization** – Show/hide active panels.
 * **Graph Settings**:
@@ -94,6 +95,6 @@ Used to manage inputs and outputs.
 
 The Graph engine UI allows you to rearrange the layout by dragging all the panels. You can either have them floating on the canvas or dock them using the arrow options that appear while dragging the panel. \
 To drag and reposition panels use the icon on the top right corner of each panel next to the close icon.\
-All the panels can be closed if not needed and can be accessed from the [Top Action Bar > Layout Customisation.](graph-engine-ui.md#top-action-bar)
+All the panels can be closed if not needed and can be accessed from the [Top Action Bar > Layout Customisation.](editor.md#top-action-bar)
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-02-28 at 20.29.22.gif" alt=""><figcaption></figcaption></figure>
