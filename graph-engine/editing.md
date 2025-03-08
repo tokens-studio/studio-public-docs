@@ -42,6 +42,34 @@ Make an exact copy without clipboard fuss:
 
 * Right-click a node (or selected nodes) and choose **Duplicate** from the menu. The copy appears nearby, with settings intact but no edges.&#x20;
 
-**Extra Editing Tools**:
+### Grouping Nodes
+
+Keep your graph organized visually:
+
+* Select multiple nodes (click or drag a box), right-click, and choose Create Group.
+* What Happens: A colored background wraps the nodes, making them a visual unit without changing their logic (unlike a Subgraph).
+* Manage Groups: Right-click the group to Ungroup (removes the background) or Delete (removes the group and all nodes inside).
+
+### Testing Your Graph
+
+See your work come to life as you edit:
+
+* Live Updates: The Output Panel and Inline Values (if enabled) update instantly as you connect or tweak nodes.
+* Preview Nodes: Connect an output to a specialized Preview Node for a polished view:
+  * Color Scale Node: Shows a full color palette as swatches, neatly organized.
+  * Color Swatch: Renders a single color with its value.
+  * More preview options are in the Nodes Panel under "Preview Nodes".
+
+Example: Connect a color array output to a Color Scale Node to see all swatches at once while you adjust inputs.
+
+### **Extra Editing Tools**
 
 * **Zoom & Pan**: Scroll the mouse wheel to zoom in/out, or drag the canvas to pan—great for navigating big graphs.
+
+### Saving & Sharing
+
+Keep and share your graphs easily:
+
+* Download/Upload: Export your graph as a .json file via the toolbar’s Save icon, then upload it later with the Import option.
+* Team Collaboration: In Studio, your team can access and edit your graphs directly—perfect for collaborative projects.
+* Coming Soon: A community marketplace to exchange graphs and full design system projects. Stay tuned!
