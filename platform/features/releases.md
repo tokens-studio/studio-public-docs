@@ -11,7 +11,7 @@ The **Releases** feature in Tokens Studio allows you to create structured versio
 Before you create a release, ensure that:
 
 * Your design tokens are set up.
-* Your theme are set up.
+* Your themes are set up.
 * Your export configurations (e.g., web, mobile, etc.) are defined.
 
 To create a release:
@@ -54,5 +54,7 @@ The release artifacts include:
 
 * **Tokens (.json)** – A downloadable ZIP file containing all design tokens.
 * **Style Dictionary Configuration** – A structured JSON file that defines token relationships and export settings.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-08 at 17.27.52.gif" alt=""><figcaption></figcaption></figure>
 
 For more details, explore [**Configuration**](configuration.md) and [**Tokens**](tokens/).
