@@ -24,9 +24,14 @@ Ports use visual cues:
   * Blue: Number
   * Teal: Object
   * Purple: Any
-* **Shapes**:
-  * **Dot**: Single value (e.g., one color).
-  * **Square**: Array (e.g., list of colors). Hovering over a port shows its type label (e.g., "color") if "Port Types" is enabled in settings.
+*   **Shapes**:
+
+    * **Dot**: Single value (e.g., one color).
+    * **Square**: Array (e.g., list of colors). Hovering over a port shows its type label (e.g., "color") if "Port Types" is enabled in settings.
+
+
+* Type  Labels:
+  * Enable the labels for Port to easily identify the type. This can be done from Top Action Bar > Graph Setting > Show Inline Types.
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +55,7 @@ Mismatched types block connections, but conversion nodes fix this:
   * Example: A "Color Generator" outputs a color object, but a "Create Design Token" needs a hex string. They won’t connect directly.
 * **How to Convert**:
   * **Scenario**: Convert a color to a hex string.
-    1. Connect the "Color Generator" output (color) to a "Color to String" node’s input.
+    1. Connect the "Create Color" output (color) to a "Color to String" node’s input.
     2. The node outputs a hex string (e.g., "#FF5733").
     3. Plug this into the "Create Design Token" input, which now works.
   * **Other Conversions**: "Stringify" (e.g., 10 → "10").

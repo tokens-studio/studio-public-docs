@@ -10,7 +10,7 @@ Add nodes to your canvas in three ways, each with a handy description to guide y
   * Open the Nodes Panel (usually on the left), find a node (e.g., "Add" or "Color to String"), and drag it onto the canvas.
   * **Hover Tip**: Pause over a node in the panel to see its description (e.g., "Adds two numbers together").
 * **Through Shift + K Menu**:
-  * Press **Shift + K** (Shift + K on Windows) to open a searchable menu.
+  * Press **Shift + K** to open a searchable menu.
   * Type to filter nodes (e.g., "color" for color-related nodes), select one, and hit Enter to add it where your cursor is.
   * **Bonus**: Each node shows a description in the menu for quick reference.
 * **From the Top Action Bar**:

@@ -13,8 +13,8 @@ Every node in the Graph Engine follows a consistent design, making them predicta
 * **Outputs**: Ports on the right where results come out. These can:
   * Connect to other nodes’ inputs.
   * Show results in the **Output Panel** for inspection (e.g., see "30" after adding 10 + 20).
-* **Inline Values (Optional)**: If turned on, displays the current value at each port (e.g., "#FF5733" next to a color output).
-* **Port Types (Optional)**: If enabled, shows the data type (e.g., "number", "color") next to each port for clarity.
+* **Inline Values (Optional)**: If turned on, displays the current value at each port (e.g., "#FF5733" next to a color output). This can be turned on from the Top Action Bar > Graph settings > Show Inline values.
+* **Port Types (Optional)**: If enabled, shows the data type (e.g., "number", "color") next to each port for clarity. This can be turned on from the Top Action Bar > Graph settings > Show Inline types.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
