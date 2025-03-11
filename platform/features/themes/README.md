@@ -4,6 +4,8 @@
 
 The **Themes Module** in Studio allows you to configure and manage T**heme groups** and T**heme options**, which directly impact the [**Tokens Module**](../tokens/) and [**Configuration Module**](../configuration.md). This ensures a structured approach to managing design variations such as **light mode, dark mode**, or brand-specific themes.
 
+<figure><img src="../../../.gitbook/assets/Tokens and Themes.png" alt=""><figcaption></figcaption></figure>
+
 ### Accessing the Themes Module
 
 1. **Navigate to Themes Module:**
