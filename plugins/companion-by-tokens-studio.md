@@ -2,6 +2,8 @@
 
 **Companion by Tokens Studio** is a Figma plugin designed to seamlessly sync and consume design tokens from Tokens Studio as variables in Figma. It ensures your design tokens are always structured and accessible within your Figma files, reflecting updates made in Studio.
 
+<figure><img src="../.gitbook/assets/Companion Plugin.png" alt=""><figcaption></figcaption></figure>
+
 ### Setting Up Companion by Tokens Studio
 
 {% stepper %}

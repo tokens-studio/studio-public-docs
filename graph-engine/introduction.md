@@ -1,5 +1,7 @@
 # Introduction
 
+<figure><img src="../.gitbook/assets/Graph Engine.png" alt=""><figcaption></figcaption></figure>
+
 ### What’s a Node Editor?
 
 A node editor is a visual tool where you build workflows by connecting **nodes**—little blocks of functionality—together with **edges** (lines). Think of it like a flowchart for design logic: each node does something specific (e.g., converts a color to a hex string), and the edges show how data flows between them. In Studio's Graph Engine, this editor lets you create, tweak, and scale design systems without writing code manually. It’s built to be intuitive, combining the visual ease of tools like Figma with the procedural power of something like Blender’s node system. Whether you’re a designer organizing tokens or a design engineer generating outputs for developers, it’s your playground for visual logic.

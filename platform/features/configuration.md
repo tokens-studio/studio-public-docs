@@ -1,5 +1,7 @@
 # Configuration
 
+<figure><img src="../../.gitbook/assets/Configuration.png" alt=""><figcaption></figcaption></figure>
+
 The Configuration Module in Studio allows you to generate one or more output files for your tokens—leveraging Style Dictionary under the hood. By creating multiple configurations, you can target different platforms (Android, Web, iOS, etc.) and formats (CSS, XML, JSON). Each configuration can include one or more themes, apply custom transforms, and expand complex tokens. This page walks through how to set up, preview, and manage these configurations.
 
 ### Overview
