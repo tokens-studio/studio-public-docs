@@ -28,6 +28,8 @@ Ports use visual cues:
   * **Dot**: Single value (e.g., one color).
   * **Square**: Array (e.g., list of colors). Hovering over a port shows its type label (e.g., "color") if "Port Types" is enabled in settings.
 
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
 ### Supported Types
 
 Here’s what you’ll work with:
@@ -52,3 +54,5 @@ Mismatched types block connections, but conversion nodes fix this:
     2. The node outputs a hex string (e.g., "#FF5733").
     3. Plug this into the "Create Design Token" input, which now works.
   * **Other Conversions**: "Stringify" (e.g., 10 → "10").
+
+<figure><img src="../.gitbook/assets/Type Conversion.png" alt=""><figcaption></figcaption></figure>
