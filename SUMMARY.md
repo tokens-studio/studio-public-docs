@@ -22,7 +22,7 @@
   * [Themes](platform/features/themes/README.md)
     * [Theme Groups and Theme Options](platform/features/themes/theme-groups-and-theme-options.md)
   * [Configuration](platform/features/configuration.md)
-  * [Releases](platform/features/releases.md)
+  * [Releases (Coming soon)](platform/features/releases-coming-soon.md)
 * [Platform](platform/platform/README.md)
   * [Accounts](platform/platform/accounts.md)
   * [Organisation](platform/platform/organisation.md)

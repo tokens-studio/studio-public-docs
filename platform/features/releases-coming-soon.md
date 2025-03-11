@@ -1,8 +1,4 @@
----
-hidden: true
----
-
-# Releases
+# Releases (Coming soon)
 
 The **Releases** feature in Tokens Studio allows you to create structured versions of your design tokens, enabling version control similar to Git workflows. With this feature, you can manage changes, track updates, and export token configurations for seamless integration with your projects.
 
