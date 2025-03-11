@@ -29,7 +29,7 @@ In Figma, ensure you have set up Figma Variables that you want to migrate.
 2. Choose whether to convert numbers to dimensions, use rem values, etc.
 3. Click Import.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Tip: You might see collections such as “foundation” or “light” and “dark” in Figma, which will become token sets groups and the modes will become token sets in Studio. The Figma collections will be mapped as Theme Groups and modes as Theme Options in Studio._
 {% endstep %}

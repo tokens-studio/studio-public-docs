@@ -34,7 +34,7 @@ The **Organisation Settings** page provides an overview of your organisation and
    * The **definition** that specifies the policy rules.
 4. Click **Create** to save the new policy.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Managing Users
 
@@ -47,7 +47,7 @@ The **Users** tab provides a list of active users and pending invitations.
   4. Click **Send Invite**.
 * You can also see **pending invitations** and resend them if needed.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Managing Groups
 

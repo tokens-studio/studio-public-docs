@@ -16,6 +16,8 @@ Every node in the Graph Engine follows a consistent design, making them predicta
 * **Inline Values (Optional)**: If turned on, displays the current value at each port (e.g., "#FF5733" next to a color output).
 * **Port Types (Optional)**: If enabled, shows the data type (e.g., "number", "color") next to each port for clarity.
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ### Types of Nodes
 
 **Overview**
@@ -46,6 +48,8 @@ Nodes range from simple helpers (e.g., adding two numbers) to powerful tools (e.
 * **Typography Nodes:** Handles text styling, font properties, and typographic calculations (e.g., "Base Font Size" calculate the base font size with DIN 1450. The output is a number representing the font size in pixels.)
 * **Vector2 Nodes:** Deals with **2D vector operations**, enabling calculations, transformations, and manipulations of two-dimensional coordinate-based data (e.g., "Create vector2" allows you to create a vector2).
 
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-28 at 20.11.03@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### **Subgraph & Array Map Nodes**
 
 These are nodes with big-picture concepts:
@@ -57,3 +61,6 @@ These are nodes with big-picture concepts:
   * **What It Does**: Runs a graph on each item in an array and collects the results.
   * **Example**: Input an array of colors (\["#FF5733", "#33FF57"]), use an internal graph to convert each to HSL, and output \["hsl(14, 100%, 60%)", "hsl(150, 100%, 60%)"].
   * **How**: Drag in an Array Map node, define its internal graph, and connect an array to its input.
+
+<figure><img src="../.gitbook/assets/Sample.gif" alt=""><figcaption></figcaption></figure>
+
