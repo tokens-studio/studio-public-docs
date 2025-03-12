@@ -1,5 +1,7 @@
 # Tokens
 
+<figure><img src="../../../.gitbook/assets/Tokens and Themes.png" alt=""><figcaption></figcaption></figure>
+
 The Tokens Module in Studio is where you manage and organize your design tokens. This page walks you through the main elements of the interface—navigating sets, creating or uploading tokens, and working within the tokens table. It references other existing sections of the documentation where relevant, so you can easily connect to broader workflows (for example, [Import from Tokens Studio for Figma](../../../setting-up-studio/import-from-tokens-studio-for-figma.md) or [Themes](../themes/)).
 
 ### Overview
@@ -136,3 +138,7 @@ To learn more about theming, see [Themes](../themes/).
 * Leverage advanced references with Graph-based sets
 
 By combining sets, folders, and robust theming, the Tokens Module provides an efficient way to organize your design tokens and keep them updated across different contexts and outputs. If you need more details on advanced usage, head to our [SDKs](../../../development/sdks.md) or [CLI](../../../development/cli.md) docs to learn about integrating tokens into your codebase.
+
+### Watch the video walkthrough
+
+{% embed url="https://www.youtube.com/watch?v=qHpHf3LAMeE" %}

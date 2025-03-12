@@ -64,3 +64,6 @@ To set up the connection and sync your tokens:
 
 * **Delete Variables**: Use the **Delete Variables** button to remove all variables created through the plugin in the current Figma file.
 
+### Watch the video walkthrough
+
+{% embed url="https://www.youtube.com/watch?v=SXd-FUb985Y" %}

@@ -1,4 +1,4 @@
-# 1 - Playing with Studio
+# Setting up Studio
 
 {% stepper %}
 {% step %}
@@ -10,7 +10,7 @@ If you haven't signed up yet, you can sign up here: [https://app.tokens.studio/a
 
 Sign up with your email or Google account.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -29,7 +29,7 @@ You should have received a redemption code in your email (or via your team conta
 
 Copy the redemption code and paste it into the “Got a Studio redemption code already?” field. Click Redeem to unlock full access to Tokens Studio.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-02-12 at 13.42.50@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-12 at 13.42.50@2x.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}
@@ -46,7 +46,7 @@ Once you have redeemed your code and logged in successfully, you’ll land in th
 3. (Optional) Upload an Icon for your organization.&#x20;
 4. Click Create.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -65,7 +65,7 @@ Once you have redeemed your code and logged in successfully, you’ll land in th
 3. Click Create.&#x20;
 4. You’ll be taken to the Project Dashboard, where you can start adding or uploading tokens.
 
-<figure><img src="../../.gitbook/assets/New.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/New.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -86,7 +86,10 @@ If you are starting from scratch, you can click on the button Create your first 
 3. Select the type of token set you want to create: Static set or Graph based set.
 4. Click create.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
+### Watch the video walkthrough
+
+{% embed url="https://www.youtube.com/watch?v=uz09y3yo-yg" %}

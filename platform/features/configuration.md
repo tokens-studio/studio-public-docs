@@ -104,3 +104,9 @@ If you no longer need a particular configuration:
 * Explore Style Dictionary further for custom transforms, attribute definitions, and filter logic.
 
 With the Configuration Module, you can seamlessly produce multiple platform-specific outputs from the same token sets—fully integrated with your themes and custom logic
+
+
+
+### Watch the video walkthrough
+
+{% embed url="https://www.youtube.com/watch?v=b6fwh-KUTpY" %}
