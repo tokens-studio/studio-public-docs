@@ -16,6 +16,8 @@ To create a release:
 2. You will see a list of previously created releases.
 3. Click **Create New Release**.
 
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-08 at 17.25.54@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Defining a Release Version
 
 When creating a new release, you can select a versioning type:
@@ -24,6 +26,8 @@ When creating a new release, you can select a versioning type:
 * **Minor Version** – For small feature updates.
 * **Major Version** – For significant changes or breaking updates.
 * **Canary Version** – For testing purposes before full deployment.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-12 at 16.58.55@2x.png" alt=""><figcaption></figcaption></figure>
 
 Additionally, you can:
 
@@ -53,4 +57,6 @@ The release artifacts include:
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-03-08 at 17.27.52.gif" alt=""><figcaption></figcaption></figure>
 
-For more details, explore [**Configuration**](configuration.md) and [**Tokens**](tokens/).
+For more details, explore [**Configuration**](configuration.md) and [**Tokens**](tokens/).\
+\
+&#xNAN;_&#x54;his is the first iteration of the Releases module. Help shape its future by sharing your feedback on the roadmap_ [_here_](https://studio.featurebase.app/p/releases)_._
