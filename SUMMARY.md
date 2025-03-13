@@ -29,6 +29,7 @@
   * [Organisation](platform/platform/organisation.md)
   * [Project](platform/platform/project.md)
   * [API keys](platform/platform/api-keys.md)
+  * [Inviting members](platform/platform/inviting-members.md)
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
 
