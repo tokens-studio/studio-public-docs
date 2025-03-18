@@ -49,7 +49,13 @@
 ***
 
 * [Node Examples](node-examples/README.md)
+  * [Absolute Node](node-examples/absolute-node.md)
   * [Add Node](node-examples/add-node.md)
+  * [Add Node (Variadic)](node-examples/add-node-variadic.md)
+  * [Ceil Node](node-examples/ceil-node.md)
+  * [Clamp Node](node-examples/clamp-node.md)
+  * [Closest Number Node](node-examples/closest-number-node.md)
+  * [Multiply Node](node-examples/multiply-node.md)
 
 ## PLUGINS
 
