@@ -46,6 +46,11 @@
 * [Types](graph-engine/types.md)
 * [Editing](graph-engine/editing.md)
 
+***
+
+* [Node Examples](node-examples/README.md)
+  * [Add Node](node-examples/add-node.md)
+
 ## PLUGINS
 
 * [Tokens Studio for Figma Plugin](plugins/tokens-studio-for-figma-plugin.md)
