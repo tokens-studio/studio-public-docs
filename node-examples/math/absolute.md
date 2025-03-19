@@ -1,4 +1,4 @@
-# Absolute Node
+# Absolute
 
 The **Absolute node** is a **Math node**. You can find it under the **Math Nodes** category. You can also search for the node using the top search bar in the **Nodes panel** or use the keyboard shortcut **Shift + K**.
 
@@ -11,7 +11,7 @@ The **Absolute node** takes a single number as input and returns its **absolute 
 3. **Check the output panel** – it outputs a **non-negative number**, which is the absolute value of the input.
 4. **Enable inline types and values** to see the data flowing through the node.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.32.43@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.32.43@2x.png" alt=""><figcaption></figcaption></figure>
 
 #### Example Usage
 
@@ -22,4 +22,4 @@ The **Absolute node** takes a single number as input and returns its **absolute 
 5. Check the **output panel** of the Absolute node – it should display 100 (the absolute value of -100).
 6. Drag a **Preview > Number node** and connect the input to the output of the **Absolute node**, it will display 100.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.32.03@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.32.03@2x.png" alt=""><figcaption></figcaption></figure>

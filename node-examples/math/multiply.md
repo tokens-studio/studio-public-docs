@@ -1,4 +1,4 @@
-# Multiply Node
+# Multiply
 
 The Multiply node is a Math node. You can find it under the **Math Nodes** category. You can also search for the node using the top search bar in the Nodes panel or use the keyboard shortcut **Shift + K**.
 
@@ -11,7 +11,7 @@ To see the Multiply node in action:
 3. **Check the output panel** – it outputs a **number**, which is the result of multiplying the two input values.
 4. **Enable inline types and values** to better understand the data flow.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.13.58@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.13.58@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Example Usage
 
@@ -24,4 +24,4 @@ To see the Multiply node in action:
 7. Connect the **output** of the second Constant node to the second input of the Multiply node.
 8. Check the **output panel** of the Multiply node – it should display **15** (5 × 3).
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.16.27@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.16.27@2x.png" alt=""><figcaption></figcaption></figure>

@@ -1,4 +1,4 @@
-# Ceil Node
+# Ceil
 
 The **Ceil node** is a **Math node** that rounds a number **up** to the nearest whole number. You can find it under the **Math Nodes** category. You can also search for the node using the top search bar in the **Nodes panel** or use the keyboard shortcut **Shift + K**.
 
@@ -11,7 +11,7 @@ The **Ceil node** takes a single number as input and returns the smallest intege
 3. **Check the output panel** – it returns the **rounded-up whole number**.
 4. **Enable inline types and values** to visualize the values passing through the node.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.57.50@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.57.50@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Example Usage
 
@@ -21,4 +21,4 @@ The **Ceil node** takes a single number as input and returns the smallest intege
 4. Connect the **output** of the Constant node to the input of the Ceil node.
 5. The **output panel** of the Ceil node should display 13 (since 12.65764 is rounded up to 13).
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 19.00.36@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 19.00.36@2x.png" alt=""><figcaption></figcaption></figure>

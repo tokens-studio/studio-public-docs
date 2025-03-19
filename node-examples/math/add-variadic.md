@@ -1,4 +1,4 @@
-# Add Node (Variadic)
+# Add (Variadic)
 
 The **Add (Variadic) node** is a **Math node** that allows you to sum multiple numbers dynamically. You can find it under the **Math Nodes** category. You can also search for the node using the top search bar in the **Nodes panel** or use the keyboard shortcut **Shift + K**.
 
@@ -11,7 +11,7 @@ Unlike the standard **Add node**, which only accepts two inputs, the **Add (Vari
 3. **Check the output panel** – it outputs a **single number**, which is the sum of all input values.
 4. **Enable inline types and values** to visualize the values passing through the node.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.38.37@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.38.37@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Example Usage
 
@@ -21,7 +21,7 @@ Unlike the standard **Add node**, which only accepts two inputs, the **Add (Vari
 4. Connect the **outputs** of all four Constant nodes to the inputs of the **Add (Variadic) node**.
 5. The **output panel** of the Add (Variadic) node should display **24** (3 + 5 + 7 + 9).
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.42.50@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.42.50@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Adding More Inputs
 
@@ -29,5 +29,5 @@ Unlike the standard **Add node**, which only accepts two inputs, the **Add (Vari
 * Connecting an edge to the input port adds additional input slots as needed.
 * The sum updates automatically as more inputs are added.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.50.57.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.50.57.gif" alt=""><figcaption></figcaption></figure>
 

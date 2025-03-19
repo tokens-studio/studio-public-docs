@@ -49,13 +49,16 @@
 ***
 
 * [Node Examples](node-examples/README.md)
-  * [Absolute Node](node-examples/absolute-node.md)
-  * [Add Node](node-examples/add-node.md)
-  * [Add Node (Variadic)](node-examples/add-node-variadic.md)
-  * [Ceil Node](node-examples/ceil-node.md)
-  * [Clamp Node](node-examples/clamp-node.md)
-  * [Closest Number Node](node-examples/closest-number-node.md)
-  * [Multiply Node](node-examples/multiply-node.md)
+  * [Math](node-examples/math/README.md)
+    * [Absolute](node-examples/math/absolute.md)
+    * [Add](node-examples/math/add.md)
+    * [Add (Variadic)](node-examples/math/add-variadic.md)
+    * [Ceil](node-examples/math/ceil.md)
+    * [Clamp](node-examples/math/clamp.md)
+    * [Closest Number](node-examples/math/closest-number.md)
+    * [Cosine](node-examples/math/cosine.md)
+    * [Count](node-examples/math/count.md)
+    * [Multiply](node-examples/math/multiply.md)
 
 ## PLUGINS
 

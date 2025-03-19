@@ -1,4 +1,4 @@
-# Clamp Node
+# Clamp
 
 The **Clamp node** is a **Math node** that restricts a number within a specified range. You can find it under the **Math Nodes** category. You can also search for the node using the top search bar in the **Nodes panel** or use the keyboard shortcut **Shift + K**.
 
@@ -17,7 +17,7 @@ It outputs the input value if it falls within the range. If the value is lower t
 3. **Check the output panel** – it returns the clamped value.
 4. **Enable inline types and values** to visualize the data flow.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 19.04.12@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 19.04.12@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Example Usage
 
@@ -29,12 +29,12 @@ It outputs the input value if it falls within the range. If the value is lower t
 6. Connect the outputs of the three Constant nodes to the corresponding inputs of the **Clamp node**.
 7. The **output panel** of the Clamp node should display **10**, since 12 exceeds the maximum limit of 10.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 19.19.27@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 19.19.27@2x.png" alt=""><figcaption></figcaption></figure>
 
 8. In the first **Constant node** change the value from **12** to **8**.
 9. The output panel of the **Clamp node** should display **8**, since **8** falls in between the limits.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 19.19.58@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 19.19.58@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### When to Use
 

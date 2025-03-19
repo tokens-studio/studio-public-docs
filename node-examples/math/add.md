@@ -1,4 +1,4 @@
-# Add Node
+# Add
 
 The **Add node** is a **Math node**. You can find it under the **Math Nodes** category. You can also search for the node using the top search bar in the **Nodes panel** or use the keyboard shortcut **Shift + K**.
 
@@ -11,7 +11,7 @@ To see the **Add node** in action:
 3. **Check the output panel** – it outputs a **number**, which is the sum of the two input values.
 4. **Enable inline types and values** to see what types the ports accept and the values passing through them.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 18.00.14@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 18.00.14@2x (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Example Usage
 
@@ -25,5 +25,5 @@ To see the **Add node** in action:
 8. Check the **output panel** of the Add node – it should display **30** (10 + 20).
 9. Add a **Preview > Number node**, connect to the output of the **Add node** and see the value.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 17.57.05@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 17.57.05@2x.png" alt=""><figcaption></figcaption></figure>
 

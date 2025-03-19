@@ -1,4 +1,4 @@
-# Closest Number Node
+# Closest Number
 
 The **Closest Number node** is a **Math node** that finds the closest value in an array of numbers to a given target number. You can find it under the **Math Nodes** category. You can also search for the node using the top search bar in the **Nodes panel** or use the keyboard shortcut **Shift + K**.
 
@@ -13,7 +13,7 @@ The **Closest Number node** is a **Math node** that finds the closest value in a
 * **Value** – The closest number from the array.
 * **Difference** – The difference between the target number and the closest value.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 19.23.59@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 19.23.59@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Using the Closest Number Node
 
@@ -35,5 +35,5 @@ The **Closest Number node** is a **Math node** that finds the closest value in a
    * **Value:** `15` (the closest number to 17)
    * **Difference:** `2` (difference between 17 and 15)
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-18 at 19.40.39@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-18 at 19.40.39@2x.png" alt=""><figcaption></figcaption></figure>
 
