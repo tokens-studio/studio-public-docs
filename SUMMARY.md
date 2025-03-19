@@ -1,4 +1,5 @@
 # Table of contents
+
 * [Why Studio?](README.md)
 * [Getting Started](getting-started.md)
 * [Setting up Studio](setting-up-studio/README.md)
@@ -11,7 +12,9 @@
 * [Getting ready for production](getting-ready-for-production.md)
 * [Connect](connect.md)
 * [Migrate to Studio](migrate-to-studio.md)
+
 ## Platform
+
 * [Features](platform/features/README.md)
   * [Tokens](platform/features/tokens/README.md)
     * [Token Sets](platform/features/tokens/token-sets.md)
@@ -29,9 +32,13 @@
   * [Inviting members](platform/platform/inviting-members.md)
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
+
 ## STYLE DICTIONARY
+
 * [Page 2](style-dictionary/page-2.md)
+
 ## GRAPH ENGINE
+
 * [Introduction](graph-engine/introduction.md)
 * [Editor](graph-engine/editor.md)
 * [Creating a Graph Based Set](graph-engine/creating-a-graph-based-set.md)
@@ -147,7 +154,7 @@
   * [Math](graph-engine/available-nodes/math/README.md)
     * [Absolute](graph-engine/available-nodes/math/absolute.md)
     * [Add](graph-engine/available-nodes/math/add.md)
-    * [Add Variadic](graph-engine/available-nodes/math/add-node-variadic.md)
+    * [Add Variadic](graph-engine/available-nodes/math/add-variadic.md)
     * [Ceiling](graph-engine/available-nodes/math/ceiling.md)
     * [Clamp](graph-engine/available-nodes/math/clamp.md)
     * [Closest Number](graph-engine/available-nodes/math/closest-number.md)
@@ -216,7 +223,9 @@
     * [Normalize](graph-engine/available-nodes/vector2/normalize.md)
     * [Scale](graph-engine/available-nodes/vector2/scale.md)
     * [Subtract](graph-engine/available-nodes/vector2/subtract.md)
+
 ***
+
 * [Node Examples](node-examples/README.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
@@ -228,9 +237,13 @@
     * [Cosine](node-examples/math/cosine.md)
     * [Count](node-examples/math/count.md)
     * [Multiply](node-examples/math/multiply.md)
+
 ## PLUGINS
+
 * [Tokens Studio for Figma Plugin](plugins/tokens-studio-for-figma-plugin.md)
 * [Companion by Tokens Studio](plugins/companion-by-tokens-studio.md)
+
 ## Development
+
 * [SDKs](development/sdks.md)
 * [CLI](development/cli.md)

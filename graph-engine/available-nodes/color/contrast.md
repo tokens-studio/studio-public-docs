@@ -37,8 +37,8 @@ The Contrast node calculates the contrast ratio between two colors. It provides 
 
 ### See Also
 
-* **Contrasting**: For finding a color with sufficient contrast against a background.
-* **Contrasting Alpha**: For adjusting opacity to achieve a target contrast.
+* [**Contrasting**: ](contrasting-color.md)For finding a color with sufficient contrast against a background.
+* [**Contrasting Alpha**:](contrasting-alpha.md) For adjusting opacity to achieve a target contrast.
 
 ### Use Cases
 
