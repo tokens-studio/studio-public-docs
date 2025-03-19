@@ -23,3 +23,9 @@ The **Count node** is a node that counts the number of elements in an array. You
 2. Drag an **Array node** onto the canvas and populate it with values, e.g., `[5, 10, 15, 20]`.
 3. Connect the **output** of the Array node to the **input** of the Count node.
 4. The **output panel** of the Count node should display **4**, since there are four elements in the array.
+
+
+
+{% hint style="info" %}
+Use the count node to count the number of items in a list.
+{% endhint %}
