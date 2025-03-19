@@ -1,5 +1,4 @@
 # Table of contents
-
 * [Why Studio?](README.md)
 * [Getting Started](getting-started.md)
 * [Setting up Studio](setting-up-studio/README.md)
@@ -12,9 +11,7 @@
 * [Getting ready for production](getting-ready-for-production.md)
 * [Connect](connect.md)
 * [Migrate to Studio](migrate-to-studio.md)
-
 ## Platform
-
 * [Features](platform/features/README.md)
   * [Tokens](platform/features/tokens/README.md)
     * [Token Sets](platform/features/tokens/token-sets.md)
@@ -32,13 +29,9 @@
   * [Inviting members](platform/platform/inviting-members.md)
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
-
 ## STYLE DICTIONARY
-
 * [Page 2](style-dictionary/page-2.md)
-
 ## GRAPH ENGINE
-
 * [Introduction](graph-engine/introduction.md)
 * [Editor](graph-engine/editor.md)
 * [Creating a Graph Based Set](graph-engine/creating-a-graph-based-set.md)
@@ -105,8 +98,6 @@
     * [Sample Curve](graph-engine/available-nodes/curves/sample-curve.md)
     * [Sample Float Curve](graph-engine/available-nodes/curves/sample-float-curve.md)
   * [Design Tokens](graph-engine/available-nodes/design-tokens/README.md)
-    * [Alphabetic Scale](graph-engine/available-nodes/design-tokens/alphabetic-scale.md)
-    * [Alphanumeric Scale](graph-engine/available-nodes/design-tokens/alphanumeric-scale.md)
     * [Array To Set](graph-engine/available-nodes/design-tokens/array-to-set.md)
     * [Create Border](graph-engine/available-nodes/design-tokens/create-border.md)
     * [Create Border Design Token](graph-engine/available-nodes/design-tokens/create-border-design-token.md)
@@ -123,31 +114,28 @@
     * [External Token Set](graph-engine/available-nodes/design-tokens/external-token-set.md)
     * [Extract Token](graph-engine/available-nodes/design-tokens/extract-token.md)
     * [Flatten Token Sets](graph-engine/available-nodes/design-tokens/flatten-token-sets.md)
-    * [Greek Letter](graph-engine/available-nodes/design-tokens/greek-letter.md)
-    * [Group Token Array](graph-engine/available-nodes/design-tokens/group-token-array.md)
     * [Group Tokens](graph-engine/available-nodes/design-tokens/group-tokens.md)
-    * [Hierarchy Level](graph-engine/available-nodes/design-tokens/hierarchy-level.md)
     * [Inline Tokens](graph-engine/available-nodes/design-tokens/inline-tokens.md)
     * [Invert Token Set](graph-engine/available-nodes/design-tokens/invert-token-set.md)
     * [Leonardo Color](graph-engine/available-nodes/design-tokens/leonardo-color.md)
     * [Leonardo Theme](graph-engine/available-nodes/design-tokens/leonardo-theme.md)
     * [Name Tokens](graph-engine/available-nodes/design-tokens/name-tokens.md)
-    * [Numeric Scale](graph-engine/available-nodes/design-tokens/numeric-scale.md)
     * [Preview Typography](graph-engine/available-nodes/design-tokens/preview-typography.md)
     * [Resolve Tokens](graph-engine/available-nodes/design-tokens/resolve-tokens.md)
     * [Set To Array](graph-engine/available-nodes/design-tokens/set-to-array.md)
-    * [Size Scales](graph-engine/available-nodes/design-tokens/size-scales.md)
-    * [T-Shirt Size](graph-engine/available-nodes/design-tokens/t-shirt-size.md)
-    * [Ungroup Token Array](graph-engine/available-nodes/design-tokens/ungroup-token-array.md)
     * [Ungroup Tokens](graph-engine/available-nodes/design-tokens/ungroup-tokens.md)
-  * [Figma](graph-engine/available-nodes/figma/README.md)
-    * [Code Syntax](graph-engine/available-nodes/figma/code-syntax.md)
-    * [Publish Variables](graph-engine/available-nodes/figma/publish-variables.md)
-    * [Scope All](graph-engine/available-nodes/figma/scope-all.md)
-    * [Scope by Type](graph-engine/available-nodes/figma/scope-by-type.md)
-    * [Scope Color](graph-engine/available-nodes/figma/scope-color.md)
-    * [Scope Number](graph-engine/available-nodes/figma/scope-number.md)
-    * [Scope String](graph-engine/available-nodes/figma/scope-string.md)
+    * [Arrays](graph-engine/available-nodes/design-tokens/arrays/README.md)
+      * [Group Token Array](graph-engine/available-nodes/design-tokens/arrays/group-token-array.md)
+      * [Ungroup Token Array](graph-engine/available-nodes/design-tokens/arrays/ungroup-token-array.md)
+    * [Naming](graph-engine/available-nodes/design-tokens/naming/README.md)
+      * [Alphabetic Scale](graph-engine/available-nodes/design-tokens/naming/alphabetic-scale.md)
+      * [Alphanumeric Scale](graph-engine/available-nodes/design-tokens/naming/alphanumeric-scale.md)
+      * [Greek Letter](graph-engine/available-nodes/design-tokens/naming/greek-letter.md)
+      * [Hierarchy Level](graph-engine/available-nodes/design-tokens/naming/hierarchy-level.md)
+      * [Numeric Scale](graph-engine/available-nodes/design-tokens/naming/numeric-scale.md)
+      * [T-Shirt Size](graph-engine/available-nodes/design-tokens/naming/t-shirt-size.md)
+    * [Utils](graph-engine/available-nodes/design-tokens/utils/README.md)
+      * [Size Scales](graph-engine/available-nodes/design-tokens/utils/size-scales.md)
   * [Generic](graph-engine/available-nodes/generic/README.md)
     * [Constant](graph-engine/available-nodes/generic/constant.md)
     * [Delay](graph-engine/available-nodes/generic/delay.md)
@@ -173,7 +161,7 @@
   * [Math](graph-engine/available-nodes/math/README.md)
     * [Absolute](graph-engine/available-nodes/math/absolute.md)
     * [Add](graph-engine/available-nodes/math/add.md)
-    * [Add Variadic](graph-engine/available-nodes/math/add-variadic.md)
+    * [Add Variadic](graph-engine/available-nodes/math/add-node-variadic.md)
     * [Ceiling](graph-engine/available-nodes/math/ceiling.md)
     * [Clamp](graph-engine/available-nodes/math/clamp.md)
     * [Closest Number](graph-engine/available-nodes/math/closest-number.md)
@@ -221,10 +209,16 @@
     * [Linear Space](graph-engine/available-nodes/series/linear-space.md)
     * [Power Series](graph-engine/available-nodes/series/power-series.md)
   * [String](graph-engine/available-nodes/string/README.md)
+    * [Case Convert](graph-engine/available-nodes/string/case-convert.md)
+    * [Interpolation](graph-engine/available-nodes/string/interpolation.md)
     * [Join](graph-engine/available-nodes/string/join.md)
     * [Lowercase](graph-engine/available-nodes/string/lowercase.md)
+    * [Normalize](graph-engine/available-nodes/string/normalize.md)
+    * [Pad](graph-engine/available-nodes/string/pad.md)
+    * [Regex](graph-engine/available-nodes/string/regex.md)
     * [Replace](graph-engine/available-nodes/string/replace.md)
     * [Split](graph-engine/available-nodes/string/split.md)
+    * [Stringify](graph-engine/available-nodes/string/stringify.md)
     * [Uppercase](graph-engine/available-nodes/string/uppercase.md)
   * [Typography](graph-engine/available-nodes/typography/README.md)
     * [Base Font Size](graph-engine/available-nodes/typography/base-font-size.md)
@@ -237,14 +231,13 @@
   * [Vector2](graph-engine/available-nodes/vector2/README.md)
     * [Add](graph-engine/available-nodes/vector2/add.md)
     * [Create](graph-engine/available-nodes/vector2/create.md)
+    * [Destructure](graph-engine/available-nodes/vector2/destructure.md)
     * [Dot Product](graph-engine/available-nodes/vector2/dot-product.md)
     * [Length](graph-engine/available-nodes/vector2/length.md)
     * [Normalize](graph-engine/available-nodes/vector2/normalize.md)
     * [Scale](graph-engine/available-nodes/vector2/scale.md)
     * [Subtract](graph-engine/available-nodes/vector2/subtract.md)
-
 ***
-
 * [Node Examples](node-examples/README.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
@@ -256,13 +249,9 @@
     * [Cosine](node-examples/math/cosine.md)
     * [Count](node-examples/math/count.md)
     * [Multiply](node-examples/math/multiply.md)
-
 ## PLUGINS
-
 * [Tokens Studio for Figma Plugin](plugins/tokens-studio-for-figma-plugin.md)
 * [Companion by Tokens Studio](plugins/companion-by-tokens-studio.md)
-
 ## Development
-
 * [SDKs](development/sdks.md)
 * [CLI](development/cli.md)
