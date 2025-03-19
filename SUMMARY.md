@@ -49,8 +49,8 @@
 ***
 
 * [Node Examples](node-examples/README.md)
-  * [Accessibility] (node-examples/accessibility/README.md)
-    * [Color Blindness](node-examples/accessibility/color-blindness.md) 
+  * [Accessibility](node-examples/accessibility/README.md)
+    * [Color Blindness](node-examples/accessibility/color-blindness.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
     * [Add](node-examples/math/add.md)
