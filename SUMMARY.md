@@ -1,5 +1,4 @@
 # Table of contents
-
 * [Why Studio?](README.md)
 * [Getting Started](getting-started.md)
 * [Setting up Studio](setting-up-studio/README.md)
@@ -12,9 +11,7 @@
 * [Getting ready for production](getting-ready-for-production.md)
 * [Connect](connect.md)
 * [Migrate to Studio](migrate-to-studio.md)
-
 ## Platform
-
 * [Features](platform/features/README.md)
   * [Tokens](platform/features/tokens/README.md)
     * [Token Sets](platform/features/tokens/token-sets.md)
@@ -32,13 +29,9 @@
   * [Inviting members](platform/platform/inviting-members.md)
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
-
 ## STYLE DICTIONARY
-
 * [Page 2](style-dictionary/page-2.md)
-
 ## GRAPH ENGINE
-
 * [Introduction](graph-engine/introduction.md)
 * [Editor](graph-engine/editor.md)
 * [Creating a Graph Based Set](graph-engine/creating-a-graph-based-set.md)
@@ -94,10 +87,16 @@
     * [CSS Accessible Clamp](graph-engine/available-nodes/css/css-accessible-clamp.md)
     * [CSS Box](graph-engine/available-nodes/css/css-box.md)
     * [CSS Function](graph-engine/available-nodes/css/css-function.md)
+    * [CSS Map](graph-engine/available-nodes/css/css-map.md)
   * [Curves](graph-engine/available-nodes/curves/README.md)
     * [Bezier Curve](graph-engine/available-nodes/curves/bezier-curve.md)
+    * [Construct Float Curve](graph-engine/available-nodes/curves/construct-float-curve.md)
+    * [Deconstruct Float Curve](graph-engine/available-nodes/curves/deconstruct-float-curve.md)
+    * [Flip Float Curve](graph-engine/available-nodes/curves/flip-float-curve.md)
     * [Preset Bezier Curves](graph-engine/available-nodes/curves/preset-bezier-curves.md)
+    * [Sample Array from Float Curve](graph-engine/available-nodes/curves/sample-array-from-float-curve.md)
     * [Sample Curve](graph-engine/available-nodes/curves/sample-curve.md)
+    * [Sample Float Curve](graph-engine/available-nodes/curves/sample-float-curve.md)
   * [Design Tokens](graph-engine/available-nodes/design-tokens/README.md)
     * [Alphabetic Scale](graph-engine/available-nodes/design-tokens/alphabetic-scale.md)
     * [Alphanumeric Scale](graph-engine/available-nodes/design-tokens/alphanumeric-scale.md)
@@ -138,10 +137,15 @@
     * [Constant](graph-engine/available-nodes/generic/constant.md)
     * [Delay](graph-engine/available-nodes/generic/delay.md)
     * [Input](graph-engine/available-nodes/generic/input.md)
-    * [Note](graph-engine/available-nodes/generic/note.md)
     * [Object Merge](graph-engine/available-nodes/generic/object-merge.md)
+    * [Note](graph-engine/available-nodes/generic/note.md)
     * [Object Path](graph-engine/available-nodes/generic/object-path.md)
+    * [Objectify](graph-engine/available-nodes/generic/objectify.md)
     * [Output](graph-engine/available-nodes/generic/output.md)
+    * [Panic](graph-engine/available-nodes/generic/panic.md)
+    * [Passthrough](graph-engine/available-nodes/generic/passthrough.md)
+    * [Subgraph](graph-engine/available-nodes/generic/subgraph.md)
+    * [Time](graph-engine/available-nodes/generic/time.md)
   * [Gradient](graph-engine/available-nodes/gradient/README.md)
     * [Gradient Stop](graph-engine/available-nodes/gradient/gradient-stop.md)
   * [Logic](graph-engine/available-nodes/logic/README.md)
@@ -154,7 +158,7 @@
   * [Math](graph-engine/available-nodes/math/README.md)
     * [Absolute](graph-engine/available-nodes/math/absolute.md)
     * [Add](graph-engine/available-nodes/math/add.md)
-    * [Add Variadic](graph-engine/available-nodes/math/add-variadic.md)
+    * [Add Variadic](graph-engine/available-nodes/math/add-node-variadic.md)
     * [Ceiling](graph-engine/available-nodes/math/ceiling.md)
     * [Clamp](graph-engine/available-nodes/math/clamp.md)
     * [Closest Number](graph-engine/available-nodes/math/closest-number.md)
@@ -223,9 +227,7 @@
     * [Normalize](graph-engine/available-nodes/vector2/normalize.md)
     * [Scale](graph-engine/available-nodes/vector2/scale.md)
     * [Subtract](graph-engine/available-nodes/vector2/subtract.md)
-
 ***
-
 * [Node Examples](node-examples/README.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
@@ -237,13 +239,9 @@
     * [Cosine](node-examples/math/cosine.md)
     * [Count](node-examples/math/count.md)
     * [Multiply](node-examples/math/multiply.md)
-
 ## PLUGINS
-
 * [Tokens Studio for Figma Plugin](plugins/tokens-studio-for-figma-plugin.md)
 * [Companion by Tokens Studio](plugins/companion-by-tokens-studio.md)
-
 ## Development
-
 * [SDKs](development/sdks.md)
 * [CLI](development/cli.md)
