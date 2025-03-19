@@ -1,4 +1,5 @@
 # Table of contents
+
 * [Why Studio?](README.md)
 * [Getting Started](getting-started.md)
 * [Setting up Studio](setting-up-studio/README.md)
@@ -11,7 +12,9 @@
 * [Getting ready for production](getting-ready-for-production.md)
 * [Connect](connect.md)
 * [Migrate to Studio](migrate-to-studio.md)
+
 ## Platform
+
 * [Features](platform/features/README.md)
   * [Tokens](platform/features/tokens/README.md)
     * [Token Sets](platform/features/tokens/token-sets.md)
@@ -29,9 +32,13 @@
   * [Inviting members](platform/platform/inviting-members.md)
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
+
 ## STYLE DICTIONARY
+
 * [Page 2](style-dictionary/page-2.md)
+
 ## GRAPH ENGINE
+
 * [Introduction](graph-engine/introduction.md)
 * [Editor](graph-engine/editor.md)
 * [Creating a Graph Based Set](graph-engine/creating-a-graph-based-set.md)
@@ -133,6 +140,14 @@
     * [T-Shirt Size](graph-engine/available-nodes/design-tokens/t-shirt-size.md)
     * [Ungroup Token Array](graph-engine/available-nodes/design-tokens/ungroup-token-array.md)
     * [Ungroup Tokens](graph-engine/available-nodes/design-tokens/ungroup-tokens.md)
+  * [Figma](graph-engine/available-nodes/figma/README.md)
+    * [Code Syntax](graph-engine/available-nodes/figma/code-syntax.md)
+    * [Publish Variables](graph-engine/available-nodes/figma/publish-variables.md)
+    * [Scope All](graph-engine/available-nodes/figma/scope-all.md)
+    * [Scope by Type](graph-engine/available-nodes/figma/scope-by-type.md)
+    * [Scope Color](graph-engine/available-nodes/figma/scope-color.md)
+    * [Scope Number](graph-engine/available-nodes/figma/scope-number.md)
+    * [Scope String](graph-engine/available-nodes/figma/scope-string.md)
   * [Generic](graph-engine/available-nodes/generic/README.md)
     * [Constant](graph-engine/available-nodes/generic/constant.md)
     * [Delay](graph-engine/available-nodes/generic/delay.md)
@@ -158,7 +173,7 @@
   * [Math](graph-engine/available-nodes/math/README.md)
     * [Absolute](graph-engine/available-nodes/math/absolute.md)
     * [Add](graph-engine/available-nodes/math/add.md)
-    * [Add Variadic](graph-engine/available-nodes/math/add-node-variadic.md)
+    * [Add Variadic](graph-engine/available-nodes/math/add-variadic.md)
     * [Ceiling](graph-engine/available-nodes/math/ceiling.md)
     * [Clamp](graph-engine/available-nodes/math/clamp.md)
     * [Closest Number](graph-engine/available-nodes/math/closest-number.md)
@@ -227,7 +242,9 @@
     * [Normalize](graph-engine/available-nodes/vector2/normalize.md)
     * [Scale](graph-engine/available-nodes/vector2/scale.md)
     * [Subtract](graph-engine/available-nodes/vector2/subtract.md)
+
 ***
+
 * [Node Examples](node-examples/README.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
@@ -239,9 +256,13 @@
     * [Cosine](node-examples/math/cosine.md)
     * [Count](node-examples/math/count.md)
     * [Multiply](node-examples/math/multiply.md)
+
 ## PLUGINS
+
 * [Tokens Studio for Figma Plugin](plugins/tokens-studio-for-figma-plugin.md)
 * [Companion by Tokens Studio](plugins/companion-by-tokens-studio.md)
+
 ## Development
+
 * [SDKs](development/sdks.md)
 * [CLI](development/cli.md)
