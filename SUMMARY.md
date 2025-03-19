@@ -1,5 +1,4 @@
 # Table of contents
-
 * [Why Studio?](README.md)
 * [Getting Started](getting-started.md)
 * [Setting up Studio](setting-up-studio/README.md)
@@ -12,9 +11,7 @@
 * [Getting ready for production](getting-ready-for-production.md)
 * [Connect](connect.md)
 * [Migrate to Studio](migrate-to-studio.md)
-
 ## Platform
-
 * [Features](platform/features/README.md)
   * [Tokens](platform/features/tokens/README.md)
     * [Token Sets](platform/features/tokens/token-sets.md)
@@ -32,13 +29,9 @@
   * [Inviting members](platform/platform/inviting-members.md)
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
-
 ## STYLE DICTIONARY
-
 * [Page 2](style-dictionary/page-2.md)
-
 ## GRAPH ENGINE
-
 * [Introduction](graph-engine/introduction.md)
 * [Editor](graph-engine/editor.md)
 * [Creating a Graph Based Set](graph-engine/creating-a-graph-based-set.md)
@@ -51,16 +44,26 @@
   * [Array](graph-engine/available-nodes/array/README.md)
     * [Array Filter](graph-engine/available-nodes/array/array-filter.md)
     * [Array Find](graph-engine/available-nodes/array/array-find.md)
+    * [Arrify](graph-engine/available-nodes/array/arrify.md)
     * [Concat](graph-engine/available-nodes/array/concat.md)
     * [Filter](graph-engine/available-nodes/array/filter.md)
     * [Find](graph-engine/available-nodes/array/find.md)
+    * [Flatten](graph-engine/available-nodes/array/flatten.md)
+    * [Index Array](graph-engine/available-nodes/array/index-array.md)
+    * [Inject Item](graph-engine/available-nodes/array/inject-item.md)
+    * [Array Length](graph-engine/available-nodes/array/array-length.md)
     * [Push](graph-engine/available-nodes/array/push.md)
     * [Remove](graph-engine/available-nodes/array/remove.md)
+    * [Replace Item](graph-engine/available-nodes/array/replace-item.md)
+    * [Reverse Array](graph-engine/available-nodes/array/reverse-array.md)
+    * [Slice Array](graph-engine/available-nodes/array/slice-array.md)
+    * [Sort Array](graph-engine/available-nodes/array/sort-array.md)
+    * [Array Map](graph-engine/available-nodes/array/array-map.md)
   * [Color](graph-engine/available-nodes/color/README.md)
-    * [Contrast](graph-engine/available-nodes/color/contrast.md)
     * [Color To String](graph-engine/available-nodes/color/color-to-string.md)
     * [Color Wheel](graph-engine/available-nodes/color/color-wheel.md)
     * [Color Wheel (Hue)](graph-engine/available-nodes/color/color-wheel-hue.md)
+    * [Contrast](graph-engine/available-nodes/color/contrast.md)
     * [Contrasting Alpha](graph-engine/available-nodes/color/contrasting-alpha.md)
     * [Contrasting Color](graph-engine/available-nodes/color/contrasting-color.md)
     * [Contrasting from Array](graph-engine/available-nodes/color/contrasting-from-array.md)
@@ -144,7 +147,7 @@
   * [Math](graph-engine/available-nodes/math/README.md)
     * [Absolute](graph-engine/available-nodes/math/absolute.md)
     * [Add](graph-engine/available-nodes/math/add.md)
-    * [Add Variadic](graph-engine/available-nodes/math/add-variadic.md)
+    * [Add Variadic](graph-engine/available-nodes/math/add-node-variadic.md)
     * [Ceiling](graph-engine/available-nodes/math/ceiling.md)
     * [Clamp](graph-engine/available-nodes/math/clamp.md)
     * [Closest Number](graph-engine/available-nodes/math/closest-number.md)
@@ -213,9 +216,7 @@
     * [Normalize](graph-engine/available-nodes/vector2/normalize.md)
     * [Scale](graph-engine/available-nodes/vector2/scale.md)
     * [Subtract](graph-engine/available-nodes/vector2/subtract.md)
-
 ***
-
 * [Node Examples](node-examples/README.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
@@ -227,13 +228,9 @@
     * [Cosine](node-examples/math/cosine.md)
     * [Count](node-examples/math/count.md)
     * [Multiply](node-examples/math/multiply.md)
-
 ## PLUGINS
-
 * [Tokens Studio for Figma Plugin](plugins/tokens-studio-for-figma-plugin.md)
 * [Companion by Tokens Studio](plugins/companion-by-tokens-studio.md)
-
 ## Development
-
 * [SDKs](development/sdks.md)
 * [CLI](development/cli.md)
