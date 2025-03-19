@@ -30,7 +30,7 @@ Simulates how colors appear to people with different types of color blindness. T
 ### See Also
 
 * **Contrast**: Tests the accessibility of text against background colors for WCAG compliance (see `color/contrast.md`).
-* **Color Scale**: Generates accessible color scales that maintain distinctiveness across vision types (see [`color/scale`](../color/scale.md)).
+* **Color Scale**: Generates accessible color scales that maintain distinctiveness across vision types (see [`color/scale`](../vector2/scale.md)).
 * **Deconstruct**: Breaks down colors into components to modify after testing for color blindness (see [`color/deconstruct`](../color/deconstruct.md)).
 * **Blend**: Helps adjust colors that have poor visibility in certain color blindness modes (see `color/blend`).
 
