@@ -137,7 +137,7 @@
     * [Ungroup Token Array](graph-engine/available-nodes/design-tokens/ungroup-token-array.md)
   * [Figma](graph-engine/available-nodes/figma/README.md)
     * [Code Syntax](graph-engine/available-nodes/figma/code-syntax.md)
-    * [Publish Varibales](graph-engine/available-nodes/figma/publish-variables.md)
+    * [Publish Varibales](graph-engine/available-nodes/figma/publish-variable.md)
     * [Scope All](graph-engine/available-nodes/figma/scope-all.md)
     * [Scope by Type](graph-engine/available-nodes/figma/scope-by-type.md)
     * [Scope Color](graph-engine/available-nodes/figma/scope-color.md)
