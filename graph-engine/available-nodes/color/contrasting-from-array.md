@@ -44,9 +44,9 @@ The Contrasting from Array node evaluates multiple colors against a background a
 
 ### See Also
 
-* **Contrasting**: For choosing between two specific colors.
-* **Contrast**: For calculating the contrast ratio between colors.
-* **Sort Colors By Distance**: For ordering colors by their contrast.
+* [**Contrasting Color**](contrasting-color.md): For choosing between two specific colors.
+* [**Contrast**](contrast.md): For calculating the contrast ratio between colors.
+* [**Sort Colors By Distance**](sort-colors-by-distance.md): For ordering colors by their contrast.
 
 ### Use Cases
 
