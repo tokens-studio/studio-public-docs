@@ -143,7 +143,7 @@
       * [T-Shirt Size](graph-engine/available-nodes/design-tokens/naming/t-shirt-size.md)
     * [Utils](graph-engine/available-nodes/design-tokens/utils/README.md)
       * [Size Scales](graph-engine/available-nodes/design-tokens/utils/size-scales.md)
-  * [Figma](graph-engine/available-nodes/figma.md)
+  * [Figma](graph-engine/available-nodes/figma/README.md)
   * [Generic](graph-engine/available-nodes/generic/README.md)
     * [Constant](graph-engine/available-nodes/generic/constant.md)
     * [Delay](graph-engine/available-nodes/generic/delay.md)
