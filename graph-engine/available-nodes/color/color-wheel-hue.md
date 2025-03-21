@@ -1,5 +1,0 @@
-# Color Wheel (Hue)
-
-
-
-{% embed url="https://graph.beta.tokens.studio/editor/cm8ih2qfa000a5vhyxv0atljj" %}
