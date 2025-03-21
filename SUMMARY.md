@@ -69,7 +69,7 @@
   * [Color](graph-engine/available-nodes/color/README.md)
     * [Color To String](graph-engine/available-nodes/color/color-to-string.md)
     * [Color Wheel](graph-engine/available-nodes/color/color-wheel.md)
-    * [Color Wheel (Hue)](graph-engine/available-nodes/color/color-wheel-hue.md)
+    * [Color Wheel (Hue)](graph-engine/available-nodes/color/color-wheel-hue.mdx)
     * [Contrast](graph-engine/available-nodes/color/contrast.md)
     * [Contrasting Alpha](graph-engine/available-nodes/color/contrasting-alpha.md)
     * [Contrasting Color](graph-engine/available-nodes/color/contrasting-color.md)
