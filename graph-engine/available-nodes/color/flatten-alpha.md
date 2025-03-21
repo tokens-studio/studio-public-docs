@@ -22,9 +22,9 @@ The Flatten Alpha node blends a transparent foreground color with a solid backgr
 ### How to Use It
 
 1. Drag the Flatten Alpha node into your graph.
-2. Connect a color with transparency to the "Foreground" input (e.g., #FF000080).
-3. Connect a solid color to the "Background" input (e.g., #000).
-4. The output will be an opaque color representing the visual appearance of the two blended colors (#800000).
+2. Connect a color with transparency to the "Foreground" input (e.g., `#FF000080`).
+3. Connect a solid color to the "Background" input (e.g., `#000`).
+4. The output will be an opaque color representing the visual appearance of the two blended colors (`#800000`).
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-20 at 18.52.10@2x.png" alt=""><figcaption></figcaption></figure>
 

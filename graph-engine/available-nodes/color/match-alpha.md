@@ -16,20 +16,20 @@ The Match Alpha node calculates the opacity value needed to blend a foreground c
 
 ### Outputs
 
-| Name     | Description                                    | Type   |
-| -------- | ---------------------------------------------- | ------ |
-| In Range | Whether a valid alpha value was found          | Yes/No |
-| Color    | The foreground color with the calculated alpha | Color  |
-| Alpha    | The calculated alpha value (0-1)               | Number |
+| Name     | Description                                    | Type    |
+| -------- | ---------------------------------------------- | ------- |
+| In Range | Whether a valid alpha value was found          | Boolean |
+| Color    | The foreground color with the calculated alpha | Color   |
+| Alpha    | The calculated alpha value (0-1)               | Number  |
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-20 at 19.13.49@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### How to Use It
 
 1. Drag the Match Alpha node into your graph.
-2. Connect your foreground color (like #5C5656), background color (like #FFF), and reference color (#CFCDCD).
+2. Connect your foreground color (like `#5C5656`), background color (like `#FFF`), and reference color (`#CFCDCD`).
 3. Adjust threshold and precision if needed (defaults are 0.01).
-4. The node outputs the calculated alpha value (0.3) and the semi-transparent foreground color (#5C56564D).
+4. The node outputs the calculated alpha value (0.3) and the semi-transparent foreground color (`#5C56564D`).
 5. If "In Range" is false, no suitable alpha value could be found.
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-20 at 19.16.07@2x.png" alt=""><figcaption></figcaption></figure>

@@ -10,7 +10,7 @@ The Contrast node calculates the contrast ratio between two colors. It provides 
 | --------- | ---------------------------------------------------- | ------ | -------- |
 | A         | First color to compare                               | Color  | No       |
 | B         | Second color to compare                              | Color  | No       |
-| Algorithm | Contrast calculation method (APCA is default)        | Text   | No       |
+| Algorithm | Contrast calculation method (APCA is default)        | String | No       |
 | Absolute  | Whether to return the absolute value of the contrast | Yes/No | No       |
 
 ### Outputs

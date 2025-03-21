@@ -14,7 +14,7 @@ Breaks a color down into its individual component values based on its color spac
 
 | Name  | Description                                                      | Type   |
 | ----- | ---------------------------------------------------------------- | ------ |
-| space | The color space of the input color                               | Text   |
+| space | The color space of the input color                               | String |
 | a     | The first channel value (e.g., red in RGB, hue in HSL)           | Number |
 | b     | The second channel value (e.g., green in RGB, saturation in HSL) | Number |
 | c     | The third channel value (e.g., blue in RGB, lightness in HSL)    | Number |
@@ -33,7 +33,7 @@ Breaks a color down into its individual component values based on its color spac
 
 ### Tips
 
-* The channel meanings (a, b, c) depend on the color's space (RGB, HSL, LAB, etc.).
+* The channel meanings (a, b, c) depend on the color's space (RGB, HSL, LAB, etc.). [Read more about color channels](https://colorjs.io/docs/spaces#hct).
 * Use with Create Color to rebuild a color after modifying specific channels.
 
 ### See Also

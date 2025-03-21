@@ -24,7 +24,7 @@ Makes a color lighter by increasing its lightness by a specified amount. This is
 1. Drag the Lighten Color node into your graph.
 2. Connect a color (like `#1D1CEE`) to the "color" input.
 3. Set a value between 0 and 1 (like `0.4`) to the "value" input.
-4. Run the graph—your output will be a lighter version of the input color (#77A0FF).
+4. Run the graph—your output will be a lighter version of the input color (`#77A0FF`).
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-20 at 19.05.38@2x.png" alt=""><figcaption></figcaption></figure>
 

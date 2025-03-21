@@ -6,16 +6,16 @@ Converts a color object into a text representation in a specified format. This i
 
 ### Inputs
 
-| Name  | Description                                | Type  | Required |
-| ----- | ------------------------------------------ | ----- | -------- |
-| color | The color to convert to text               | Color | No       |
-| space | The format to output (hex, rgb, hsl, etc.) | Text  | No       |
+| Name  | Description                                | Type   | Required |
+| ----- | ------------------------------------------ | ------ | -------- |
+| color | The color to convert to text               | Color  | No       |
+| space | The format to output (hex, rgb, hsl, etc.) | String | No       |
 
 ### Outputs
 
-| Name  | Description                | Type |
-| ----- | -------------------------- | ---- |
-| value | The color as a text string | Text |
+| Name  | Description                | Type   |
+| ----- | -------------------------- | ------ |
+| value | The color as a text string | String |
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-20 at 11.02.30@2x.png" alt=""><figcaption></figcaption></figure>
 

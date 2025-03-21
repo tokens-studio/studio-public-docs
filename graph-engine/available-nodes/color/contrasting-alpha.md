@@ -10,7 +10,7 @@ The Contrasting Alpha node adjusts a color's transparency until it reaches a tar
 | ---------- | ---------------------------------------------------------- | ------ | -------- |
 | Foreground | The color to adjust transparency for                       | Color  | No       |
 | Background | The background color to test contrast against              | Color  | No       |
-| Algorithm  | Contrast calculation method (APCA is default)              | Text   | No       |
+| Algorithm  | Contrast calculation method (APCA is default)              | String | No       |
 | Threshold  | Target contrast value to achieve                           | Number | No       |
 | Precision  | Number of binary search iterations (higher = more precise) | Number | No       |
 
@@ -27,7 +27,7 @@ The Contrasting Alpha node adjusts a color's transparency until it reaches a tar
 ### How to Use It
 
 1. Drag the Contrasting Alpha node into your graph.
-2. Connect a foreground color and background color.
+2. Connect a foreground color (like `#737272`) and background color (like `#FFF`).
 3. Set your desired contrast threshold (default: 60).
 4. Adjust precision if needed (default: 5 iterations).
 5. The node outputs the color with adjusted alpha, the alpha value, and the resulting contrast.

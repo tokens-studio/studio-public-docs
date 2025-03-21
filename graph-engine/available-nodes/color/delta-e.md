@@ -11,7 +11,7 @@ The Delta E node calculates the perceptual distance between two colors. It provi
 | Color A   | First color for comparison                                     | Color  | No       |
 | Color B   | Second color for comparison                                    | Color  | No       |
 | Precision | Number of decimal places in the result                         | Number | No       |
-| Algorithm | Color difference algorithm to use (76, CMC, 2000, Jz, ITP, OK) | Text   | No       |
+| Algorithm | Color difference algorithm to use (76, CMC, 2000, Jz, ITP, OK) | String | No       |
 
 ### Outputs
 

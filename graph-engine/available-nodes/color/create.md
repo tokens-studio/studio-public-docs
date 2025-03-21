@@ -8,7 +8,7 @@ Creates a color from individual channel values in a specified color space. It al
 
 | Name  | Description                                                | Type   | Required |
 | ----- | ---------------------------------------------------------- | ------ | -------- |
-| space | The color space to use (e.g., srgb, hsl, lab)              | Text   | No       |
+| space | The color space to use (e.g., srgb, hsl, lab)              | String | No       |
 | a     | The first channel value (red in RGB, hue in HSL)           | Number | No       |
 | b     | The second channel value (green in RGB, saturation in HSL) | Number | No       |
 | c     | The third channel value (blue in RGB, lightness in HSL)    | Number | No       |
@@ -29,7 +29,7 @@ Creates a color from individual channel values in a specified color space. It al
 3. Drag four Constant node into your graph. Set the input type to number.&#x20;
 4. Connect constant nodes to the a, b, c inputs (e.g., 210 for hue, 80 for saturation, 50 for lightness).
 5. Optionally connect a value between 0-1 to the "alpha" input for transparency (e.g., 0.5 for 50% transparency).
-6. The Create Color node outputs a color #1980E6E6 for the above values.
+6. The Create Color node outputs a color `#1980E6E6` for the above values.
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-20 at 15.40.34@2x.png" alt=""><figcaption></figcaption></figure>
 

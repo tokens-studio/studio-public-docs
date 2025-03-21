@@ -6,10 +6,10 @@ Transforms a color from one color space to another. This allows you to change ho
 
 ### Inputs
 
-| Name  | Description                                     | Type  | Required |
-| ----- | ----------------------------------------------- | ----- | -------- |
-| color | The color to convert                            | Color | Yes      |
-| space | The target color space (e.g., srgb, hsl, oklch) | Text  | No       |
+| Name  | Description                                     | Type   | Required |
+| ----- | ----------------------------------------------- | ------ | -------- |
+| color | The color to convert                            | Color  | Yes      |
+| space | The target color space (e.g., srgb, hsl, oklch) | String | No       |
 
 ### Outputs
 

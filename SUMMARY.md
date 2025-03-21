@@ -86,7 +86,7 @@
     * [Name Color](graph-engine/available-nodes/color/name-color.md)
     * [Poline](graph-engine/available-nodes/color/poline.md)
     * [Range](graph-engine/available-nodes/color/range.md)
-    * [Scale](graph-engine/available-nodes/color/scale.md)
+    * [Scale Colors](graph-engine/available-nodes/color/scale.md)
     * [Sort Colors By Distance](graph-engine/available-nodes/color/sort-colors-by-distance.md)
     * [String To Color](graph-engine/available-nodes/color/string-to-color.md)
   * [CSS](graph-engine/available-nodes/css/README.md)

@@ -30,6 +30,7 @@ Generates a set of colors arranged in a color wheel pattern. Starting from a bas
 4. Adjust "saturation" and "lightness" to control the vibrancy and brightness (defaults are 80%).
 5. Set the "colors" value to determine how many colors to generate (default is 8).
 6. Run the graph—your output will be an array of colors evenly distributed around the wheel.
+7. Connect a [Color Scale](../vector2/scale.md) preview node to visualise your output.
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-20 at 11.25.40@2x.png" alt=""><figcaption></figcaption></figure>
 

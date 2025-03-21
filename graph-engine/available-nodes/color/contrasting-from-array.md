@@ -10,7 +10,7 @@ The Contrasting from Array node evaluates multiple colors against a background a
 | ---------- | ---------------------------------------------------------- | -------------- | -------- |
 | Colors     | Array of color options to evaluate                         | List of Colors | Yes      |
 | Background | The background color to test contrast against              | Color          | No       |
-| Algorithm  | Contrast calculation method (APCA is default)              | Text           | No       |
+| Algorithm  | Contrast calculation method (APCA is default)              | String         | No       |
 | Threshold  | Minimum contrast value considered sufficient (default: 60) | Number         | No       |
 
 ### Outputs
@@ -27,13 +27,13 @@ The Contrasting from Array node evaluates multiple colors against a background a
 ### How to Use It
 
 1. Drag the Contrasting from Array node into your graph.
-2. Drag a Scale colors node and set the input color as #0044FF
+2. Drag a Scale colors node and set the input color as `#0044FF`
 3. Connect the output of Scale colors node to the "Colors" input.
-4. Set the "Background" to the surface color where the colors will appear. Default is set as #FFFFFF
+4. Set the "Background" to the surface color where the colors will appear. Default is set as `#FFFFFF`
 5. Adjust the "Threshold" to your desired minimum contrast level. Default is set as 60.
 6. Select the "Algorithm" method. Default is APCA.
 7. The node outputs the first color that meets the threshold, or the one with highest contrast.&#x20;
-8. The output "Color" is #3C6BED  ("Index" of 4 in the input array) because it gives a "Contrast" of 71.59 which is more than the "Threshold" value of 60.
+8. The output "Color" is `#3C6BED`  ("Index" of 4 in the input array) because it gives a "Contrast" of 71.59 which is more than the "Threshold" value of 60.
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-19 at 23.12.39@2x.png" alt=""><figcaption></figcaption></figure>
 

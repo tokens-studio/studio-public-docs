@@ -11,7 +11,7 @@ The Distance node measures the geometric distance between two colors in a specif
 | Color A   | First color for distance calculation                       | Color  | No       |
 | Color B   | Second color for distance calculation                      | Color  | No       |
 | Precision | Number of decimal places in the result                     | Number | No       |
-| Space     | Color space to perform calculation in (Lab, ICtCp, Jzazbz) | Text   | No       |
+| Space     | Color space to perform calculation in (Lab, ICtCp, Jzazbz) | String | No       |
 
 ### Outputs
 

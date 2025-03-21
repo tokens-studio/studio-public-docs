@@ -11,7 +11,7 @@ The Contrasting Color node evaluates two colors against a background and selects
 | A          | First color option                                         | Color  | No       |
 | B          | Second color option                                        | Color  | No       |
 | Background | The background color to test contrast against              | Color  | No       |
-| Algorithm  | Contrast calculation method (APCA is default)              | Text   | No       |
+| Algorithm  | Contrast calculation method (APCA is default)              | String | No       |
 | Threshold  | Minimum contrast value considered sufficient (default: 60) | Number | No       |
 
 ### Outputs

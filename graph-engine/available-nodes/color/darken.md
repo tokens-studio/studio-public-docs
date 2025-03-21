@@ -24,7 +24,7 @@ Makes a color darker by reducing its lightness by a specified amount. It's perfe
 1. Drag the Darken Color node into your graph.
 2. Connect a color (like `#5C9AFF`) to the "color" input.
 3. Set a value between 0 and 1 (like `0.3`) to the "value" input.
-4. Run the graph—your output will be a darker version of the input color (#1d59b8).
+4. Run the graph—your output will be a darker version of the input color (`#1d59b8`).
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2025-03-20 at 16.05.25@2x.png" alt=""><figcaption></figcaption></figure>
 
