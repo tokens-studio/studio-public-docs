@@ -217,7 +217,7 @@
   * [String](graph-engine/available-nodes/string/README.md)
     * [Case Convert](graph-engine/available-nodes/string/case-convert.md)
     * [Interpolation](graph-engine/available-nodes/string/interpolation.md)
-    * [Join](graph-engine/available-nodes/string/join.md)
+    * [Join Array](graph-engine/available-nodes/string/join.md)
     * [Lowercase](graph-engine/available-nodes/string/lowercase.md)
     * [Normalize](graph-engine/available-nodes/string/normalize.md)
     * [Pad](graph-engine/available-nodes/string/pad.md)
