@@ -79,135 +79,129 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
    * If you don’t have a `package.json`, initialize it first with `npm init`.
    * Ensure that the node.js version installed is v.22 or above.
 
-```bash
-npm install @tokens-studio/sdk
-```
+   ```bash
+   npm install @tokens-studio/sdk
+   ```
 
 2. **Run the CLI:**
 
-Use the `--help` flag to view available commands:
+   Use the `--help` flag to view available commands:
 
-```bash
-npx tokensstudio --help
-```
+   ```bash
+   npx tokensstudio --help
+   ```
 
-**This will list all the available options**
+   **This will list all the available options**
 
-```bash
- Tokens Studio CLI  2.0.2
+   ```bash
+   Tokens Studio CLI  2.0.2
 
-Usage:
-  $ tokensstudio 
-    
-Commands: 
-  pull
-  setup
-  
-For more info, run any command with the `--help` flag:
-  $ tokensstudio --help
-  $ tokensstudio pull --help
-  $ tokensstudio setup --help 
+   Usage:
+   $ tokensstudio 
+      
+   Commands: 
+   pull
+   setup
+   
+   For more info, run any command with the `--help` flag:
+   $ tokensstudio --help
+   $ tokensstudio pull --help
+   $ tokensstudio setup --help 
 
-Options:
-  --help       [boolean] Shows an overview of CLI usage
-  --version    [boolean] Prints NPM version of the CLI
-```
+   Options:
+   --help       [boolean] Shows an overview of CLI usage
+   --version    [boolean] Prints NPM version of the CLI
+   ```
 
 3. **Set Up the CLI:**
+   * Run the `setup` command:
 
+   ```bash
+   npx tokensstudio setup
+   ```
 
+   * Enter your API key when prompted. You can skip this step by Automating the CLI.
 
-* Run the `setup` command:
+   {% code overflow="wrap" %}
+   ```bash
+   Tokens Studio CLI  2.0.2
 
-```bash
-npx tokensstudio setup
-```
+   You did not pass an API key in the environment variables, but you can paste one here.
+         You can create an API key in Studio user settings by navigating to a project dashboard 
+         and clicking the bottom left menu -> API keys.
 
-* Enter your API key when prompted. You can skip this step by Automating the CLI.
+                  API key: 
+   ```
+   {% endcode %}
 
-{% code overflow="wrap" %}
-```bash
-  Tokens Studio CLI  2.0.2
+   * Select the desired **organization** and **project**.
 
-You did not pass an API key in the environment variables, but you can paste one here.
-        You can create an API key in Studio user settings by navigating to a project dashboard 
-        and clicking the bottom left menu -> API keys.
+   ```bash
+   ✔  Done!
+            ■ Fetched organizations
+            ■ Fetched projects
 
-                API key: 
-```
-{% endcode %}
+   Select your organisation
+   Hyma
 
-* Select the desired **organization** and **project**.
+   Select your project
+   Tokens Zen Garden
+   ```
 
-```bash
-✔  Done!
-         ■ Fetched organizations
-         ■ Fetched projects
+   **The selected settings will be saved in the `.tokensstudio.json` config file.**
 
- Select your organisation
- Hyma
-
- Select your project
- Tokens Zen Garden
-```
-
-**The selected settings will be saved in the `.tokensstudio.json` config file.**
-
-```json
-{
-  "version": "2",
-  "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
-  "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
-  "branch": "main",
-  "release": "",
-  "output": "tokens"
-}
-```
+   ```json
+   {
+   "version": "2",
+   "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
+   "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
+   "branch": "main",
+   "release": "",
+   "output": "tokens"
+   }
+   ```
 
 4. **Pull Tokens:**
+   * Specify the folder to pull tokens into (relative to the config file). This can be done in the `.tokensstudio.json` config file as `output`.
+   *   Use the `pull` command:
 
+      ```bash
+      npx tokensstudio pull
+      ```
 
+   This will pull all the tokens in your project into the output specified in your config (.tokensstudio.json) file.&#x20;
 
-* Specify the folder to pull tokens into (relative to the config file). This can be done in the `.tokensstudio.json` config file as `output`.
-*   Use the `pull` command:
+   ```bash
+         ✔  Done!
+            ■ Fetched tokensets
 
-    ```bash
-    npx tokensstudio pull
-    ```
-
-This will pull all the tokens in your project into the output specified in your config (.tokensstudio.json) file.&#x20;
-
-```bash
-      ✔  Done!
-         ■ Fetched tokensets
-
-      ✔  Success Found 18 sets with 938 tokens in total.
-         ◼   global.json
-         ◼   semantic.json
-         ◼   comp/button.json
-         ◼   comp/list-item.json
-         ◼   comp/menu-item.json
-         ◼   comp/toggle.json
-         ◼   pattern/menu-bar.json
-         ◼   pattern/feature.json
-         ◼   pattern/card-user.json
-         ◼   pattern/card-pricing.json
-         ◼   sections/nav.json
-         ◼   sections/hero.json
-         ◼   sections/features.json
-         ◼   sections/team.json
-         ◼   sections/pricing.json
-         ◼   sections/footer.json
-         ◼   theme/light.json
-         ◼   theme/dark.json
-```
+         ✔  Success Found 18 sets with 938 tokens in total.
+            ◼   global.json
+            ◼   semantic.json
+            ◼   comp/button.json
+            ◼   comp/list-item.json
+            ◼   comp/menu-item.json
+            ◼   comp/toggle.json
+            ◼   pattern/menu-bar.json
+            ◼   pattern/feature.json
+            ◼   pattern/card-user.json
+            ◼   pattern/card-pricing.json
+            ◼   sections/nav.json
+            ◼   sections/hero.json
+            ◼   sections/features.json
+            ◼   sections/team.json
+            ◼   sections/pricing.json
+            ◼   sections/footer.json
+            ◼   theme/light.json
+            ◼   theme/dark.json
+   ```
 
 5. **Automate the CLI:**
    * Pass the API key as an environment variable for automation. This will ensure that the API key is not prompted for everytime.
 
-```bash
-TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
-```
+   ```bash
+   TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
+   ```
 {% endstep %}
 
 {% step %}
