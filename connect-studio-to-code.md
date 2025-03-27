@@ -34,7 +34,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 <figure><img src=".gitbook/assets/CleanShot 2025-02-17 at 12.52.32.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
-{% step %}
+
 #### **Using the API Key with GraphQL**
 
 1. **Understanding GraphQL:**
@@ -53,9 +53,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 5. **Get Organization ID:**
    * Navigate to your organization in Studio.
    * Copy the **Organization ID** from the URL (after `/org/`).
-{% endstep %}
 
-{% step %}
 #### **Using Postman to Call the API**
 
 1. **Set Up a Request:**
@@ -69,9 +67,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
    * Provide necessary variables (e.g., `organization ID`) in the payload.
 4. **Send the Request:**
    * Execute the request to receive JSON responses similar to the Apollo Sandbox.
-{% endstep %}
 
-{% step %}
 #### **Using the Token Studio CLI**
 
 1.  **Install the CLI:**
@@ -207,9 +203,7 @@ This will pull all the tokens in your project into the output specified in your 
 ```bash
 TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
 ```
-{% endstep %}
 
-{% step %}
 #### **Key Features of the CLI**
 
 1. **Current Features:**
@@ -218,9 +212,7 @@ TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
 2. **Planned Features:**
    * **Watch Mode:** Automatically sync changes from Studio to local files.
    * **Release Artifacts:** Pull releases directly instead of token sets.
-{% endstep %}
 
-{% step %}
 #### **Best Practices**
 
 1. **Secure API Key Storage:**
@@ -230,7 +222,6 @@ TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
    * Use environment variables to prevent manual prompts in CI pipelines.
 3. **Explore API Schema:**
    * Use Apollo Sandbox for schema introspection before creating complex queries.
-{% endstep %}
-{% endstepper %}
+
 
 This documentation provides an overview of using Studio’s API and CLI effectively. For further assistance, refer to the official [SDK and CLI documentation page](https://tokens-studio.github.io/studio-app/).
