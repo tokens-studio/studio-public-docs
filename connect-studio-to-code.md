@@ -6,7 +6,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 
 {% stepper %}
 {% step %}
-### **Accessing the SDK and CLI Documentation**
+#### **Accessing the SDK and CLI Documentation**
 
 1.  **Navigate to Studio:**
 
@@ -21,7 +21,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 {% endstep %}
 
 {% step %}
-### **Creating an API Key**
+#### **Creating an API Key**
 
 1. **Generate a Key:**
    * Go to **Personal Settings** in Studio.
@@ -35,7 +35,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 {% endstep %}
 
 {% step %}
-### **Using the API Key with GraphQL**
+#### **Using the API Key with GraphQL**
 
 1. **Understanding GraphQL:**
    * The API operates on a **GraphQL interface**.
@@ -56,7 +56,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 {% endstep %}
 
 {% step %}
-### **Using Postman to Call the API**
+#### **Using Postman to Call the API**
 
 1. **Set Up a Request:**
    * Create a new **POST request** in Postman.
@@ -72,140 +72,145 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 {% endstep %}
 
 {% step %}
-### **Using the Token Studio CLI**
+#### **Using the Token Studio CLI**
 
-1. **Install the CLI:**
-   * Run `npm install @tokens-studio/sdk`.
-   * If you don’t have a `package.json`, initialize it first with `npm init`.
-   * Ensure that the node.js version installed is v.22 or above.
+1.  **Install the CLI:**
 
-   ```bash
-   npm install @tokens-studio/sdk
-   ```
+    * Run `npm install @tokens-studio/sdk`.
+    * If you don’t have a `package.json`, initialize it first with `npm init`.
+    * Ensure that the node.js version installed is v.22 or above.
 
-2. **Run the CLI:**
+    ```bash
+    npm install @tokens-studio/sdk
+    ```
+2.  **Run the CLI:**
 
-   Use the `--help` flag to view available commands:
+    Use the `--help` flag to view available commands:
 
-   ```bash
-   npx tokensstudio --help
-   ```
+    ```bash
+    npx tokensstudio --help
+    ```
 
-   **This will list all the available options**
+    **This will list all the available options**
 
-   ```bash
-   Tokens Studio CLI  2.0.2
+    ```bash
+    Tokens Studio CLI  2.0.2
 
-   Usage:
-   $ tokensstudio 
-      
-   Commands: 
-   pull
-   setup
-   
-   For more info, run any command with the `--help` flag:
-   $ tokensstudio --help
-   $ tokensstudio pull --help
-   $ tokensstudio setup --help 
+    Usage:
+    $ tokensstudio 
+       
+    Commands: 
+    pull
+    setup
 
-   Options:
-   --help       [boolean] Shows an overview of CLI usage
-   --version    [boolean] Prints NPM version of the CLI
-   ```
+    For more info, run any command with the `--help` flag:
+    $ tokensstudio --help
+    $ tokensstudio pull --help
+    $ tokensstudio setup --help 
 
-3. **Set Up the CLI:**
-   * Run the `setup` command:
+    Options:
+    --help       [boolean] Shows an overview of CLI usage
+    --version    [boolean] Prints NPM version of the CLI
+    ```
+3.  **Set Up the CLI:**
 
-   ```bash
-   npx tokensstudio setup
-   ```
+    * Run the `setup` command:
 
-   * Enter your API key when prompted. You can skip this step by Automating the CLI.
+    ```bash
+    npx tokensstudio setup
+    ```
 
-      {% code overflow="wrap" %}
-      ```bash
-      Tokens Studio CLI  2.0.2
+    * Enter your API key when prompted. You can skip this step by Automating the CLI.
 
-      You did not pass an API key in the environment variables, but you can paste one here.
-            You can create an API key in Studio user settings by navigating to a project dashboard 
-            and clicking the bottom left menu -> API keys.
+{% code overflow="wrap" %}
+```bash
+  Tokens Studio CLI  2.0.2
 
-                     API key: 
-      ```
-      {% endcode %}
+  You did not pass an API key in the environment variables, but you can paste one here.
+        You can create an API key in Studio user settings by navigating to a project dashboard 
+        and clicking the bottom left menu -> API keys.
 
-   * Select the desired **organization** and **project**.
+                 API key: 
+```
+{% endcode %}
 
-      ```bash
-      ✔  Done!
-               ■ Fetched organizations
-               ■ Fetched projects
+*   Select the desired **organization** and **project**.
 
-      Select your organisation
-      Hyma
+    ```bash
+    ✔  Done!
+             ■ Fetched organizations
+             ■ Fetched projects
 
-      Select your project
-      Tokens Zen Garden
-      ```
+    Select your organisation
+    Hyma
 
-      **The selected settings will be saved in the `.tokensstudio.json` config file.**
+    Select your project
+    Tokens Zen Garden
+    ```
 
-      ```json
-      {
-      "version": "2",
-      "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
-      "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
-      "branch": "main",
-      "release": "",
-      "output": "tokens"
-      }
-      ```
+    **The selected settings will be saved in the `.tokensstudio.json` config file.**
+
+    ```json
+    {
+    "version": "2",
+    "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
+    "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
+    "branch": "main",
+    "release": "",
+    "output": "tokens"
+    }
+    ```
+
+
 
 4. **Pull Tokens:**
-   * Specify the folder to pull tokens into (relative to the config file). This can be done in the `.tokensstudio.json` config file as `output`.
-   *   Use the `pull` command:
 
-      ```bash
-      npx tokensstudio pull
-      ```
 
-   This will pull all the tokens in your project into the output specified in your config (.tokensstudio.json) file.&#x20;
 
-   ```bash
-         ✔  Done!
-            ■ Fetched tokensets
+* Specify the folder to pull tokens into (relative to the config file). This can be done in the `.tokensstudio.json` config file as `output`.
+* Use the `pull` command:
 
-         ✔  Success Found 18 sets with 938 tokens in total.
-            ◼   global.json
-            ◼   semantic.json
-            ◼   comp/button.json
-            ◼   comp/list-item.json
-            ◼   comp/menu-item.json
-            ◼   comp/toggle.json
-            ◼   pattern/menu-bar.json
-            ◼   pattern/feature.json
-            ◼   pattern/card-user.json
-            ◼   pattern/card-pricing.json
-            ◼   sections/nav.json
-            ◼   sections/hero.json
-            ◼   sections/features.json
-            ◼   sections/team.json
-            ◼   sections/pricing.json
-            ◼   sections/footer.json
-            ◼   theme/light.json
-            ◼   theme/dark.json
-   ```
+```bash
+npx tokensstudio pull
+```
 
-5. **Automate the CLI:**
-   * Pass the API key as an environment variable for automation. This will ensure that the API key is not prompted for everytime.
+This will pull all the tokens in your project into the output specified in your config (.tokensstudio.json) file.
 
-   ```bash
-   TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
-   ```
+```bash
+      ✔  Done!
+         ■ Fetched tokensets
+
+      ✔  Success Found 18 sets with 938 tokens in total.
+         ◼   global.json
+         ◼   semantic.json
+         ◼   comp/button.json
+         ◼   comp/list-item.json
+         ◼   comp/menu-item.json
+         ◼   comp/toggle.json
+         ◼   pattern/menu-bar.json
+         ◼   pattern/feature.json
+         ◼   pattern/card-user.json
+         ◼   pattern/card-pricing.json
+         ◼   sections/nav.json
+         ◼   sections/hero.json
+         ◼   sections/features.json
+         ◼   sections/team.json
+         ◼   sections/pricing.json
+         ◼   sections/footer.json
+         ◼   theme/light.json
+         ◼   theme/dark.json
+```
+
+* **Automate the CLI:**
+* Pass the API key as an environment variable for automation. This will ensure that the API key is not prompted for everytime.
+
+```bash
+TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
+```
 {% endstep %}
 
 {% step %}
-### **Key Features of the CLI**
+#### **Key Features of the CLI**
 
 1. **Current Features:**
    * Pull token sets into local files.
@@ -216,7 +221,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 {% endstep %}
 
 {% step %}
-### **Best Practices**
+#### **Best Practices**
 
 1. **Secure API Key Storage:**
    * Use a password manager or secure vault.
@@ -229,4 +234,3 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 {% endstepper %}
 
 This documentation provides an overview of using Studio’s API and CLI effectively. For further assistance, refer to the official [SDK and CLI documentation page](https://tokens-studio.github.io/studio-app/).
-
