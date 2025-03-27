@@ -14,7 +14,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
     * Go to your **organization dashboard**.
     * Click the **SDK and CLI** button.
 
-    <figure><img src="../.gitbook/assets/CleanShot 2025-02-17 at 12.35.31.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/CleanShot 2025-02-17 at 12.35.31.png" alt=""><figcaption></figcaption></figure>
 2. **Review the SDK Documentation:**
    * This page contains the **Studio Software Development Kit (SDK)** and CLI instructions.
    * It might seem overwhelming, but the focus is on pulling your tokens into your local file system via the CLI.
@@ -31,7 +31,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
    * Copy the key string and **store it securely** (e.g., in a password manager or vault).
    * You won’t be able to view the key again after closing the window.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-17 at 12.52.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CleanShot 2025-02-17 at 12.52.32.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -75,34 +75,39 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 ### **Using the Token Studio CLI**
 
 1. **Install the CLI:**
-   * Run `npm install tokenstudio-sdk`.
+   * Run `npm install @tokens-studio/sdk`.
    * If you don’t have a `package.json`, initialize it first with `npm init`.
-2. **Run the CLI:**
-   *   Use the `--help` flag to view available commands:
 
-       ```bash
-       npx tokenstudio --help
-       ```
-3. **Set Up the CLI:**
+```bash
+npm install @tokens-studio/sdk
+```
+
+2. **Run the CLI:**
+3.  Use the `--help` flag to view available commands:
+
+    ```bash
+    npx tokensstudio --help
+    ```
+4. **Set Up the CLI:**
    *   Run the `setup` command:
 
        ```bash
-       npx tokenstudio setup
+       npx tokensstudio setup
        ```
    * Enter your API key when prompted.
    * Select the desired **organization** and **project**.
-4. **Pull Tokens:**
+5. **Pull Tokens:**
    * Specify the folder to pull tokens into (relative to the config file).
    *   Use the `pull` command:
 
        ```bash
-       npx tokenstudio pull
+       npx tokensstudio pull
        ```
-5. **Automate the CLI:**
+6. **Automate the CLI:**
    *   Pass the API key as an environment variable for automation:
 
        ```bash
-       TOKENSSTUDIO_APIKEY=<API_KEY> npx tokenstudio pull
+       TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
        ```
 {% endstep %}
 
