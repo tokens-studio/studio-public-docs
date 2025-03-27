@@ -29,22 +29,66 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 
 ### **Using the API Key with GraphQL**
 
-1. **Understanding GraphQL:**
-   * The API operates on a **GraphQL interface**.
-   * You can use tools like **Postman**, **Curl**, or the **Apollo Sandbox** to interact with it.
-2. **Access the Apollo Sandbox:**
-   * Open the **GraphQL endpoint**.
-   * Use Apollo Sandbox to explore the API schema.
-3. **Configuring the Authorization Header:**
-   * In Apollo Sandbox:
-     * Navigate to **Settings > Connection Settings**.
-     * Add an authorization header: `Bearer <API_KEY>` (replace `<API_KEY>` with your API key).
+The API operates on a **GraphQL interface**. You can use tools like **Postman**, **Curl**, or the **Apollo Sandbox** to interact with it.
+
+1. **Access the Apollo Sandbox:**
+   * Open the **GraphQL endpoint** [**https://graphql.app.tokens.studio/graphql**](https://graphql.app.tokens.studio/graphql)
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.29.43@2x.png" alt=""><figcaption></figcaption></figure>
+
+2. **Configuring the Authorization Header:**
+
+* In Apollo Sandbox:
+  * Navigate to **Settings > Connection Settings**.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.30.17@2x.png" alt=""><figcaption></figcaption></figure>
+
+* Click on Edit on the Connection settings. A modal will open.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.32.33@2x.png" alt=""><figcaption></figcaption></figure>
+
+* In the Shared headers section, select "Authorization header" in the header key input. In the value input: `Bearer <API_KEY>` (replace `<API_KEY>` with your API key). Click Save.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.33.13@2x.png" alt=""><figcaption></figcaption></figure>
+
+3. **View the available queries:**
+
+* The query section will show the available queries as can be seen in the [SDK-CLI documentation > Query page](https://tokens-studio.github.io/studio-app/types/Query.html).
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.34.14@2x.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.34.36@2x.png" alt=""><figcaption></figcaption></figure>
+
 4. **Run a Query:**
-   * Use the query editor in Apollo Sandbox to explore data (e.g., list all projects).
-   * Add required fields like `name` and `organization ID`.
-5. **Get Organization ID:**
-   * Navigate to your organization in Studio.
-   * Copy the **Organization ID** from the URL (after `/org/`).
+
+* Use the query editor in Apollo Sandbox to explore data (e.g., list all projects).&#x20;
+
+**Example query - List of all projects in an Organization:**
+
+* Click on "projects(...): PaginatedProjects!". The details will be filled in the Operation and Variables section.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.04.12@2x (1).png" alt=""><figcaption></figcaption></figure>
+
+* Add "data: \[Project!]!. This step is done because the Projects list is a paginated response.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.04.56@2x.png" alt=""><figcaption></figcaption></figure>
+
+* Add "name" to get the name of the project and "oragnizationId" to specify the organisation.&#x20;
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.05.33@2x.png" alt=""><figcaption></figcaption></figure>
+
+* In the variables section, we need to add the organisation id.&#x20;
+* To get the organisation ID, Navigate to your organization in Studio. Copy the **Organization ID** from the URL (after `/org/`).
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.06.14@2x.png" alt=""><figcaption></figcaption></figure>
+
+* Return to the Apollo Sandbox, enter the organisation id in the variables section.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.07.06@2x.png" alt=""><figcaption></figcaption></figure>
+
+* Run the query, the list of projects with the project name and the organisation id will be displayed in the right panel.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.07.30@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### **Using Postman to Call the API**
 
@@ -108,88 +152,85 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
     npx tokensstudio setup
     ```
 
-    * Enter your API key when prompted. You can skip this step by Automating the CLI.
+    *   Enter your API key when prompted. You can skip this step by Automating the CLI.
 
-      ```bash
-      Tokens Studio CLI  2.0.2
+        ```bash
+        Tokens Studio CLI  2.0.2
 
-      You did not pass an API key in the environment variables, but you can paste one here.
-            You can create an API key in Studio user settings by navigating to a project dashboard 
-            and clicking the bottom left menu -> API keys.
+        You did not pass an API key in the environment variables, but you can paste one here.
+              You can create an API key in Studio user settings by navigating to a project dashboard 
+              and clicking the bottom left menu -> API keys.
 
-                     API key: 
-      ```
+                       API key: 
+        ```
+    *   Select the desired **organization** and **project**.
 
-    * Select the desired **organization** and **project**.
+        ```bash
+        ✔  Done!
+                 ■ Fetched organizations
+                 ■ Fetched projects
 
-      ```bash
-      ✔  Done!
-               ■ Fetched organizations
-               ■ Fetched projects
+        Select your organisation
+        Hyma
 
-      Select your organisation
-      Hyma
+        Select your project
+        Tokens Zen Garden
+        ```
 
-      Select your project
-      Tokens Zen Garden
-      ```
+        The selected settings will be saved in the `.tokensstudio.json` config file.
 
-      The selected settings will be saved in the `.tokensstudio.json` config file.
+        ```json
+        {
+        "version": "2",
+        "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
+        "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
+        "branch": "main",
+        "release": "",
+        "output": "tokens"
+        }
+        ```
+4.  **Pull Tokens:**
 
-      ```json
-      {
-      "version": "2",
-      "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
-      "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
-      "branch": "main",
-      "release": "",
-      "output": "tokens"
-      }
-      ```
+    * Specify the folder to pull tokens into (relative to the config file). This can be done in the `.tokensstudio.json` config file as `output`.
+    * Use the `pull` command:
 
-4. **Pull Tokens:**
+    ```bash
+    npx tokensstudio pull
+    ```
 
-      * Specify the folder to pull tokens into (relative to the config file). This can be done in the `.tokensstudio.json` config file as `output`.
-      * Use the `pull` command:
+    This will pull all the tokens in your project into the output specified in your config (.tokensstudio.json) file.
 
-      ```bash
-      npx tokensstudio pull
-      ```
+    ```bash
+          ✔  Done!
+             ■ Fetched tokensets
 
-      This will pull all the tokens in your project into the output specified in your config (.tokensstudio.json) file.
+          ✔  Success Found 18 sets with 938 tokens in total.
+             ◼   global.json
+             ◼   semantic.json
+             ◼   comp/button.json
+             ◼   comp/list-item.json
+             ◼   comp/menu-item.json
+             ◼   comp/toggle.json
+             ◼   pattern/menu-bar.json
+             ◼   pattern/feature.json
+             ◼   pattern/card-user.json
+             ◼   pattern/card-pricing.json
+             ◼   sections/nav.json
+             ◼   sections/hero.json
+             ◼   sections/features.json
+             ◼   sections/team.json
+             ◼   sections/pricing.json
+             ◼   sections/footer.json
+             ◼   theme/light.json
+             ◼   theme/dark.json
+    ```
+5.  **Automate the CLI:**
 
-      ```bash
-            ✔  Done!
-               ■ Fetched tokensets
+    * Pass the API key as an environment variable for automation. This will ensure that the API key is not prompted for everytime.
 
-            ✔  Success Found 18 sets with 938 tokens in total.
-               ◼   global.json
-               ◼   semantic.json
-               ◼   comp/button.json
-               ◼   comp/list-item.json
-               ◼   comp/menu-item.json
-               ◼   comp/toggle.json
-               ◼   pattern/menu-bar.json
-               ◼   pattern/feature.json
-               ◼   pattern/card-user.json
-               ◼   pattern/card-pricing.json
-               ◼   sections/nav.json
-               ◼   sections/hero.json
-               ◼   sections/features.json
-               ◼   sections/team.json
-               ◼   sections/pricing.json
-               ◼   sections/footer.json
-               ◼   theme/light.json
-               ◼   theme/dark.json
-      ```
-
-5. **Automate the CLI:**
-
-   * Pass the API key as an environment variable for automation. This will ensure that the API key is not prompted for everytime.
-
-   ```bash
-   TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
-   ```
+    ```bash
+    TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
+    ```
 
 ### **Key Features of the CLI**
 
