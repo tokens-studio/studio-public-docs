@@ -1,12 +1,10 @@
 # Connect Studio to Code
 
-**Using the Studio CLI and API**
+### **Using the Studio CLI and API**
 
 This documentation provides a detailed guide on how to use the Studio CLI and API for managing design tokens efficiently.
 
-{% stepper %}
-{% step %}
-#### **Accessing the SDK and CLI Documentation**
+### **Accessing the SDK and CLI Documentation**
 
 1.  **Navigate to Studio:**
 
@@ -18,24 +16,18 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 2. **Review the SDK Documentation:**
    * This [page](https://tokens-studio.github.io/studio-app/) contains the **Studio Software Development Kit (SDK)** and CLI instructions.
    * It might seem overwhelming, but the focus is on pulling your tokens into your local file system via the CLI.
-{% endstep %}
-
-{% step %}
-#### **Creating an API Key**
-
-1. **Generate a Key:**
-   * Go to **Personal Settings** in Studio.
-   * Select **API Keys** (below "Edit Profile").
-   * Create a new API key (e.g., "Test Key").
-2. **Copy and Store the Key:**
-   * Copy the key string and **store it securely** (e.g., in a password manager or vault).
-   * You won’t be able to view the key again after closing the window.
+3. **Creating an API Key**
+   * **Generate a Key:**
+     * Go to **Personal Settings** in Studio.
+       * Select **API Keys** (below "Edit Profile").
+       * Create a new API key (e.g., "Test Key").
+   * **Copy and Store the Key:**
+     * Copy the key string and **store it securely** (e.g., in a password manager or vault).
+       * You won’t be able to view the key again after closing the window.
 
 <figure><img src=".gitbook/assets/CleanShot 2025-02-17 at 12.52.32.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
 
-
-#### **Using the API Key with GraphQL**
+### **Using the API Key with GraphQL**
 
 1. **Understanding GraphQL:**
    * The API operates on a **GraphQL interface**.
@@ -54,7 +46,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
    * Navigate to your organization in Studio.
    * Copy the **Organization ID** from the URL (after `/org/`).
 
-#### **Using Postman to Call the API**
+### **Using Postman to Call the API**
 
 1. **Set Up a Request:**
    * Create a new **POST request** in Postman.
@@ -68,7 +60,7 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 4. **Send the Request:**
    * Execute the request to receive JSON responses similar to the Apollo Sandbox.
 
-#### **Using the Token Studio CLI**
+### **Using the Token Studio CLI**
 
 1.  **Install the CLI:**
 
@@ -118,7 +110,6 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 
     * Enter your API key when prompted. You can skip this step by Automating the CLI.
 
-{% code overflow="wrap" %}
 ```bash
   Tokens Studio CLI  2.0.2
 
@@ -128,40 +119,35 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 
                  API key: 
 ```
-{% endcode %}
 
-*   Select the desired **organization** and **project**.
+* Select the desired **organization** and **project**.
 
-    ```bash
-    ✔  Done!
-             ■ Fetched organizations
-             ■ Fetched projects
+```bash
+✔  Done!
+         ■ Fetched organizations
+         ■ Fetched projects
 
-    Select your organisation
-    Hyma
+Select your organisation
+Hyma
 
-    Select your project
-    Tokens Zen Garden
-    ```
+Select your project
+Tokens Zen Garden
+```
 
-    **The selected settings will be saved in the `.tokensstudio.json` config file.**
+**The selected settings will be saved in the `.tokensstudio.json` config file.**
 
-    ```json
-    {
-    "version": "2",
-    "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
-    "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
-    "branch": "main",
-    "release": "",
-    "output": "tokens"
-    }
-    ```
-
-
+```json
+{
+"version": "2",
+"org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
+"project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
+"branch": "main",
+"release": "",
+"output": "tokens"
+}
+```
 
 4. **Pull Tokens:**
-
-
 
 * Specify the folder to pull tokens into (relative to the config file). This can be done in the `.tokensstudio.json` config file as `output`.
 * Use the `pull` command:
@@ -197,14 +183,15 @@ This will pull all the tokens in your project into the output specified in your 
          ◼   theme/dark.json
 ```
 
-* **Automate the CLI:**
+5. **Automate the CLI:**
+
 * Pass the API key as an environment variable for automation. This will ensure that the API key is not prompted for everytime.
 
 ```bash
 TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
 ```
 
-#### **Key Features of the CLI**
+### **Key Features of the CLI**
 
 1. **Current Features:**
    * Pull token sets into local files.
@@ -213,7 +200,7 @@ TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
    * **Watch Mode:** Automatically sync changes from Studio to local files.
    * **Release Artifacts:** Pull releases directly instead of token sets.
 
-#### **Best Practices**
+### **Best Practices**
 
 1. **Secure API Key Storage:**
    * Use a password manager or secure vault.
@@ -222,6 +209,5 @@ TOKENSSTUDIO_APIKEY=<API_KEY> npx tokensstudio pull
    * Use environment variables to prevent manual prompts in CI pipelines.
 3. **Explore API Schema:**
    * Use Apollo Sandbox for schema introspection before creating complex queries.
-
 
 This documentation provides an overview of using Studio’s API and CLI effectively. For further assistance, refer to the official [SDK and CLI documentation page](https://tokens-studio.github.io/studio-app/).
