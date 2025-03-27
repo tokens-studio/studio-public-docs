@@ -122,44 +122,44 @@ This documentation provides a detailed guide on how to use the Studio CLI and AP
 
    * Enter your API key when prompted. You can skip this step by Automating the CLI.
 
-   {% code overflow="wrap" %}
-   ```bash
-   Tokens Studio CLI  2.0.2
+      {% code overflow="wrap" %}
+      ```bash
+      Tokens Studio CLI  2.0.2
 
-   You did not pass an API key in the environment variables, but you can paste one here.
-         You can create an API key in Studio user settings by navigating to a project dashboard 
-         and clicking the bottom left menu -> API keys.
+      You did not pass an API key in the environment variables, but you can paste one here.
+            You can create an API key in Studio user settings by navigating to a project dashboard 
+            and clicking the bottom left menu -> API keys.
 
-                  API key: 
-   ```
-   {% endcode %}
+                     API key: 
+      ```
+      {% endcode %}
 
    * Select the desired **organization** and **project**.
 
-   ```bash
-   ✔  Done!
-            ■ Fetched organizations
-            ■ Fetched projects
+      ```bash
+      ✔  Done!
+               ■ Fetched organizations
+               ■ Fetched projects
 
-   Select your organisation
-   Hyma
+      Select your organisation
+      Hyma
 
-   Select your project
-   Tokens Zen Garden
-   ```
+      Select your project
+      Tokens Zen Garden
+      ```
 
-   **The selected settings will be saved in the `.tokensstudio.json` config file.**
+      **The selected settings will be saved in the `.tokensstudio.json` config file.**
 
-   ```json
-   {
-   "version": "2",
-   "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
-   "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
-   "branch": "main",
-   "release": "",
-   "output": "tokens"
-   }
-   ```
+      ```json
+      {
+      "version": "2",
+      "org": "7xxxxxx1-3xx5-4xxx-xxx6-xxxx4axxxxf2",
+      "project": "xxxxfa7d-xxxx-4xxx-xxx2-xxxx0126xxxx",
+      "branch": "main",
+      "release": "",
+      "output": "tokens"
+      }
+      ```
 
 4. **Pull Tokens:**
    * Specify the folder to pull tokens into (relative to the config file). This can be done in the `.tokensstudio.json` config file as `output`.
