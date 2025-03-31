@@ -55,9 +55,9 @@ The API operates on a **GraphQL interface**. You can use tools like **Postman**,
 
 * The query section will show the available queries as can be seen in the [SDK-CLI documentation > Query page](https://tokens-studio.github.io/studio-app/types/Query.html).
 
-<figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.34.14@2x.png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.34.36@2x.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-27 at 23.34.14@2x.png" alt=""><figcaption></figcaption></figure>
 
 4. **Run a Query:**
 
@@ -77,12 +77,30 @@ The API operates on a **GraphQL interface**. You can use tools like **Postman**,
 
 <figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.05.33@2x.png" alt=""><figcaption></figcaption></figure>
 
-* In the variables section, we need to add the organisation id.&#x20;
-* To get the organisation ID, Navigate to your organization in Studio. Copy the **Organization ID** from the URL (after `/org/`).
+A query would be generated in the Operations panel.
+
+```graphql
+query Projects($organization: String!) {
+  projects(organization: $organization) {
+    data {
+      organizationId
+      name
+    }
+  }
+}
+```
+
+* In the "**Variables**" section, we need to add the organisation id. To get the organisation ID, Navigate to your organization in Studio. Copy the **Organization ID** from the URL (after `/org/`).
 
 <figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.06.14@2x.png" alt=""><figcaption></figcaption></figure>
 
-* Return to the Apollo Sandbox, enter the organisation id in the variables section.
+* Return to the Apollo Sandbox, enter the organisation id in the "**Variables section**".
+
+```json
+{
+  "organization": "<org-ID>"
+}
+```
 
 <figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 00.07.06@2x.png" alt=""><figcaption></figcaption></figure>
 
@@ -95,19 +113,63 @@ The API operates on a **GraphQL interface**. You can use tools like **Postman**,
 1. **Set Up a Request:**
    * Create a new **POST request** in Postman.
    * Use the same endpoint as Apollo Sandbox.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 15.01.58@2x.png" alt=""><figcaption></figcaption></figure>
+
 2. **Add Authorization:**
-   * In the **Authorization** tab, select **Bearer Token**.
-   * Paste your API key into the token field.
-3. **Define the Body:**
-   * Use the query from Apollo Sandbox and convert it into a single-line string.
-   * Provide necessary variables (e.g., `organization ID`) in the payload.
-4. **Send the Request:**
-   * Execute the request to receive JSON responses similar to the Apollo Sandbox.
+
+* In the **Authorization** tab, select **Bearer Token**.
+* Paste your API key into the token field.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 15.02.45@2x.png" alt=""><figcaption></figcaption></figure>
+
+3. **Check the Headers:**
+
+* The headers will show  a predefined Authorisation.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-28 at 15.03.22@2x.png" alt=""><figcaption></figcaption></figure>
+
+4. **Define the Body:**
+
+* Go to the Body tab. Select the "raw" option. In the input enter the "operationName" and "variables" as we have defined in the [Apollo Sandbox](connect-studio-to-code.md#using-the-api-key-with-graphql).
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-31 at 14.30.23@2x.png" alt=""><figcaption></figcaption></figure>
+
+* Use the "query" in the "Operation" section of Apollo Sandbox and convert it into a single-line string. You can use this [tool](https://multi-to-single-string.netlify.app/) to convert the query from multi-line to single-line.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-31 at 14.20.05@2x.png" alt=""><figcaption></figcaption></figure>
+
+The single line query will look like this:
+
+```json
+query Projects($organization: String!) {\n  projects(organization: $organization) {\n    data {\n      organizationId\n      name\n    }\n  }\n}
+```
+
+* Provide necessary variables (e.g., `organization ID`) in the payload. The final query will look something like this:
+
+```json
+{
+    "operationName": "Projects",
+    "variables": {
+        "organization": "<Org-ID>"
+    },
+    "query": "query Projects($organization: String!) {\n  projects(organization: $organization) {\n    data {\n      organizationId\n      name\n    }\n  }\n}"
+}
+```
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-31 at 14.13.33@2x.png" alt=""><figcaption></figcaption></figure>
+
+5. **Send the Request:**
+
+* Execute the request by clicking on "Send" to receive JSON responses similar to the Apollo Sandbox.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-03-31 at 14.13.33@2x (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Using the Token Studio CLI**
 
 1.  **Install the CLI:**
 
+    * Open the project that you want to connect Studio with.
     * Run `npm install @tokens-studio/sdk`.
     * If you don’t have a `package.json`, initialize it first with `npm init`.
     * Ensure that the node.js version installed is v.22 or above.
