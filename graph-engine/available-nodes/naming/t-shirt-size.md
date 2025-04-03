@@ -20,6 +20,8 @@ The T-Shirt Size node generates standardized t-shirt size naming conventions (XS
 | ----- | ---------------------------------------------------------------- | ------ |
 | Value | The generated t-shirt size value with optional prefix and suffix | String |
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 23.51.22@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### How to Use It
 
 1. Drag the T-Shirt Size node into your graph.
@@ -30,7 +32,7 @@ The T-Shirt Size node generates standardized t-shirt size naming conventions (XS
    * Add a "Prefix" and/or "Suffix" if needed.
 4. The node will output the corresponding t-shirt size as a string.
 
-![T-Shirt Size Example](../design-tokens/naming/screenshot-placeholder.png)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 23.53.09@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -40,9 +42,8 @@ The T-Shirt Size node generates standardized t-shirt size naming conventions (XS
 
 ### See Also
 
-* **Alphabetic Scale**: For generating alphabetic sequences.
-* **Numeric Scale**: For generating numeric sequences.
-* **Name tokens**: For automatically naming tokens with incremental numbers.
+* [**Alphabetic Scale**](alphabetic-scale.md): For generating alphabetic sequences.
+* [**Numeric Scale**](numeric-scale.md): For generating numeric sequences.
 
 ### Use Cases
 

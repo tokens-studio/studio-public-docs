@@ -9,14 +9,16 @@ The Greek Letter node generates Greek letter names (alpha through omega) based o
 | Name   | Description                                  | Type   | Required |
 | ------ | -------------------------------------------- | ------ | -------- |
 | Index  | Letter index (0 = alpha, 1 = beta, etc.)     | Number | Yes      |
-| Prefix | Optional text to add before the Greek letter | Text   | No       |
-| Suffix | Optional text to add after the Greek letter  | Text   | No       |
+| Prefix | Optional text to add before the Greek letter | String | No       |
+| Suffix | Optional text to add after the Greek letter  | String | No       |
 
 ### Outputs
 
-| Name  | Description                                                | Type |
-| ----- | ---------------------------------------------------------- | ---- |
-| Value | The generated Greek letter with optional prefix and suffix | Text |
+| Name  | Description                                                | Type   |
+| ----- | ---------------------------------------------------------- | ------ |
+| Value | The generated Greek letter with optional prefix and suffix | String |
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 22.28.28@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### How to Use It
 
@@ -25,7 +27,7 @@ The Greek Letter node generates Greek letter names (alpha through omega) based o
 3. Optionally add prefix and suffix text if needed.
 4. The node will output the corresponding Greek letter name (like "alpha", "beta", "gamma").
 
-![Greek Letter Example](../design-tokens/naming/screenshot-placeholder.png)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 22.33.13@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -34,9 +36,9 @@ The Greek Letter node generates Greek letter names (alpha through omega) based o
 
 ### See Also
 
-* **Alphabetic Scale**: For generating Latin alphabet sequences.
-* **Numeric Scale**: For generating numeric sequences.
-* **T-shirt Size**: For generating t-shirt size scales (XS, S, M, L, XL).
+* [**Alphabetic Scale**](alphabetic-scale.md): For generating Latin alphabet sequences.
+* [**Numeric Scale**](numeric-scale.md): For generating numeric sequences.
+* [**T-shirt Size**](t-shirt-size.md): For generating t-shirt size scales (XS, S, M, L, XL).
 
 ### Use Cases
 

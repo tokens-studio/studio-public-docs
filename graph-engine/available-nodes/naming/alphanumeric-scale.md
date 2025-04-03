@@ -11,23 +11,25 @@ The Alphanumeric Scale node generates combined letter-number identifiers (like A
 | Letter Index | Letter index (0 = A, 1 = B, etc.)                      | Number  | Yes      |
 | Number Index | Number index (0 = 1, 1 = 2, etc.)                      | Number  | Yes      |
 | Uppercase    | Output letter in uppercase (true) or lowercase (false) | Boolean | No       |
-| Prefix       | Optional text to add before the alphanumeric value     | Text    | No       |
-| Suffix       | Optional text to add after the alphanumeric value      | Text    | No       |
+| Prefix       | Optional text to add before the alphanumeric value     | String  | No       |
+| Suffix       | Optional text to add after the alphanumeric value      | String  | No       |
 
 ### Outputs
 
-| Name  | Description                                                      | Type |
-| ----- | ---------------------------------------------------------------- | ---- |
-| Value | The generated alphanumeric value with optional prefix and suffix | Text |
+| Name  | Description                                                      | Type   |
+| ----- | ---------------------------------------------------------------- | ------ |
+| Value | The generated alphanumeric value with optional prefix and suffix | String |
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 22.19.06@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### How to Use It
 
 1. Drag the Alphanumeric Scale node into your graph.
-2. Connect numbers to the "Letter Index" and "Number Index" inputs, or set them directly.
+2. Connect numbers to the "Letter Index" (for e.g., 0 for A) and "Number Index" inputs (for e.g., 0 for 1), or set them directly.
 3. Configure optional inputs like case preference and prefix/suffix text.
 4. The node will output a combined letter-number identifier (like "A1", "b2", etc.).
 
-![Alphanumeric Scale Example](../design-tokens/naming/screenshot-placeholder.png)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 22.20.11@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -37,9 +39,8 @@ The Alphanumeric Scale node generates combined letter-number identifiers (like A
 
 ### See Also
 
-* **Alphabetic Scale**: For generating only alphabetic identifiers.
-* **Numeric Scale**: For generating only numeric identifiers.
-* **Name tokens**: For more complex token naming options.
+* [**Alphabetic Scale**](alphabetic-scale.md): For generating only alphabetic identifiers.
+* [**Numeric Scale**](numeric-scale.md): For generating only numeric identifiers.
 
 ### Use Cases
 

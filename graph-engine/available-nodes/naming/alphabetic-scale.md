@@ -19,6 +19,8 @@ The Alphabetic Scale node generates alphabetic characters (A through Z) based on
 | ----- | -------------------------------------------------------------- | ------ |
 | Value | The generated alphabetic value with optional prefix and suffix | String |
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 22.08.56@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### How to Use It
 
 1. Drag the Alphabetic Scale node into your graph.
@@ -28,7 +30,7 @@ The Alphabetic Scale node generates alphabetic characters (A through Z) based on
    * Add a "Prefix" and/or "Suffix" if needed.
 4. The node will output the corresponding letter with any prefix and suffix applied.
 
-![Alphabetic Scale Example](../design-tokens/naming/screenshot-placeholder.png)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 22.14.04@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -38,9 +40,8 @@ The Alphabetic Scale node generates alphabetic characters (A through Z) based on
 
 ### See Also
 
-* **Numeric**: For generating numeric sequences.
-* **T-shirt Size**: For generating t-shirt size scales (XS, S, M, L, XL).
-* **Name tokens**: For naming tokens with numeric increments.
+* [**Numeric Scale**](numeric-scale.md): For generating numeric sequences.
+* [**T-shirt Size**](t-shirt-size.md): For generating t-shirt size scales (XS, S, M, L, XL).
 
 ### Use Cases
 

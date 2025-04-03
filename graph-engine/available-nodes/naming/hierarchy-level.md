@@ -9,14 +9,16 @@ The Hierarchy Level node generates hierarchical level names (primary, secondary,
 | Name   | Description                                    | Type   | Required |
 | ------ | ---------------------------------------------- | ------ | -------- |
 | Index  | Level index (0 = primary, 1 = secondary, etc.) | Number | Yes      |
-| Prefix | Optional text to add before the level name     | Text   | No       |
-| Suffix | Optional text to add after the level name      | Text   | No       |
+| Prefix | Optional text to add before the level name     | String | No       |
+| Suffix | Optional text to add after the level name      | String | No       |
 
 ### Outputs
 
-| Name  | Description                                                        | Type |
-| ----- | ------------------------------------------------------------------ | ---- |
-| Value | The generated hierarchy level name with optional prefix and suffix | Text |
+| Name  | Description                                                        | Type   |
+| ----- | ------------------------------------------------------------------ | ------ |
+| Value | The generated hierarchy level name with optional prefix and suffix | String |
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 23.07.22@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### How to Use It
 
@@ -25,7 +27,7 @@ The Hierarchy Level node generates hierarchical level names (primary, secondary,
 3. Optionally add prefix and suffix text if needed.
 4. The node will output the corresponding hierarchy level name (like "primary", "secondary", "tertiary").
 
-![Hierarchy Level Example](../design-tokens/naming/screenshot-placeholder.png)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 23.08.54@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -34,9 +36,8 @@ The Hierarchy Level node generates hierarchical level names (primary, secondary,
 
 ### See Also
 
-* **T-shirt Size**: For generating scale-based naming (XS, S, M, L, XL).
-* **Numeric Scale**: For generating numeric sequences.
-* **Name tokens**: For more complex token naming options.
+* [**T-shirt Size**:](t-shirt-size.md) For generating scale-based naming (XS, S, M, L, XL).
+* [**Numeric Scale**:](numeric-scale.md) For generating numeric sequences.
 
 ### Use Cases
 

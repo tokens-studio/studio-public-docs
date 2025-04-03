@@ -19,16 +19,18 @@ The Numeric Scale node generates numeric values based on an index, with options 
 | ----- | ----------------------------------------------------------- | ------ |
 | Value | The generated numeric value with optional prefix and suffix | String |
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 23.45.03@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### How to Use It
 
 1. Drag the Numeric Scale node into your graph.
-2. Connect a number to the "Index" input or set it directly.
+2. Connect a number to the "Index" input or set it directly (for e.g., 0 corresponding to 1).
 3. Configure the optional inputs:
-   * Set "Multiplier" to control the spacing between numbers (default is 1).
+   * Set "Multiplier" to control the spacing between numbers (default is 1), for e.g., 8.
    * Add a "Prefix" and/or "Suffix" if needed.
 4. The node will output a string with the calculated numeric value.
 
-![Numeric Scale Example](../design-tokens/naming/screenshot-placeholder.png)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 23.46.38@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -38,9 +40,8 @@ The Numeric Scale node generates numeric values based on an index, with options 
 
 ### See Also
 
-* **Alphabetic Scale**: For generating alphabetic sequences.
-* **T-shirt Size**: For generating t-shirt size scales (XS, S, M, L, XL).
-* **Name tokens**: For automatically naming tokens with incremental numbers.
+* [**Alphabetic Scale**](alphabetic-scale.md): For generating alphabetic sequences.
+* [**T-shirt Size**](t-shirt-size.md): For generating t-shirt size scales (XS, S, M, L, XL).
 
 ### Use Cases
 
