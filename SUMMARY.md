@@ -223,7 +223,7 @@
     * [Pad](graph-engine/available-nodes/string/pad.md)
     * [Regex](graph-engine/available-nodes/string/regex.md)
     * [Replace](graph-engine/available-nodes/string/replace.md)
-    * [Split](graph-engine/available-nodes/string/split.md)
+    * [Split String](graph-engine/available-nodes/string/split.md)
     * [Stringify](graph-engine/available-nodes/string/stringify.md)
     * [Uppercase](graph-engine/available-nodes/string/uppercase.md)
   * [Typography](graph-engine/available-nodes/typography/README.md)

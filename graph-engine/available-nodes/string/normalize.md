@@ -27,6 +27,8 @@ Standardizes text by applying Unicode normalization and optionally removing diac
 3. Select the desired normalization form (NFC, NFD, NFKC, or NFKD).
 4. Set "removeAccents" to true if you want to remove diacritical marks from characters.
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-03 at 15.59.40@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Tips
 
 * Use NFC (default) for most general text normalization needs.
