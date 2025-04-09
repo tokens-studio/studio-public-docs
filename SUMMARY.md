@@ -269,6 +269,7 @@
 
 * [Tokens Studio for Figma Plugin](plugins/tokens-studio-for-figma-plugin.md)
 * [Companion by Tokens Studio](plugins/companion-by-tokens-studio.md)
+* [Tokens Studio for Framer Plugin](plugins/tokens-studio-for-framer-plugin.md)
 
 ## Development
 
