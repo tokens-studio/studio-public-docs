@@ -17,6 +17,8 @@ Simulates how colors appear to people with different types of color blindness. T
 | ----- | -------------------------------------------------------------------------- | ----- |
 | value | The color as it would appear to someone with the specified color blindness | Color |
 
+![Color Blindness Example](<../../../.gitbook/assets/Screenshot 2025-04-09 at 12.58.20 PM.png>)
+
 ### How to Use It
 
 1. Drag the Color Blindness node into your graph.
@@ -24,8 +26,6 @@ Simulates how colors appear to people with different types of color blindness. T
 3. Select a color blindness type (e.g., "protanopia" for red-blind vision) from the dropdown.
 4. The output will show how that color token appears to someone with that type of color vision deficiency.
 5. Connect this to a `Contrast` node with your background color to verify accessibility standards are met across all vision types.
-
-![Color Blindness Example](screenshot-placeholder.png)
 
 ### See Also
 

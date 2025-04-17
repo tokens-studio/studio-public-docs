@@ -16,7 +16,7 @@ The Math Expression node visualizes a mathematical expression as a graph. It all
 | ------------ | -------------------------------------- | ---- |
 | _No outputs_ | This node is for preview purposes only | -    |
 
-![Math Expression Example](screenshot-placeholder.png)
+![Math Expression Example](<../../../.gitbook/assets/Screenshot 2025-04-09 at 12.51.28 PM.png>)
 
 ### How to Use It
 
@@ -24,6 +24,9 @@ The Math Expression node visualizes a mathematical expression as a graph. It all
 2. Connect a string containing a valid mathematical expression to the "Value" input.
 3. The node will display a graphical representation of the expression.
 4. Use the visualization to understand the behavior and pattern of the expression.
+5.
+
+    <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-09 at 12.53.14 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
