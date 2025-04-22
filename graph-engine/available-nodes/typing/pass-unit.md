@@ -17,6 +17,8 @@ The Pass unit node adds a unit to a value if it doesn't already have one. It ens
 | ----- | ---------------------------- | ------ |
 | Value | The value with unit attached | String |
 
+![Pass unit Example](<../../../.gitbook/assets/Screenshot 2025-04-22 at 5.58.01 PM (1).png>)
+
 ### How to Use It
 
 1. Drag the Pass unit node into your graph.
@@ -25,8 +27,6 @@ The Pass unit node adds a unit to a value if it doesn't already have one. It ens
 4. The node checks if the value already has a unit.
 5. If it does, the value is passed through unchanged.
 6. If it doesn't, the fallback unit is appended to the value.
-
-![Pass unit Example](screenshot-placeholder.png)
 
 ### Tips
 

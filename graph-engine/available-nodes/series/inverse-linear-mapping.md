@@ -1,25 +1,31 @@
 # Inverse Linear Mapping
 
 ### What It Does
+
 Maps a value from one numeric range to another, similar to range mapping. It takes a value within a source range and finds the equivalent value in a target range, maintaining the same relative position.
 
 ### Inputs
-| Name | Description | Type | Required |
-|------|-------------|------|----------|
-| value | The value to transform | Number | No |
-| inMin | The minimum of the source range | Number | No |
-| inMax | The maximum of the source range | Number | No |
-| outMin | The minimum of the target range | Number | No |
-| outMax | The maximum of the target range | Number | No |
-| clamp | Whether to restrict the result to the output range | Yes/No | No |
-| precision | Number of decimal places to round to | Number | No |
+
+| Name      | Description                                        | Type   | Required |
+| --------- | -------------------------------------------------- | ------ | -------- |
+| value     | The value to transform                             | Number | No       |
+| inMin     | The minimum of the source range                    | Number | No       |
+| inMax     | The maximum of the source range                    | Number | No       |
+| outMin    | The minimum of the target range                    | Number | No       |
+| outMax    | The maximum of the target range                    | Number | No       |
+| clamp     | Whether to restrict the result to the output range | Yes/No | No       |
+| precision | Number of decimal places to round to               | Number | No       |
 
 ### Outputs
-| Name | Description | Type |
-|------|-------------|------|
+
+| Name  | Description                            | Type   |
+| ----- | -------------------------------------- | ------ |
 | value | The transformed value in the new range | Number |
 
+![Inverse Linear Mapping Example](<../../../.gitbook/assets/Screenshot 2025-04-22 at 6.07.36 PM.png>)
+
 ### How to Use It
+
 1. Drag the Inverse Linear Mapping node into your graph.
 2. Set "value" to the number you want to transform (e.g., 0.5).
 3. Define your source range with "inMin" (e.g., 0) and "inMax" (e.g., 1).
@@ -28,20 +34,21 @@ Maps a value from one numeric range to another, similar to range mapping. It tak
 6. Set the "precision" for decimal rounding (default is 2).
 7. Run the graph—with the example values, your output will be 50.
 
-![Inverse Linear Mapping Example](screenshot-placeholder.png)
-
 ### Tips
-- Ensure inMin and inMax are different values to avoid division by zero.
-- The output range can be reversed (e.g., outMin=100, outMax=0) to invert the mapping.
-- When clamp is enabled, the output will never exceed the output range boundaries.
+
+* Ensure inMin and inMax are different values to avoid division by zero.
+* The output range can be reversed (e.g., outMin=100, outMax=0) to invert the mapping.
+* When clamp is enabled, the output will never exceed the output range boundaries.
 
 ### See Also
-- **Range Mapping**: A similar node in the Math category with the same functionality.
-- **Lerp**: For linear interpolation between two values.
-- **Clamp**: For restricting a value within a specific range.
+
+* **Range Mapping**: A similar node in the Math category with the same functionality.
+* **Lerp**: For linear interpolation between two values.
+* **Clamp**: For restricting a value within a specific range.
 
 ### Use Cases
-- **Responsive Design**: Map screen dimensions to appropriate element sizes.
-- **Data Visualization**: Convert raw data values to pixel coordinates for display.
-- **Animation Control**: Transform timing values into position, opacity, or scale values.
-- **Normalization**: Convert values from different scales into a common range (often 0-1). 
+
+* **Responsive Design**: Map screen dimensions to appropriate element sizes.
+* **Data Visualization**: Convert raw data values to pixel coordinates for display.
+* **Animation Control**: Transform timing values into position, opacity, or scale values.
+* **Normalization**: Convert values from different scales into a common range (often 0-1).

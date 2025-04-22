@@ -16,6 +16,8 @@ The Parse Number node converts a string representation of a number into an actua
 | ----- | -------------------------- | ------ |
 | Value | The converted number value | Number |
 
+![Parse Number Example](<../../../.gitbook/assets/Screenshot 2025-04-22 at 5.56.46 PM.png>)
+
 ### How to Use It
 
 1. Drag the Parse Number node into your graph.
@@ -23,8 +25,6 @@ The Parse Number node converts a string representation of a number into an actua
 3. The node attempts to convert the string to a number.
 4. If successful, the number is output.
 5. If the string cannot be parsed as a number, an error is thrown.
-
-![Parse Number Example](screenshot-placeholder.png)
 
 ### Tips
 
