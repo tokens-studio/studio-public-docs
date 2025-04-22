@@ -1,34 +1,42 @@
 # Array Find
 
 ### What It Does
+
 Creates a sub-graph that evaluates each item in an array, returning the first item where your condition evaluates to true. You define the matching condition in the inner graph using a custom combination of nodes.
 
 ### Inputs
-| Name | Description | Type | Required |
-|------|-------------|------|----------|
-| array | The array to search through | List | Yes |
-| *Dynamic inputs* | Any inputs you add to the inner graph will appear here | Varies | No |
+
+| Name             | Description                                            | Type   | Required |
+| ---------------- | ------------------------------------------------------ | ------ | -------- |
+| array            | The array to search through                            | List   | Yes      |
+| _Dynamic inputs_ | Any inputs you add to the inner graph will appear here | Varies | No       |
 
 ### Outputs
-| Name | Description | Type |
-|------|-------------|------|
-| value | The first matching item found (undefined if none found) | Any |
+
+| Name  | Description                                                       | Type   |
+| ----- | ----------------------------------------------------------------- | ------ |
+| value | The first matching item found (undefined if none found)           | Any    |
 | index | The position of the matching item in the array (-1 if none found) | Number |
-| found | Whether a matching item was found | Yes/No |
+| found | Whether a matching item was found                                 | Yes/No |
 
 ### Inner Graph Special Inputs
-| Name | Description | Type |
-|------|-------------|------|
-| value | The current array item being evaluated | Any |
-| index | The current position in the array | Number |
-| length | The total length of the array | Number |
+
+| Name   | Description                            | Type   |
+| ------ | -------------------------------------- | ------ |
+| value  | The current array item being evaluated | Any    |
+| index  | The current position in the array      | Number |
+| length | The total length of the array          | Number |
 
 ### Inner Graph Required Output
-| Name | Description | Type |
-|------|-------------|------|
+
+| Name    | Description                                     | Type   |
+| ------- | ----------------------------------------------- | ------ |
 | matches | Whether the current item matches your condition | Yes/No |
 
+![Array Find Example](<../../../.gitbook/assets/Screenshot 2025-04-17 at 6.10.02 PM.png>)
+
 ### How to Use It
+
 1. Drag the Array Find node into your graph.
 2. Connect your array to the "array" input.
 3. Double-click the node to open and edit the inner graph.
@@ -36,19 +44,20 @@ Creates a sub-graph that evaluates each item in an array, returning the first it
 5. Connect your condition's result to the "matches" input on the Output node.
 6. Return to the main graph, where you can use the matched value, index, and found outputs.
 
-![Array Find Example](screenshot-placeholder.png)
-
 ### Tips
-- The inner graph runs once for each item in the array until a match is found.
-- You can add your own inputs to the inner graph's Input node, which will appear as inputs on the main Array Find node.
-- For complex comparisons, you can build any logic you need in the inner graph.
+
+* The inner graph runs once for each item in the array until a match is found.
+* You can add your own inputs to the inner graph's Input node, which will appear as inputs on the main Array Find node.
+* For complex comparisons, you can build any logic you need in the inner graph.
 
 ### See Also
-- **Array Filter**: Similar to Array Find, but returns all matching items instead of just the first.
-- **Find First Match**: For simple comparison-based searching (greater than, less than).
-- **Linear Search**: For exact-match searching.
+
+* **Array Filter**: Similar to Array Find, but returns all matching items instead of just the first.
+* **Find First Match**: For simple comparison-based searching (greater than, less than).
+* **Linear Search**: For exact-match searching.
 
 ### Use Cases
-- **Finding Data by Complex Criteria**: Locate items based on multiple conditions or calculations.
-- **Advanced Filtering**: When your matching logic requires multiple steps or operations.
-- **Custom Search Algorithms**: Implement specialized search logic for your specific data structures. 
+
+* **Finding Data by Complex Criteria**: Locate items based on multiple conditions or calculations.
+* **Advanced Filtering**: When your matching logic requires multiple steps or operations.
+* **Custom Search Algorithms**: Implement specialized search logic for your specific data structures.

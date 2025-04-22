@@ -1,38 +1,47 @@
 # Constant
 
 ### What It Does
+
 Provides a fixed value that doesn't change during graph execution. It allows you to set a single value that can be connected to multiple nodes, making it easier to maintain consistent values across your graph.
 
 ### Inputs
-| Name | Description | Type | Required |
-|------|-------------|------|----------|
-| value | The value to output | Any | Yes |
+
+| Name  | Description         | Type | Required |
+| ----- | ------------------- | ---- | -------- |
+| value | The value to output | Any  | Yes      |
 
 ### Outputs
-| Name | Description | Type |
-|------|-------------|------|
-| value | The constant value | Any |
+
+| Name  | Description        | Type |
+| ----- | ------------------ | ---- |
+| value | The constant value | Any  |
+
+![Constant Example](<../../../.gitbook/assets/Screenshot 2025-04-15 at 3.37.48 PM.png>)
 
 ### How to Use It
+
 1. Drag the Constant node into your graph.
 2. Double-click the node or edit its properties to set the desired value.
 3. Connect the node's output to any other nodes that need this value.
 4. Run the graph—the constant value will be passed to all connected nodes.
 
-![Constant Example](screenshot-placeholder.png)
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-15 at 3.31.01 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
-- Use Constants for values that are used in multiple places to avoid duplicating the same value.
-- The Constant node can hold any type of data (text, numbers, colors, arrays, etc.).
-- If you need to change a value used in multiple places, updating the Constant node will update all connections.
+
+* Use Constants for values that are used in multiple places to avoid duplicating the same value.
+* The Constant node can hold any type of data (text, numbers, colors, arrays, etc.).
+* If you need to change a value used in multiple places, updating the Constant node will update all connections.
 
 ### See Also
-- **Input**: For values that should be configurable from outside the graph.
-- **Output**: For exporting values from the graph.
-- **Note**: For adding comments and documentation to your graph.
+
+* **Input**: For values that should be configurable from outside the graph.
+* **Output**: For exporting values from the graph.
+* **Note**: For adding comments and documentation to your graph.
 
 ### Use Cases
-- **Shared Values**: Use a single source for values needed in multiple calculations.
-- **Configuration**: Set design system constants like base sizes or colors.
-- **Default Values**: Provide fallback values for optional inputs.
-- **Documentation**: Label important values in your graph for better understanding. 
+
+* **Shared Values**: Use a single source for values needed in multiple calculations.
+* **Configuration**: Set design system constants like base sizes or colors.
+* **Default Values**: Provide fallback values for optional inputs.
+* **Documentation**: Label important values in your graph for better understanding.
