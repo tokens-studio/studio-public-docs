@@ -1,6 +1,6 @@
 # Array Find
 
-### What It Does
+What It Does
 
 Creates a sub-graph that evaluates each item in an array, returning the first item where your condition evaluates to true. You define the matching condition in the inner graph using a custom combination of nodes.
 
@@ -38,11 +38,15 @@ Creates a sub-graph that evaluates each item in an array, returning the first it
 ### How to Use It
 
 1. Drag the Array Find node into your graph.
-2. Connect your array to the "array" input.
-3. Double-click the node to open and edit the inner graph.
-4. In the inner graph, build your condition using the special "value" input.
+2. Connect your array to the "array" input. In this example the input is a Geometric Series which outputs an array `[16, 24, 36, 54, 81, 122]`.
+3. Click on the Subgraph Explorer button on the node to open and edit the inner graph.
+4. In the inner graph, build your condition using the special "value" input. In this case a Compare node to check if the "value" is less than `50`.
 5. Connect your condition's result to the "matches" input on the Output node.
-6. Return to the main graph, where you can use the matched value, index, and found outputs.
+6. Return to the main graph, where you can use the matched value, index, and found outputs. It outputs the first value that matches the condition. In this case the output is `16`.
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-05 at 19.17.41@2x.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-05 at 19.17.55@2x.png" alt=""><figcaption><p>Subgraph explorer</p></figcaption></figure>
 
 ### Tips
 
@@ -52,9 +56,9 @@ Creates a sub-graph that evaluates each item in an array, returning the first it
 
 ### See Also
 
-* **Array Filter**: Similar to Array Find, but returns all matching items instead of just the first.
-* **Find First Match**: For simple comparison-based searching (greater than, less than).
-* **Linear Search**: For exact-match searching.
+* [**Array Filter**](array-filter.md): Similar to Array Find, but returns all matching items instead of just the first.
+* [**Find First Match**](../search/find-first-match.md): For simple comparison-based searching (greater than, less than).
+* [**Linear Search**](../search/linear-search.md): For exact-match searching.
 
 ### Use Cases
 
