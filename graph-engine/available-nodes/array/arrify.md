@@ -24,6 +24,8 @@ Takes any input value and ensures it is converted into an array format. It accep
 2. Connect any value or multiple values to the "items" input.
 3. The node will output an array containing all input values.
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 11.40.05@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Tips
 
 * This node is particularly useful when you need to standardize varied data formats into a consistent array structure.
@@ -31,8 +33,8 @@ Takes any input value and ensures it is converted into an array format. It accep
 
 ### See Also
 
-* **Array flatten**: For flattening nested arrays into a single level.
-* **Concat**: For joining multiple arrays together end-to-end.
+* [**Array flatten**](flatten.md): For flattening nested arrays into a single level.
+* [**Concat**](concat.md): For joining multiple arrays together end-to-end.
 
 ### Use Cases
 
