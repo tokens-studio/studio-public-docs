@@ -23,9 +23,11 @@ Adds a single item into a list at a specific position. Unlike push which adds to
 ### How to Use It
 
 1. Drag the Inject Item node into your graph.
-2. Connect your list (like `[Red, Blue]`) to the "array" input.
-3. Connect the item to insert (like `Green`) to the "item" input.
+2. Connect your list (like `[16, 24]`) to the "array" input.
+3. Connect the item to insert (like `15`) to the "item" input.
 4. Set the "index" value (e.g., 1 to insert between the first and second items).
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 13.23.12@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -34,8 +36,8 @@ Adds a single item into a list at a specific position. Unlike push which adds to
 
 ### See Also
 
-* **Array Push**: For adding items to the end of an array.
-* **Replace**: For replacing existing items rather than inserting new ones.
+* [**Array Push**](push.md): For adding items to the end of an array.
+* [**Replace**](../string/replace.md): For replacing existing items rather than inserting new ones.
 
 ### Use Cases
 

@@ -26,6 +26,8 @@ Extracts a single value from a list at a specified position (index). It allows y
 3. Set the "index" value (default is 0, which returns the first item).
 4. The output will be the value at that position (e.g., with index 1, the output would be "Green").
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 13.10.56@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Tips
 
 * Array indexes start at 0, so the first item is at index 0, the second at index 1, etc.

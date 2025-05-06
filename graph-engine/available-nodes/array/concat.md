@@ -26,6 +26,8 @@ Combines two lists into a single list by joining them end-to-end. This is perfec
 3. Connect your second list (like `[Green, Yellow]`) to the "b" input.
 4. Run the graph—your output will be `[Red, Blue, Green, Yellow]`.
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 11.40.05@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Tips
 
 * Both lists must be of the same type (e.g., both colors or both numbers).
@@ -33,8 +35,8 @@ Combines two lists into a single list by joining them end-to-end. This is perfec
 
 ### See Also
 
-* **Array Push**: For adding just a single item to a list.
-* **Array Remove**: For removing items from a list.
+* [**Array Push**](push.md): For adding just a single item to a list.
+* [**Array Remove**](remove.md): For removing items from a list.
 
 ### Use Cases
 

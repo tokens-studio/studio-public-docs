@@ -24,7 +24,7 @@ Takes any input value and ensures it is converted into an array format. It accep
 2. Connect any value or multiple values to the "items" input.
 3. The node will output an array containing all input values.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 11.40.05@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 11.40.05@2x (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 

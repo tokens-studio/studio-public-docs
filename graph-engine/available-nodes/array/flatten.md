@@ -24,6 +24,8 @@ Flattens an array of arrays into a single level array, combining all nested elem
 2. Connect a nested list (like `[[1, 2], [3, 4]]`) to the "array" input.
 3. The node will output a single flattened list (like `[1, 2, 3, 4]`).
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 13.04.18@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Tips
 
 * This node only flattens one level deep, not recursively through all nested arrays.
@@ -31,8 +33,8 @@ Flattens an array of arrays into a single level array, combining all nested elem
 
 ### See Also
 
-* **Arrify**: For converting any value into an array format.
-* **Concat**: For joining multiple arrays together end-to-end.
+* [**Arrify**](arrify.md): For converting any value into an array format.
+* [**Concat**](concat.md): For joining multiple arrays together end-to-end.
 
 ### Use Cases
 
