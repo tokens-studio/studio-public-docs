@@ -1,4 +1,4 @@
-# Remove
+# Remove Item
 
 ### What It Does
 
@@ -18,6 +18,8 @@ Removes a single item from a list at a specific position. It returns both the mo
 | array | The list with the item removed | List |
 | item  | The item that was removed      | Any  |
 
+![Remove Item Example](<../../../.gitbook/assets/Screenshot 2025-04-17 at 6.29.30 PM.png>)
+
 ### How to Use It
 
 1. Drag the Remove Item node into your graph.
@@ -25,7 +27,7 @@ Removes a single item from a list at a specific position. It returns both the mo
 3. Connect a number (like `1`) to the "index" input to specify which position to remove.
 4. Run the graph—your "array" output will be `[Red, Green]` and your "item" output will be `Blue`.
 
-![Remove Item Example](<../../../.gitbook/assets/Screenshot 2025-04-17 at 6.29.30 PM.png>)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-07 at 18.49.31@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -34,8 +36,8 @@ Removes a single item from a list at a specific position. It returns both the mo
 
 ### See Also
 
-* **Array Push**: For adding an item to a list.
-* **Array Filter**: For removing multiple items based on conditions.
+* [**Array Push**](push.md): For adding an item to a list.
+* [**Array Filter**](filter.md): For removing multiple items based on conditions.
 
 ### Use Cases
 

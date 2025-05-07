@@ -1,4 +1,4 @@
-# Push
+# Array Push
 
 ### What It Does
 
@@ -17,14 +17,16 @@ Adds a single item to the end of a list and gives you the updated list. It's per
 | ----- | -------------------------------- | ---- |
 | value | The new list with the item added | List |
 
+![Array Push Example](<../../../.gitbook/assets/Screenshot 2025-04-17 at 6.21.43 PM.png>)
+
 ### How to Use It
 
 1. Drag the Array Push into the editor.
-2. Connect a list (like `[Red, Blue]`) to the "array" input.
-3. Connect a single item (like `Green`) to the "item" input.
-4. Run the graph—your output will be `[Red, Blue, Green]`.
+2. Connect a list (like `[Red, Blue, Green]`) to the "array" input.
+3. Connect a single item (like `Purple`) to the "item" input.
+4. Run the graph—your output will be `[Red, Blue, Green, Purple]`.
 
-![Array Push Example](<../../../.gitbook/assets/Screenshot 2025-04-17 at 6.21.43 PM.png>)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 14.06.43@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -33,8 +35,8 @@ Adds a single item to the end of a list and gives you the updated list. It's per
 
 ### See Also
 
-* **Array Concat**: For combining two lists.
-* **Array Remove**: For taking items out of a list.
+* [**Array Concat**](concat.md): For combining two lists.
+* [**Array Remove**](remove.md): For taking items out of a list.
 
 ### Use Cases
 

@@ -17,6 +17,8 @@ Transforms each item in a list by applying the same operations to every element.
 | ----- | --------------------------------------------- | ---- |
 | value | The resulting list after processing each item | List |
 
+![Array Map Example](<../../../.gitbook/assets/Screenshot 2025-04-17 at 6.39.37 PM.png>)
+
 ### Inner Graph Special Inputs
 
 | Name   | Description                            | Type   |
@@ -31,16 +33,21 @@ Transforms each item in a list by applying the same operations to every element.
 | ----- | ---------------------------------------------------- | ---- |
 | value | The transformed value to include in the result array | Any  |
 
-![Array Map Example](<../../../.gitbook/assets/Screenshot 2025-04-17 at 6.39.37 PM.png>)
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-07 at 19.54.05@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### How to Use It
 
 1. Drag the Array Map node into your graph.
-2. Connect your list (like `[10, 20, 30]`) to the "array" input.
-3. Double-click the node to open the inner graph editor.
+2. Connect your list (like `[2, 4, 6, 8, 10]`) to the "array" input.
+3. Click on the 'Subgraph Explorer' the node to open the inner graph editor.
 4. Inside the inner graph, build your transformation logic using the "value" input.
-5. Connect your transformed result to the "value" output on the Output node.
-6. Return to the main graph, where you can use the transformed array output.
+5. In this example we connect the "value" to a "Multiply" node and multiply by 100.
+6. Connect your transformed result to the "value" output on the Output node.
+7. Return to the main graph, right click on the "Array Map" and click on "Force Execute" to ensure the inner graph is run on each item in the array. The output will be an array with the operation done on each item in the array.&#x20;
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-07 at 20.00.10@2x.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-07 at 20.00.41@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -51,9 +58,8 @@ Transforms each item in a list by applying the same operations to every element.
 
 ### See Also
 
-* **Array Filter**: For selecting only specific items from a list rather than transforming all of them.
-* **Array Find**: For finding a single item in an array based on custom criteria.
-* **Array Subgraph**: For more complex list processing operations that need nested logic.
+* [**Array Filter**](filter.md): For selecting only specific items from a list rather than transforming all of them.
+* [**Array Find**](find.md): For finding a single item in an array based on custom criteria.
 
 ### Use Cases
 

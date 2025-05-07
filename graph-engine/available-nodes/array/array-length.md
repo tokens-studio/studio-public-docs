@@ -24,6 +24,8 @@ Counts how many items are in a list and returns that number. It's perfect for de
 2. Connect your list (like `[Red, Green, Blue]`) to the "array" input.
 3. The output will be the number of items in the list (e.g., 3).
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 13.45.37@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Tips
 
 * An empty array will return 0.
@@ -31,8 +33,7 @@ Counts how many items are in a list and returns that number. It's perfect for de
 
 ### See Also
 
-* **Count**: For counting specific values in a list.
-* **Index Array**: For accessing specific items in a list by their position.
+* [**Index Array**](index-array.md): For accessing specific items in a list by their position.
 
 ### Use Cases
 

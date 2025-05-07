@@ -25,7 +25,9 @@ Substitutes an item at a specific position in a list with a new item. The origin
 1. Drag the Replace Item node into your graph.
 2. Connect your list (like `[Red, Green, Blue]`) to the "array" input.
 3. Connect the replacement item (like `Yellow`) to the "item" input.
-4. Set the "index" value (e.g., 1 to replace the second item).
+4. Set the "index" value (e.g., 2 to replace the third item).
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-07 at 18.53.47@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -34,8 +36,8 @@ Substitutes an item at a specific position in a list with a new item. The origin
 
 ### See Also
 
-* **Inject Item**: For inserting new items without replacing existing ones.
-* **Array Remove**: For removing items from a list without replacements.
+* [**Inject Item**](inject-item.md): For inserting new items without replacing existing ones.
+* [**Remove Item**](remove.md): For removing items from a list without replacements.
 
 ### Use Cases
 

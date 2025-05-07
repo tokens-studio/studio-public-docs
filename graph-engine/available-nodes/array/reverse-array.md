@@ -24,6 +24,8 @@ Flips the order of items in a list, making the last element first and the first 
 2. Connect your list (like `[Red, Green, Blue]`) to the "array" input.
 3. The output will be the list in reverse order (e.g., `[Blue, Green, Red]`).
 
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-07 at 18.58.34@2x.png" alt=""><figcaption></figcaption></figure>
+
 ### Tips
 
 * This node preserves the original list and outputs a new reversed copy.
@@ -31,8 +33,8 @@ Flips the order of items in a list, making the last element first and the first 
 
 ### See Also
 
-* **Sort**: For arranging items based on specific criteria rather than simply reversing them.
-* **Array Filter**: For selectively including or excluding items from a list.
+* [**Sort Array**](sort-array.md): For arranging items based on specific criteria rather than simply reversing them.
+* [**Array Filter**](array-filter.md): For selectively including or excluding items from a list.
 
 ### Use Cases
 

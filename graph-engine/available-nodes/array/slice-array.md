@@ -23,9 +23,11 @@ Extracts a portion of a list to create a new list, based on start and end positi
 ### How to Use It
 
 1. Drag the Slice Array node into your graph.
-2. Connect your list (like `[Red, Orange, Yellow, Green, Blue]`) to the "array" input.
+2. Connect your list (like `[Red, Blue, Green, Orange, Purple]`) to the "array" input.
 3. Set the "start" value (e.g., 1) and "end" value (e.g., 4).
-4. The output will be the specified portion of the list (e.g., `[Orange, Yellow, Green]`).
+4. The output will be the specified portion of the list (e.g., `[Blue, Green, Orange]`).
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-07 at 19.12.55@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -34,8 +36,8 @@ Extracts a portion of a list to create a new list, based on start and end positi
 
 ### See Also
 
-* **Index Array**: For extracting a single item from a list.
-* **Array Filter**: For selecting items based on a condition rather than position.
+* [**Index Array**](index-array.md): For extracting a single item from a list.
+* [**Array Filter**](filter.md): For selecting items based on a condition rather than position.
 
 ### Use Cases
 

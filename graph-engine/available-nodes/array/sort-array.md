@@ -23,9 +23,11 @@ Arranges items in a list in a specific order, either ascending or descending. It
 ### How to Use It
 
 1. Drag the Sort Array node into your graph.
-2. Connect your list (like `[{name: "Blue", value: 5}, {name: "Red", value: 2}]`) to the "array" input.
+2. Connect your list (like `[16, 18, 21, 24, 28, 32]`) to the "array" input.
 3. Set "sortBy" to the property to sort on (e.g., "value").
 4. Optionally change "order" to "desc" for descending order (default is "asc").
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-07 at 19.50.45@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Tips
 
@@ -34,8 +36,8 @@ Arranges items in a list in a specific order, either ascending or descending. It
 
 ### See Also
 
-* **Reverse Array**: For simply flipping the order of items without sorting.
-* **Array Filter**: For selecting items rather than reordering them.
+* [**Reverse Array**](reverse-array.md): For simply flipping the order of items without sorting.
+* [**Array Filter**](filter.md): For selecting items rather than reordering them.
 
 ### Use Cases
 
