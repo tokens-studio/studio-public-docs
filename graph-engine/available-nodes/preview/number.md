@@ -35,8 +35,8 @@ The Number node displays numeric values in a formatted way. It provides a visual
 
 ### See Also
 
-* **Evaluate Math**: For calculating mathematical expressions.
-* **Round**: For rounding numbers to specific precisions.
+* [**Math Expression**](math-expression.md): For calculating mathematical expressions.
+* [**Round**](../math/round.md): For rounding numbers to specific precisions.
 
 ### Use Cases
 

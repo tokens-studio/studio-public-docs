@@ -34,8 +34,8 @@ The Color Swatch node displays a single color in a swatch format. It provides a 
 
 ### See Also
 
-* **Color Compare**: For comparing two colors side-by-side.
-* **Color Scale**: For visualizing a sequence of colors.
+* [**Color Compare**](color-compare.md): For comparing two colors side-by-side.
+* [**Color Scale**](color-scale.md): For visualizing a sequence of colors.
 
 ### Use Cases
 

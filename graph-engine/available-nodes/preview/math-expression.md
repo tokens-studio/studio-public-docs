@@ -35,8 +35,7 @@ The Math Expression node visualizes a mathematical expression as a graph. It all
 
 ### See Also
 
-* **Evaluate Math**: For calculating results of mathematical expressions.
-* **PreviewCurve**: For visualizing specific curve types.
+* [**Preview Curve**](preview-curve.md): For visualizing specific curve types.
 
 ### Use Cases
 

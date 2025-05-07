@@ -35,8 +35,8 @@ The Color Compare node displays two colors side-by-side for visual comparison. I
 
 ### See Also
 
-* **Color Swatch**: For previewing a single color.
-* **Color Scale**: For visualizing a range of colors.
+* [**Color Swatch**](color-swatch.md): For previewing a single color.
+* [**Color Scale**](color-scale.md): For visualizing a range of colors.
 
 ### Use Cases
 

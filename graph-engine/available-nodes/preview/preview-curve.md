@@ -34,8 +34,8 @@ The PreviewCurve node visualizes a curve or function as a graph. It helps you se
 
 ### See Also
 
-* **Bezier Curve**: For creating custom curves to preview.
-* **Preset Bezier Curves**: For selecting from common curve types.
+* [**Bezier Curve**](../curves/bezier-curve.md): For creating custom curves to preview.
+* [**Preset Bezier Curves**](../curves/preset-bezier-curves.md): For selecting from common curve types.
 
 ### Use Cases
 

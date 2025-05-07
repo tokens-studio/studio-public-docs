@@ -34,8 +34,8 @@ The Color Scale node visualizes a sequence of colors as a gradient or palette. I
 
 ### See Also
 
-* **Color Swatch**: For previewing a single color.
-* **Color Compare**: For comparing two specific colors.
+* [**Color Swatch**](color-swatch.md): For previewing a single color.
+* [**Color Compare**](color-compare.md): For comparing two specific colors.
 
 ### Use Cases
 
