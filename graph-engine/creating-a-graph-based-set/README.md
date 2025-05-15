@@ -1,4 +1,4 @@
-# Graph engine in Studio
+# Creating a Graph Based Set
 
 In Studio, you can create different types of sets to manage your design tokens effectively. This guide walks you through the process of creating a **graph-based set**.
 
@@ -11,7 +11,7 @@ In Studio, you can create different types of sets to manage your design tokens e
 * Open Studio.
 * In the **left panel**, click on the **Tokens module**.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-28 at 19.53.05@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-28 at 19.53.05@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -25,8 +25,8 @@ In Studio, you can create different types of sets to manage your design tokens e
 ### **Choose the Set Type**
 
 * A dialog will appear, prompting you to choose between:
-  * [**Static Set** ](../platform/features/tokens/token-sets.md#static-sets)(manually managed tokens).
-  * [**Graph-Based Set**](../platform/features/tokens/token-sets.md#graph-based-sets) (dynamic token relationships using graph logic).
+  * [**Static Set** ](../../platform/features/tokens/token-sets.md#static-sets)(manually managed tokens).
+  * [**Graph-Based Set**](../../platform/features/tokens/token-sets.md#graph-based-sets) (dynamic token relationships using graph logic).
 * Select **Graph-Based Sets.**
 {% endstep %}
 
@@ -42,7 +42,7 @@ In Studio, you can create different types of sets to manage your design tokens e
 
 * Click **Create**, and your graph-based set will be generated.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-28 at 20.07.05.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-28 at 20.07.05.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

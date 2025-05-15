@@ -4,7 +4,7 @@ Overview
 
 The Graph Engine UI provides an intuitive interface for creating, managing, and visualizing nodes and their connections. This guide walks you through the core components of the interface to help you navigate and utilize its features efficiently.&#x20;
 
-[Read more about creating Graph Based sets.](creating-a-graph-based-set.md)
+[Read more about creating Graph Based sets.](creating-a-graph-based-set/)
 
 ### **Main Interface Sections**
 

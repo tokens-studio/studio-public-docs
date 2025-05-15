@@ -41,7 +41,8 @@
 
 * [Introduction](graph-engine/introduction.md)
 * [Editor](graph-engine/editor.md)
-* [Creating a Graph Based Set](graph-engine/creating-a-graph-based-set.md)
+* [Creating a Graph Based Set](graph-engine/creating-a-graph-based-set/README.md)
+  * [Generating a Token Set](graph-engine/creating-a-graph-based-set/generating-a-token-set.md)
 * [Nodes](graph-engine/nodes.md)
 * [Types](graph-engine/types.md)
 * [Editing](graph-engine/editing.md)

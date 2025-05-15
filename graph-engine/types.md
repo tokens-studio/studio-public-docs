@@ -1,53 +1,60 @@
 # Types
 
-### Why Strong Typing Matters
+Every node port in the Graph Engine, whether it's an input or output, is **strongly typed**. This means that each port is designed to work with only one specific kind of data.
 
-Every port in the Graph Engine is **strongly typed**, meaning it only accepts specific data types (e.g., a "number" port won’t take a "color"). This keeps your graphs reliable by:
+### What does "Strongly Typed" mean?
 
-* Catching mistakes early (e.g., no connecting a string to a math node).
-* Ensuring predictable outputs for design tokens or code.
-* Making complex systems easier to debug and scale.
+Think of a port like a specialized container - a `number` input can only accept numerical values (like 12, 42.5, 0.432, etc.), while a `color` port is specifically designed for color values (hex, rgba, hsl, p3, etc.). Trying to connect incompatible types, such as sending a color to a number input, won't work.
 
-### What Are Types?
+#### Benefits of Strong Typing
 
-Types define what kind of data a port handles—like "number" for 42, "color" for #FF5733, or "array" for a list. They’re the rules that keep your graph running smoothly.
+This approach keeps your graphs reliable by:
 
-#### How to Identify the Type of an Input or Output
+* **Preventing common mistakes** - The Graph Engine stops you from making connections that don't make sense (like trying to perform math operations on text)
+* **Ensuring consistent outputs** - Your design tokens and generated code remain predictable
+* **Simplifying troubleshooting** - When something goes wrong, it's easier to find where the problem is
 
-Ports use visual cues:
+## Supported Types You'll Encounter
 
-* **Colors**: Show the type (see legend from the Top Action Bar > Layout > Legend ):
-  * Red: Color
-  * Magenta: Curve
-  * Green: String
-  * Gold: Boolean
-  * Blue: Number
-  * Teal: Object
-  * Purple: Any
-*   **Shapes**:
+<table><thead><tr><th width="136.296875">Name</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td>Number</td><td>Integers or decimals</td><td>5, 3.14, 0.025</td></tr><tr><td>String</td><td>Text strings, special characters or text with spaces.</td><td>"bold", "#FF5733"</td></tr><tr><td>Color</td><td>Color objects such as RGB, HSL etc. formats.</td><td>rgb(76, 190, 66), hsl(67, 96, 65)</td></tr><tr><td>Array</td><td>Lists of values (contains multiple items of the same type)</td><td>[10, 20, 30], ["#263724", "#ED8DF0"]</td></tr><tr><td>Object</td><td>Collections of related values with names in the format of "key" : "value".</td><td>{ "foreground": "#177BF7"}</td></tr><tr><td>Boolean</td><td>True or False. Useful for decisions to your logic with the <a data-mention href="available-nodes/logic/">logic</a> node.</td><td>true, false</td></tr><tr><td>Curve</td><td>A </td><td></td></tr><tr><td>Token</td><td>A design token that meets the DTCG format.</td><td></td></tr><tr><td>Token Set</td><td>A special type for design token collections</td><td></td></tr><tr><td>Any</td><td>An agnostic type value that you probably don't want to use.</td><td></td></tr></tbody></table>
 
-    * **Dot**: Single value (e.g., one color).
-    * **Square**: Array (e.g., list of colors). Hovering over a port shows its type label (e.g., "color") if "Port Types" is enabled in settings.
+## How to Identify Port Types in the Graph Engine
 
+Ports use both colors and shapes to indicate what type of data they accept or output:
 
-* Type  Labels:
-  * Enable the labels for Port to easily identify the type. This can be done from Top Action Bar > Graph Setting > Show Inline Types.
+### Color Coding
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+Each type has a distinct color associated with it:
 
-### Supported Types
+| Color    | Data Type |
+| -------- | --------- |
+| Blue     | Number    |
+| Green    | String    |
+| Red      | Color     |
+| Orange   | Boolean   |
+|  Magenta | Curve     |
+| Teal     | Object    |
+| Yellow   | Array     |
+| Purple   | Any       |
 
-Here’s what you’ll work with:
+### **Shape Indicators**
 
-* **Number**: Integers or decimals (e.g., 5, 3.14).
-* **String**: Text (e.g., "bold", "#FF5733").
-* **Color**: Color objects (e.g., RGB, HSL formats).
-* **Array**: Lists (e.g., \[10, 20, 30], \["#FF5733", "#33FF57"]).
-* **Object**: Key-value pairs (e.g., { "primary": "#FF5733" }).
-* **Boolean**: True/false.
-* **Token Set**: A special type for design token collections (e.g., a JSON-like structure).
+Ports also use shapes to indicate whether they handle single values or collections:
 
-### Type Conversion
+* **Circle/Dot** (●): Accepts or outputs a single value (e.g., one color, one number)
+* **Square** (■): Accepts or outputs an array/list of values (e.g., a list of colors)
+
+{% hint style="info" %}
+Hovering over a port shows its type label (e.g., "color") if "Port Types" is enabled in settings.
+{% endhint %}
+
+## Displaying Labels for Port Types
+
+You can display the labels for all ports to easily identify the type. This can be done from clicking the "Settings" icon on the Top Bar and enabling Show Inline Types.
+
+<figure><img src="../.gitbook/assets/2025-05-08 at 12.52.19 - Screengrab@2x.png" alt=""><figcaption></figcaption></figure>
+
+## Converting Types
 
 Mismatched types block connections, but conversion nodes fix this:
 
