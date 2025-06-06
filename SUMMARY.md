@@ -254,6 +254,8 @@
 
 ***
 
+* [Example Graphs](example-graphs/README.md)
+  * [Base Font Size Scale](example-graphs/base-font-size-scale.md)
 * [Node Examples](node-examples/README.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
