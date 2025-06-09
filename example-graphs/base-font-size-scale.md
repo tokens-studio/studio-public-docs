@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Base Font Size Scale
 
 Creates a systematic font size token system using harmonic progression. This multi-step workflow generates mathematically-related font sizes that maintain visual harmony, then converts them into properly named design tokens with hierarchical organization.
