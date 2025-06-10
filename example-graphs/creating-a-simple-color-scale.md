@@ -163,7 +163,7 @@ To create design tokens and name the colors in our color scale we will use [Arra
 <figure><img src="../.gitbook/assets/Screenshot 2025-06-06 at 9.35.58 PM.png" alt=""><figcaption></figcaption></figure>
 
 * To view the design tokens in table format, click on the "Table" button next to the "Save" button.
-* We token set with colors generated from a single color.
+* We have a token set with colors generated from a single color which can be used as a reference in other sets. We can also now connect to the Tokens Studio for Figma plugin or the Companion by Tokens Studio plugin and use these design tokens in Figma.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-06-06 at 5.06.59 PM.png" alt=""><figcaption></figcaption></figure>
 
