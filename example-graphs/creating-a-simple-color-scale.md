@@ -1,10 +1,10 @@
 # Creating a simple color scale
 
-What It Does
+### What It Does
 
-Creates a systematic color palette using algorithmic color scaling. This multi-step workflow generates a complete color scale from a single base color, then converts each shade into properly named design tokens with hierarchical organization.
+Creates a systematic color palette using algorithmic color scaling. This multi-step workflow generates a complete, systematic color scale using a algorithm. Starting with a base color, design tokens are created, organized, and named through it’s hierarchy.
 
-#### Complete Workflow
+### Complete Workflow
 
 This example demonstrates a 6-step process that transforms a single base color into a complete token system:
 
@@ -40,7 +40,7 @@ Once we have the base color as the output from our Constant node we want to gene
 
 * Drag a Scale Colors node into your graph.
 * Connect the output from your Constant node to the input named color in the Scale colors node.
-* You can adjust the number of steps in the scale, in this example we are creating a scale with  11 steps. This is done by setting the setsUp to 5 and stepsDown to 5, so we have a scale with 5 colors above and below the base color.
+* You can adjust the number of steps in the scale, in this example we are creating a scale with  11 steps. This is done by setting the `stepsUp` to "5" and `stepsDown` to "5", so we have a scale with 5 colors above and below the base color.
 * The output will be a list (array) of 11 colors from lightest to darkest using your base color.\
 
 
@@ -52,7 +52,7 @@ We now have a list of colors but these colors are not yet in the design token fo
 {% step %}
 ### Token Creation (Array Map Subgraph)
 
-To create design tokens and name the colors in our color scale we will use [Array Map](../graph-engine/available-nodes/array/array-map.md) node. Array map is an easy way to change or do certain actions on each item in our list. An array map will take each item in the list, do the changes that we specify inside the array map (subgraph) on each item of the list and give us a new list as an output.&#x20;
+To create design tokens from our color scale, we use the [Array Map](../graph-engine/available-nodes/array/array-map.md) node. The Array Map node allows you to perform an action on each item in a list. An Array Map node has an internal graph called a subgraph that operates on each item.
 
 * Drag an Array Map node into your graph.
 * Connect the output of your Scale colors node to the input of the Array Map node.
@@ -94,11 +94,11 @@ To create design tokens and name the colors in our color scale we will use [Arra
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-06-09 at 20.20.35@2x.png" alt=""><figcaption></figcaption></figure>
 
-* On the original graph right-click the Array Map node and click on "Force-Execute" to ensure that all the nodes inside the Array Map are executed on each item of our list from Scale Colors node.
+* On the original graph right-click the Array Map node and click on "Force Execution" to ensure that all the nodes inside the Array Map are executed on each item of our list from Scale Colors node.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-06-09 at 20.22.38@2x.png" alt=""><figcaption></figcaption></figure>
 
-* The output of the Array Map will have a lsit of design tokens with the naming convention that we have created. Each color from the Scale colors node has been transformed to a design token with the correct naming.&#x20;
+* The output of the Array Map will have a list of design tokens with the naming convention that we have created. Each color from the Scale colors node has been transformed to a design token with the correct naming.&#x20;
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-06-09 at 20.25.47@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
