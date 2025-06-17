@@ -256,7 +256,10 @@
 
 * [Example Graphs](example-graphs/README.md)
   * [Creating a simple color scale](example-graphs/creating-a-simple-color-scale.md)
-  * [Creating a Font Size Scale](example-graphs/creating-a-font-size-scale.md)
+  * [Creating a Font Size Scale](example-graphs/base-font-size-scale.md)
+  * [Creating a Spacing Scale](example-graphs/creating-a-spacing-scale.md)
+  * [Creating a Sizing Scale](example-graphs/creating-a-sizing-scale.md)
+  * [Creating Multiple Color Scales](example-graphs/creating-multiple-color-scales.md)
 * [Node Examples](node-examples/README.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
