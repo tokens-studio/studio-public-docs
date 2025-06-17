@@ -256,7 +256,7 @@
 
 * [Example Graphs](example-graphs/README.md)
   * [Creating a simple color scale](example-graphs/creating-a-simple-color-scale.md)
-  * [Base Font Size Scale](example-graphs/base-font-size-scale.md)
+  * [Creating a Font Size Scale](example-graphs/creating-a-font-size-scale.md)
 * [Node Examples](node-examples/README.md)
   * [Math](node-examples/math/README.md)
     * [Absolute](node-examples/math/absolute.md)
