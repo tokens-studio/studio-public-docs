@@ -1,23 +1,19 @@
 # Import from Figma variables
 
-If you already have design tokens or variables in Figma, you can easily import them into Studio. Below is an example workflow using the Tokens Studio for Figma plugin.
-
-### Export from Figma
-
-
+If you already have design tokens or variables in Figma, you can easily import them into Studio.
 
 {% stepper %}
 {% step %}
-### Open Figma and Your Design File
+### Open Figma and your design file
 
 In Figma, ensure you have set up Figma Variables that you want to migrate.
 {% endstep %}
 
 {% step %}
-### Install/Launch the Tokens Studio for Figma Plugin
+### Launch the Tokens Studio for Figma Plugin
 
 1. Go to Plugins > Tokens Studio for Figma.
-2. In the plugin’s interface, open a "New empty file".
+2. In the plugin’s interface, click **New empty file**.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -25,45 +21,46 @@ In Figma, ensure you have set up Figma Variables that you want to migrate.
 {% step %}
 ### Import Figma Variables
 
-1. In the plugin, look for an Import Variables button.
-2. Choose whether to convert numbers to dimensions, use rem values, etc.
-3. Click Import.
+1. In the plugin, click the **Styles & Variables** dropdown and select **Import Variables.**
+2. Answer questions about how you want to format your token values. For example, you can choose whether to convert numbers to dimensions, use rem values, etc.
+3. Click **Import**.
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
 _Tip: You might see collections such as “foundation” or “light” and “dark” in Figma, which will become token sets groups and the modes will become token sets in Studio. The Figma collections will be mapped as Theme Groups and modes as Theme Options in Studio._
+{% endhint %}
 {% endstep %}
 
 {% step %}
-### Export to a Zip File
+### Export your design tokens
 
-1. In the bottom-left of the plugin, click Export file and folders.
-2. Choose Multi-file export and then Export.
-3. This will download a .zip file containing your tokens in JSON format.
+1. In the bottom-left of the plugin, click **Export file/folder**.
+2. Choose **Multiple files** and then **Export**.
+3. This will download a .zip file containing your tokens in JSON format. You can save this anywhere locally on your system.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Return to Studio
+### Upload Tokens to Studio
 
-1. Go to your Project Dashboard.
-2. Click Upload tokens or drag-and-drop the .zip file into the upload area.
+1. Return to the Tokens Studio app in your browser.
+2. Navigate to your Project Dashboard.
+3. Using the zip file downloaded above, click the **Upload tokens** or drag-and-drop the zip file into the upload area.
 
 <figure><img src="../.gitbook/assets/Import Tokens.gif" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
-### Review Your Imported Sets
+### Reviewing imported tokens and themes&#x20;
 
 1. Studio will parse the .zip file and create matching sets (e.g., foundation, light, dark).
 2. Verify that your sets and tokens appear correctly in the left-hand panel.
+3. Go to the Themes module on the left panel.
+4. Verify that your theme groups and theme options appear correctly.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-02-14 at 13.55.01@2x.png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
