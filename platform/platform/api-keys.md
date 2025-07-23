@@ -13,9 +13,9 @@ There are multiple ways to navigate to the **API Keys** page:
 #### 1. From the Project Dashboard
 
 1. Open your **Project Dashboard**.
-2. Click on **Find your API Key** to access the API Key management page.
+2. Click on **Create an API Key** to access the API Key management page.
 
-<figure><img src="../../.gitbook/assets/Find API Key.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Create API Key Light mode .png" alt=""><figcaption></figcaption></figure>
 
 #### 2. From the Left Panel
 
@@ -41,12 +41,18 @@ There are multiple ways to navigate to the **API Keys** page:
 To generate a new API Key:
 
 1. Navigate to the **API Keys** page.
-2. Click on **Create New Key** (located at the top of the page).
+2. Click on **Create New Token**&#x20;
 3. Enter a **name** for your API key.
-4. (Optional) Add a **description** for better identification.
-5. Click **Create**.
+4. Set the expiration period for the key.
+5. Set Scopes (discuss this)
 
 🚨 **Important:** Once created, the API key will only be shown **once**. Make sure to copy and store it securely.
+
+<figure><img src="../../.gitbook/assets/Create API Key Light mode  (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/API Keys page .png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Create new PAT .png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Create API Key.gif" alt=""><figcaption></figcaption></figure>
 
@@ -58,7 +64,7 @@ To generate a new API Key:
 * You can **delete** old keys when they are no longer needed.
 * For security, API keys **cannot be viewed again** after creation.
 
-<figure><img src="../../.gitbook/assets/Manage API Keys.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Peronsal Access Tokens.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
