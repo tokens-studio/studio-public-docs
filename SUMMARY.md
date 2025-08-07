@@ -1,37 +1,39 @@
 # Table of contents
 
-* [Why Studio?](README.md)
-* [Getting Started](getting-started.md)
-* [Setting up Studio](setting-up-studio/README.md)
-  * [Import from Tokens Studio for Figma](setting-up-studio/import-from-tokens-studio-for-figma.md)
-  * [Import from Figma variables](setting-up-studio/import-from-figma-variables.md)
+## Getting Started
+
+* [What is Studio](README.md)
+* [Creating an account](getting-started/getting-started.md)
+* [Setting up Studio](getting-started/setting-up-studio/README.md)
+  * [Import from Tokens Studio for Figma](getting-started/setting-up-studio/import-from-tokens-studio-for-figma.md)
+  * [Import from Figma variables](getting-started/setting-up-studio/import-from-figma-variables.md)
+
+***
+
 * [Connect Studio to Figma](connect-studio-to-figma/README.md)
-  * [Using Tokens Studio for Figma](connect-studio-to-figma/using-tokens-studio-for-figma.md)
   * [Using Companion by Tokens Studio](connect-studio-to-figma/using-companion-by-tokens-studio.md)
-* [Connect Studio to Code](connect-studio-to-code.md)
+  * [Using Tokens Studio for Figma](connect-studio-to-figma/using-tokens-studio-for-figma.md)
+* [Connect Studio to Code](connect-studio-to-code/README.md)
+  * [Tokens Studio CLI](connect-studio-to-code/tokens-studio-cli.md)
+  * [GraphQL](connect-studio-to-code/graphql.md)
+  * [Postman](connect-studio-to-code/postman.md)
 * [Getting ready for production](getting-ready-for-production.md)
 * [Connect](connect.md)
 * [Migrate to Studio](migrate-to-studio.md)
 
 ## Platform
 
-* [Features](platform/features/README.md)
-  * [Tokens](platform/features/tokens/README.md)
-    * [Token Sets](platform/features/tokens/token-sets.md)
-    * [Token flow](platform/features/tokens/token-flow.md)
-  * [Themes](platform/features/themes/README.md)
-    * [Theme Groups and Theme Options](platform/features/themes/theme-groups-and-theme-options.md)
-  * [Configuration](platform/features/configuration.md)
-  * [Releases](platform/features/releases/README.md)
-    * [Integrate Release to](platform/features/releases/integrate-release-to.md)
-* [Platform](platform/platform/README.md)
-  * [Accounts](platform/platform/accounts.md)
-  * [Organisation](platform/platform/organisation.md)
-  * [Project](platform/platform/project.md)
-  * [API keys](platform/platform/api-keys.md)
-  * [Inviting members](platform/platform/inviting-members.md)
+* [Tokens](platform/tokens/README.md)
+  * [Token Sets](platform/tokens/token-sets.md)
+  * [Token flow](platform/tokens/token-flow.md)
+* [Themes](platform/themes/README.md)
+  * [Theme Groups and Theme Options](platform/themes/theme-groups-and-theme-options.md)
+* [Releases](platform/releases/README.md)
+  * [Integrate Release to](platform/releases/integrate-release-to.md)
+* [Configuration](platform/configuration.md)
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
+* [Activity Log](platform/activity-log.md)
 
 ## STYLE DICTIONARY
 
@@ -271,6 +273,21 @@
     * [Cosine](node-examples/math/cosine.md)
     * [Count](node-examples/math/count.md)
     * [Multiply](node-examples/math/multiply.md)
+
+## Settings
+
+* [Organizations](settings/organisation/README.md)
+  * [Inviting members](settings/organisation/inviting-members.md)
+* [Projects](settings/project.md)
+* [API keys](settings/api-keys.md)
+* [Accounts](settings/accounts.md)
+
+## Guides
+
+* [Integrating with Github Actions](guides/integrating-with-github-actions.md)
+* [Integrating with NextJS](guides/integrating-with-nextjs.md)
+* [React Native & Expo](guides/react-native-and-expo.md)
+* [Azure](guides/azure.md)
 
 ## PLUGINS
 

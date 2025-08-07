@@ -1,5 +1,9 @@
 # Using Tokens Studio for Figma
 
+**Prerequisites**:
+
+* [api-keys.md](../settings/api-keys.md "mention")
+
 {% stepper %}
 {% step %}
 ### Open a Figma design file
@@ -13,7 +17,7 @@ This can be an empty file to ensure that your production designs are not affecte
 1. Go to Plugins > Tokens Studio for Figma.
 2. In the plugin’s interface, open a "New empty file".
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -23,7 +27,7 @@ This can be an empty file to ensure that your production designs are not affecte
 2. Click on Add new sync provider.
 3. Select Token Studio from the list.
 
-<figure><img src="../../.gitbook/assets/Add New Sync Provider.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Add New Sync Provider.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -33,9 +37,9 @@ This can be an empty file to ensure that your production designs are not affecte
 2. Click on Find your API key. You can also jump to the API keys page by using the keyboard shortcut cmd+k.
 3. The API key is linked to the user which means that it gives access to all the Organisations and Projects that a user is part of.&#x20;
 
-For more info read [Platform > API keys](../../platform/platform/api-keys.md).
+For more info read [Platform > API keys](../settings/api-keys.md).
 
-<figure><img src="../../.gitbook/assets/Find API Key.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Find API Key.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -49,7 +53,7 @@ For more info read [Platform > API keys](../../platform/platform/api-keys.md).
 
 IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 
-<figure><img src="../../.gitbook/assets/Create API Key.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Create API Key.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -62,7 +66,7 @@ IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 5. Choose the Project that you want to connect.
 6. You are now connected to Studio and your tokens should reflect in the plugin under the Tokens tab
 
-<figure><img src="../../.gitbook/assets/Api key to plugin.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Api key to plugin.gif" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}

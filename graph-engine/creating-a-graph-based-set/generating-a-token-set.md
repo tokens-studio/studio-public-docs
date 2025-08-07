@@ -1,5 +1,5 @@
 ---
-description: How to export a design token.
+description: How to export a design token set through the Graph Editor.
 ---
 
 # Generating a Token Set

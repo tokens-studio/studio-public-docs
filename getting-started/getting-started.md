@@ -1,4 +1,4 @@
-# Getting Started
+# Creating an account
 
 {% hint style="info" %}
 If you're already signed up you can skip ahead.
@@ -34,6 +34,6 @@ Once your email has been verified, you will be redirected to the Tokens Studio w
 
 In the onboarding email sent to you, there will be an activation code that can be used the "Redeem" field to get access to Studio.
 
-<figure><img src=".gitbook/assets/CleanShot 2025-02-12 at 13.42.50@2x.png" alt=""><figcaption><p>Tokens Studio Waitlist Page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-12 at 13.42.50@2x.png" alt=""><figcaption><p>Tokens Studio Waitlist Page</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}

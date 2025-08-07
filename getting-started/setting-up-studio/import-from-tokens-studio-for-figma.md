@@ -20,7 +20,7 @@ If you already have design tokens set up in Tokens Studio for Figma plugin, you 
 2. Choose **Multiple files** and then **Export**.
 3. This will download a .zip file containing your tokens in JSON format. You can save this anywhere locally on your system.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -30,7 +30,7 @@ If you already have design tokens set up in Tokens Studio for Figma plugin, you 
 2. Navigate to your Project Dashboard.
 3. Using the zip file downloaded above, click the **Upload tokens** or drag-and-drop the zip file into the upload area.
 
-<figure><img src="../.gitbook/assets/Import Tokens.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Import Tokens.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -41,7 +41,7 @@ If you already have design tokens set up in Tokens Studio for Figma plugin, you 
 3. Go to the Themes module on the left panel.
 4. Verify that your theme groups and theme options appear correctly.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-14 at 13.55.01@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-14 at 13.55.01@2x.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}
@@ -49,7 +49,7 @@ If you already have design tokens set up in Tokens Studio for Figma plugin, you 
 {% step %}
 ### Organizing and Theming Your Tokens
 
-Studio supports theming through the concept of Theme Groups and Theme Options. This allows you to toggle between sets like light and dark, or any other variant (for more information on Themes check out [Features > Themes](../platform/features/themes/)).
+Studio supports theming through the concept of Theme Groups and Theme Options. This allows you to toggle between sets like light and dark, or any other variant (for more information on Themes check out [Features > Themes](../../platform/themes/)).
 
 The Figma collections will be created as Theme Groups and modes will be created as Theme Options.
 
@@ -62,7 +62,7 @@ The Figma collections will be created as Theme Groups and modes will be created 
    • At the bottom of the left-hand panel, you can select which theme is active (e.g., Default + Light or Default + Dark).\
    • This will update the token values displayed in the UI.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-14 at 13.55.12@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-02-14 at 13.55.12@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

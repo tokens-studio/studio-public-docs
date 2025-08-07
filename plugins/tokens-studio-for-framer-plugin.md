@@ -22,7 +22,7 @@
 ### Syncing Design Tokens from Studio
 
 * On launching the plugin, it will ask for the API key from Studio.
-* Follow the steps [here](../platform/platform/api-keys.md) to generate an API key on Studio.
+* Follow the steps [here](../settings/api-keys.md) to generate an API key on Studio.
 * Enter the API key in the required field to connect to Studio.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-04-07 at 18.01.09@2x.png" alt=""><figcaption></figcaption></figure>

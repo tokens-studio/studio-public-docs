@@ -2,6 +2,10 @@
 
 Companion by Tokens Studio is a Figma plugin which is meant purely for consumption of design tokens from Studio as variables in Figma.
 
+**Prerequisites**:
+
+* [api-keys.md](../settings/api-keys.md "mention")
+
 
 
 {% stepper %}
@@ -25,9 +29,9 @@ This can be a new empty file to ensure that your production design files are not
 2. Click on Find your API key. You can also jump to the API keys page by using the keyboard shortcut cmd+k.
 3. The API key is linked to the user which means that it gives access to all the Organisations and Projects that a user is part of.&#x20;
 
-For more info read [Platform > API keys](../../platform/platform/api-keys.md).
+For more info read [Platform > API keys](../settings/api-keys.md).
 
-<figure><img src="../../.gitbook/assets/Find API Key.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Find API Key.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -41,7 +45,7 @@ For more info read [Platform > API keys](../../platform/platform/api-keys.md).
 
 IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 
-<figure><img src="../../.gitbook/assets/Create API Key.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Create API Key.gif" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}
@@ -55,8 +59,8 @@ IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 4. Choose the Project that you want to connect.
 5. You are now connected to Studio and your tokens should reflect in the plugin.
 
-<figure><img src="../../.gitbook/assets/Api key to companion.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Api key to companion.gif" alt=""><figcaption></figcaption></figure>
 
-For more information on the features of Companion by Tokens Studio, see [Companion by Tokens Studio](../../plugins/companion-by-tokens-studio.md).
+For more information on the features of Companion by Tokens Studio, see [Companion by Tokens Studio](../plugins/companion-by-tokens-studio.md).
 {% endstep %}
 {% endstepper %}

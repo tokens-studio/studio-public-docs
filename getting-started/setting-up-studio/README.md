@@ -14,7 +14,7 @@ Once your account is set up and you've logged in successfully, you'll be asked t
 2. _(Optional)_ Upload an Icon for your organization.&#x20;
 3. Click **Create**.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Create new organization form.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Create new organization form.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -33,7 +33,7 @@ The next step is to create a project. You will be prompted to create a new proje
 
 Once your project is created, you’ll be taken to the **Project Dashboard**, where you can start adding or uploading tokens.
 
-<figure><img src="../.gitbook/assets/New.png" alt=""><figcaption><p>Selecting a template for starter tokens.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/New.png" alt=""><figcaption><p>Selecting a template for starter tokens.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -51,7 +51,7 @@ Using Figma variables? follow the steps in the section [Import from Figma variab
 4. Select the type of token set you want to create: Static set or [Graph based set](broken-reference).
 5. Click **create**.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

@@ -1,10 +1,15 @@
-# Accounts
+---
+description: >-
+  The Accounts Menu in Studio provides you with the tools to manage your
+  profile, API Keys for connecting Studio to design tools and plugins, and UI
+  theme preferences.
+---
 
-The **Accounts Menu** in Studio provides you with the tools to manage your profile, API Keys for connecting Studio to design tools and plugins, and UI theme preferences.
+# Accounts
 
 ## Where to find the Accounts Menu
 
-<figure><img src="../../.gitbook/assets/accountmenu.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/accountmenu.gif" alt=""><figcaption></figcaption></figure>
 
 Within Studio, you will see your _name_ and _email address_ in the **bottom-left corner of the UI**. Click to open a popup menu with the following options:
 
@@ -18,7 +23,7 @@ Within Studio, you will see your _name_ and _email address_ in the **bottom-left
 
 ## Editing Your Profile
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-02-21 at 13.24.53@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-21 at 13.24.53@2x.png" alt=""><figcaption></figcaption></figure>
 
 1. Click **Edit Profile** in the accounts menu.
 2. Modify your **name** or add a short **description**.
@@ -29,7 +34,7 @@ Within Studio, you will see your _name_ and _email address_ in the **bottom-left
 
 ## Managing API Keys
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-02-21 at 13.25.04@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-21 at 13.25.04@2x.png" alt=""><figcaption></figcaption></figure>
 
 Access the [**API Keys**](api-keys.md) page. Where you can:
 
@@ -51,7 +56,7 @@ Selecting **Share Feedback** will redirect you to the **Tokens Studio feedback p
 
 ## Changing the Theme
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-02-21 at 13.27.06.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-02-21 at 13.27.06.gif" alt=""><figcaption></figcaption></figure>
 
 You can toggle between Dark and Light Mode directly from the account menu to adjust their interface preferences. The selected value will be stored locally in your browser and persisted for future visits.
 
@@ -60,3 +65,9 @@ You can toggle between Dark and Light Mode directly from the account menu to adj
 ## Signing Out
 
 Click **Sign Out** to securely log out of Studio and your current session.
+
+***
+
+### Related
+
+* [api-keys.md](api-keys.md "mention")

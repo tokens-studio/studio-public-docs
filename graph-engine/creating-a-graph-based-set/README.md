@@ -25,8 +25,8 @@ In Studio, you can create different types of sets to manage your design tokens e
 ### **Choose the Set Type**
 
 * A dialog will appear, prompting you to choose between:
-  * [**Static Set** ](../../platform/features/tokens/token-sets.md#static-sets)(manually managed tokens).
-  * [**Graph-Based Set**](../../platform/features/tokens/token-sets.md#graph-based-sets) (dynamic token relationships using graph logic).
+  * [**Static Set** ](../../platform/tokens/token-sets.md#static-sets)(manually managed tokens).
+  * [**Graph-Based Set**](../../platform/tokens/token-sets.md#graph-based-sets) (dynamic token relationships using graph logic).
 * Select **Graph-Based Sets.**
 {% endstep %}
 

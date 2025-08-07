@@ -1,6 +1,8 @@
-# Inviting members
+---
+description: You can invite additional team members to your organization.
+---
 
-You can invite your team members to your organisation using the following steps.
+# Inviting members
 
 {% stepper %}
 {% step %}
