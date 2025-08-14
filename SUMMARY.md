@@ -284,6 +284,7 @@
 
 ## Guides
 
+* [Migrating from Tokens Studio for Figma Plugin to the Tokens Studio Platform](guides/migrating-from-tokens-studio-for-figma-plugin-to-the-tokens-studio-platform.md)
 * [Integrating with Github Actions](guides/integrating-with-github-actions.md)
 * [Integrating with NextJS](guides/integrating-with-nextjs.md)
 * [React Native & Expo](guides/react-native-and-expo.md)
