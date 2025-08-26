@@ -64,7 +64,7 @@ You can see the full instructions here - [#installing-the-cli](../connect-studio
 
 Once installed, you will need to configure the SDK to work with your account.
 
-In your terminal run `npx tokensstudio setup`
+In your terminal run `npx @tokens-studio/sdk setup`
 
 You will be asked to enter the API Token you created above and will have the ability to configure the organization you'd like to pull from. Once completed, there will be a `.tokensstudio.json` file created. Be sure to include this when you push your updates to Github.
 
@@ -85,7 +85,7 @@ In your package.json file, add a task to your `scripts` object named `tokens:syn
     ...,
     "scripts": {
         ...,
-        "tokens:sync": "npx tokensstudio pull"
+        "tokens:sync": "npx @tokens-studio/sdk pull"
     },
     ...
 }
