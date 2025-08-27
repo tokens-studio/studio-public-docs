@@ -72,11 +72,11 @@ Bun: `bun add @tokens-studio/sdk --dev`&#x20;
 
 ## Using the CLI
 
-Once installed, you can run commands using `npx @tokens-studio/sdk`&#x20;
+Once installed, you can run commands using `npx tokensstudio`&#x20;
 
 ### Available Commands
 
-You can run `npx @tokens-studio/sdk --help` to view all available commands from the CLI.
+You can run `npx tokensstudio --help` to view all available commands from the CLI.
 
 ```bash
 Tokens Studio CLI  2.0.2
@@ -110,7 +110,7 @@ Once installed, you will need to configure the CLI to use your Tokens Studio acc
 {% step %}
 ### In your terminal, run the setup command
 
-`npx @tokens-studio/sdk setup`
+`npx tokensstudio setup --host graphql.prod.tokens.studio`
 {% endstep %}
 
 {% step %}
@@ -172,7 +172,7 @@ In the `.tokensstudio.json` file, edit the **output** property value to be the l
 Use the `pull` command to download the tokens from Tokens Studio to your project.
 
 ```bash
-npx tokensstudio pull
+npx tokensstudio pull --host graphql.prod.tokens.studio
 ```
 
 {% code title="Results" %}
