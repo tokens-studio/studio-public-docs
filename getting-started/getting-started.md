@@ -1,39 +1,48 @@
 # Creating an account
 
-{% hint style="info" %}
-If you're already signed up you can skip ahead.
-{% endhint %}
-
 {% stepper %}
 {% step %}
-### Sign up
+### Navigate to Tokens Studio Website
 
-We're rolling out access to Studio. You can sign up with your email address at [https://app.tokens.studio/auth/register](https://app.tokens.studio/auth/register).
+* Visit the main website: [https://tokens.studio/](https://tokens.studio/)
+* Click on the Start Free Trial Button
 
-You can use either your email address, or use your Gmail account.
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-17 at 6.06.48 PM.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Confirming your account
+### Start Account Creation
 
-Once signed up, you'll receive an confirmation email in your inbox.&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-17 at 4.04.44 PM.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-&#x20;If you don’t see it in your inbox, please check your spam folder.
-{% endhint %}
-
-Look for an email from us with the subject line “_Please confirm your registration_”.&#x20;
-
-Click the **Confirm** button or copy and paste the confirmation link into your browser.
+* On the sign-in page, select **Sign up** if you do not have an account.​
+* You can choose to register using your Google account or an email address.
 {% endstep %}
 
 {% step %}
-### Activating your Account
+### Fill Registration form
 
-Once your email has been verified, you will be redirected to the Tokens Studio waitlist page.&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-17 at 4.05.06 PM.png" alt=""><figcaption></figcaption></figure>
 
-In the onboarding email sent to you, there will be an activation code that can be used the "Redeem" field to get access to Studio.
+* If signing up with email, enter your **first name**, **last name**, **email address**, and choose a **secure password** (containing uppercase, lowercase, number, special character, at least 8 characters).​
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-12 at 13.42.50@2x.png" alt=""><figcaption><p>Tokens Studio Waitlist Page</p></figcaption></figure>
+### Verify Email Address
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-17 at 4.06.39 PM (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+* After submitting the form, the page will prompt you to check your inbox for a verification link.​
+* Open your email inbox and find the confirmation email from Tokens Studio. Click the **Confirm** button or use the link provided.​
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-17 at 4.07.06 PM.png" alt=""><figcaption></figcaption></figure>
+
+* Once your email is verified, you’ll see a confirmation on the screen and be redirected to the login page with a “Success” message.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-17 at 4.07.25 PM.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
+
+{% hint style="info" %}
+If the email isn’t visible, check your spam folder.
+{% endhint %}
