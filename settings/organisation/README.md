@@ -10,7 +10,7 @@ This feature enables seamless collaboration across different teams and projects 
 
 ## Creating a New Organization
 
-<figure><img src="../../.gitbook/assets/Create Organisation.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Create Organisation (1).gif" alt=""><figcaption></figcaption></figure>
 
 If you need to create a new organization:
 
@@ -30,7 +30,7 @@ Click Switch Organization to navigate to the **Create a New Organization** form.
 {% step %}
 Click on Create Organization to open the create form.
 
-You'll be asked to provide a name for the organization, and an optional icon.
+You'll be asked to provide a name for the organization, and a website which is optional.
 {% endstep %}
 
 {% step %}
@@ -44,7 +44,7 @@ After creating the organization, you will be directed to set up your first proje
 
 ## Accessing Organizations
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-21 at 5.17.35 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Managing Organizations
 
@@ -55,7 +55,7 @@ After creating the organization, you will be directed to set up your first proje
 
 ## Organization Settings
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-02-18 at 09.24.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-21 at 5.21.01 PM.png" alt=""><figcaption></figcaption></figure>
 
 The **Organization Settings** page provides an overview of your organization and various management options:
 
@@ -65,11 +65,9 @@ The **Organization Settings** page provides an overview of your organization and
 * **Legal Documents -** Manage your organization legal documents and consent agreements
 * **Compliance Log** – View your organization activity log for compliance purposes
 
-
-
 ### Managing Users
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-21 at 5.21.21 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 The **Users** tab provides a list of active users and pending invitations.
 
@@ -80,21 +78,11 @@ The **Users** tab provides a list of active users and pending invitations.
   4. Click **Send Invite**.
 * You can also see **pending invitations** and resend them if needed.
 
-### Managing Groups
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-Groups allow you to assign policies to multiple users efficiently.
-
-* To **create a new group**:
-  1. Click **Create Group**.
-  2. Enter a **group name**.
-  3. Select an associated **policy**.
-  4. Click **Create**.
 
 ## Switching Between Organizations
 
-<figure><img src="../../.gitbook/assets/Switch Organisation.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Switch Organisation (1).gif" alt=""><figcaption></figcaption></figure>
 
 To switch between organizations:
 

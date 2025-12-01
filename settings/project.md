@@ -10,7 +10,7 @@ This guide walks you through viewing, creating, and managing projects within an 
 
 ## Creating a New Project
 
-<figure><img src="../.gitbook/assets/Create New Project.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Create new project.gif" alt=""><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}
@@ -64,7 +64,7 @@ Each project has a dedicated settings page, where you can:
 
 * **View project details** such as the project name and icon.
 * **Update the project icon** to better reflect the project identity.
-* **Delete the project** if it's no longer needed.
+* **Archive project means the project will no longer be visible, but can be restored later.**
 
 To open project settings:
 
@@ -73,4 +73,4 @@ To open project settings:
 
 Alternatively, access **Project Settings** from the side panel.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-17 at 17.54.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 6.09.50 PM.png" alt=""><figcaption></figcaption></figure>

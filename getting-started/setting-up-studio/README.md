@@ -6,52 +6,57 @@ If you haven't signed up or set up your account with Studio, you can read this g
 
 {% stepper %}
 {% step %}
-### Creating your Organization
+### Create Your Organization
 
-Once your account is set up and you've logged in successfully, you'll be asked to create an organization on your first sign in.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-21 at 6.37.47 PM.png" alt=""><figcaption></figcaption></figure>
 
-1. Give your organization a name.
-2. _(Optional)_ Upload an Icon for your organization.&#x20;
-3. Click **Create**.
+Upon first signing in, you are prompted to create an organization, which serves as the workspace for your team and projects.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Create new organization form.</p></figcaption></figure>
+* Enter your organization name and website, then click “Create”.​
+* You may choose to join an existing organization if invited by another member.
+* This step establishes your environment for all future collaboration and token management.
+
+***
 {% endstep %}
 
 {% step %}
-### Creating your first Project
+### Select Your Plan: Subscription vs. Free Trial
 
-The next step is to create a project. You will be prompted to create a new project.&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-21 at 6.38.13 PM.png" alt=""><figcaption></figcaption></figure>
 
-1. Name your project (e.g., “Test Design System” or “My Brand Tokens”). &#x20;
-2. (Optional) Choose an Icon for the project.&#x20;
+After organization setup, you must select a plan before you can continue.
 
-#### Start with a template (Optional)&#x20;
+* You are presented with two options: **Essential** and **Organization** plans, with both monthly and annual pricing options.​
+* A summary card displays your selection and the total due immediately.
 
-1. Tokens Studio offers starter templates for popular frameworks like Tailwind CSS, Radix UI, Chakra UI, and Open Color.&#x20;
-2. If you prefer a blank setup, leave the template option empty.&#x20;
-3. Click **Create**.&#x20;
+**Free Trial Route**:
 
-Once your project is created, you’ll be taken to the **Project Dashboard**, where you can start adding or uploading tokens.
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-21 at 6.38.57 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/New.png" alt=""><figcaption><p>Selecting a template for starter tokens.</p></figcaption></figure>
+* If you choose the free trial, you receive 30 days of full feature access on the selected plan at no immediate cost.​
+* You can explore all platform tools (including team invites and the Pro Figma plugin) and upgrade or subscribe at any time during or after the trial.
+
+**Subscription Route**:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-21 at 6.38.45 PM.png" alt=""><figcaption></figcaption></figure>
+
+* If you opt to subscribe directly, you proceed through add-ons and billing screens, with the total due fully displayed (no trial period).​
+* The Essential plan is ideal for individuals with one project and one editor seat, while the Organization plan suits larger teams managing multiple projects.​
+
+***
 {% endstep %}
 
 {% step %}
-### Setting up your tokens
+### 3. Create Your First Project
 
-{% hint style="info" %}
-Already set up your tokens in the  Tokens Studio for Figma plugin? You can follow the steps in section [Import from Tokens Studio for Figma](import-from-tokens-studio-for-figma.md).&#x20;
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-21 at 6.39.40 PM.png" alt=""><figcaption></figcaption></figure>
 
-Using Figma variables? follow the steps in the section [Import from Figma variables](import-from-figma-variables.md).
-{% endhint %}
+Once your organization and plan are confirmed, you are prompted to start your first project.\
+You will be prompted to create your first project right after organization setup.​
 
-1. Click on the button **Create your first token set.**
-2. Name your token set (e.g., "global", "core", "primitives").
-3. _(Optional)_ Give your token set a description.
-4. Select the type of token set you want to create: Static set or [Graph based set](/broken/pages/2pe0P6ddtiIcBnBmKmq4).
-5. Click **create**.
-
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+* Enter a project name and (optional) upload an icon.
+* Choose a starter template or clone an existing project.
+* Click “Create project & get started” to continue.
 {% endstep %}
 {% endstepper %}
 

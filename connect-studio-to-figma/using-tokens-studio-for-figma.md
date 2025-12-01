@@ -17,7 +17,7 @@ This can be an empty file to ensure that your production designs are not affecte
 1. Go to Plugins > Tokens Studio for Figma.
 2. In the plugin’s interface, open a "New empty file".
 
-<div><figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 4.03.38 PM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 4.03.51 PM.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 3.37.32 PM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 3.53.08 PM.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -27,7 +27,7 @@ This can be an empty file to ensure that your production designs are not affecte
 2. Click on Add new sync provider.
 3. Select Token Studio from the list.
 
-<div><figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 4.05.19 PM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 4.05.24 PM.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 4.26.29 PM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 4.30.12 PM (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -39,7 +39,7 @@ This can be an empty file to ensure that your production designs are not affecte
 
 For more info read [Platform > API keys](../settings/api-keys.md).
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 5.02.32 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 4.33.04 PM.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -53,9 +53,9 @@ For more info read [Platform > API keys](../settings/api-keys.md).
 
 IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 
-<div><figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 5.03.05 PM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 5.03.34 PM.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 4.39.58 PM (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 4.41.06 PM.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 5.03.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 4.41.29 PM.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -68,7 +68,7 @@ IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 5. Choose the Project that you want to connect.
 6. You are now connected to Studio and your tokens should reflect in the plugin under the Tokens tab
 
-<div><figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 4.18.21 PM (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 4.19.30 PM.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 4.55.08 PM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 4.53.10 PM.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

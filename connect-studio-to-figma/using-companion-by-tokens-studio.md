@@ -10,46 +10,31 @@ Companion by Tokens Studio is a Figma plugin which is meant purely for consumpti
 
 {% stepper %}
 {% step %}
-### Open a Figma design file
+### Launch the Companion Plugin in Figma
 
-This can be a new empty file to ensure that your production design files are not affected while setting up a connection between Studio and Figma.
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 7.11.21 PM.png" alt="" width="358"><figcaption></figcaption></figure>
+
+* Open a Figma design file (a new or existing one is fine).​
+* Go to the Figma “Plugins” menu and launch **Companion by Tokens Studio**.
 {% endstep %}
 
 {% step %}
 ### Install/Launch the plugin
 
-1. Go to plugins > Companion by Tokens Studio.
+1. Go to plugins (ctrl+k) > Companion by Tokens Studio.
 2. Run the plugin.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 7.13.03 PM.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Setting up Studio sync
 
-1. Return to the studio dashboard
-2. Click on Create an API Key. You can also jump to the API keys page by using the keyboard shortcut cmd+k.
+1. Return to Studio.
+2. Click on Find your API key. You can also jump to the API keys page by using the keyboard shortcut cmd+k.
 3. The API key is linked to the user which means that it gives access to all the Organisations and Projects that a user is part of.&#x20;
 
 For more info read [Platform > API keys](../settings/api-keys.md).
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 5.02.32 PM.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### &#x20;Creating your API key
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 5.03.05 PM.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-11-18 at 5.03.34 PM.png" alt=""><figcaption></figcaption></figure>
-
-
-
-1. Click on create a new key.
-2. Give your API key a name.
-3. Select the necessary scopes ( [api-keys.md](../settings/api-keys.md "mention") for more information on each scope)
-4. Click create token.
-5. Copy your API key.&#x20;
-
-IMPORTANT: Your API key will not be visible again, so make sure to copy it.
 {% endstep %}
 
 {% step %}

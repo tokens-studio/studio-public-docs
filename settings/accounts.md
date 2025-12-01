@@ -23,7 +23,7 @@ Within Studio, you will see your _name_ and _email address_ in the **bottom-left
 
 ## Editing Your Profile
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-21 at 13.24.53@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 6.15.48 PM.png" alt=""><figcaption></figcaption></figure>
 
 1. Click **Edit Profile** in the accounts menu.
 2. Modify your **name** or add a short **description**.
@@ -34,12 +34,12 @@ Within Studio, you will see your _name_ and _email address_ in the **bottom-left
 
 ## Managing API Keys
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-21 at 13.25.04@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 6.18.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 Access the [**API Keys**](api-keys.md) page. Where you can:
 
 * Generate new API keys.
-* View and manage existing API keys.
+* Edit personal access tokens (Modify scopes), revoke tokens
 * Copy keys for integration with Studio plugins.
 
 {% hint style="warning" %}
@@ -52,11 +52,13 @@ Access the [**API Keys**](api-keys.md) page. Where you can:
 
 Selecting **Share Feedback** will redirect you to the **Tokens Studio feedback platform**, where you can submit feature requests and report issues.
 
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-21 at 6.24.58 PM.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Changing the Theme
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-02-21 at 13.27.06.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Switch to dark mode.gif" alt=""><figcaption></figcaption></figure>
 
 You can toggle between Dark and Light Mode directly from the account menu to adjust their interface preferences. The selected value will be stored locally in your browser and persisted for future visits.
 

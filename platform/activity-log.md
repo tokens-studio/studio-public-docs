@@ -12,8 +12,8 @@ This may be useful for teams who have legal and compliance requirements around s
 
 ## Accessing the Activity Log
 
-You can access the activity log by clicking on the **Legal & Compliance** link in the main sidebar.
+You can access the activity log by clicking on your profile in the bottom left and then click on **Edit profile**.
 
-Once within, you can select the **Compliance Log** tab.
+Once within, you can select the **Activity Log** tab.
 
 In the Compliance Log tab, you'll see a list of events that detail the actions users have taken in your organization. Some examples include creating subscription updates, user role management and more.&#x20;
