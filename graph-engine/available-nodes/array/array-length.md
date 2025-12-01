@@ -1,0 +1,42 @@
+# Array Length
+
+### What It Does
+
+Counts how many items are in a list and returns that number. It's perfect for determining the size of collections or arrays.
+
+### Inputs
+
+| Name  | Description                | Type | Required |
+| ----- | -------------------------- | ---- | -------- |
+| array | The list to count items in | List | Yes      |
+
+### Outputs
+
+| Name   | Description                     | Type   |
+| ------ | ------------------------------- | ------ |
+| length | The number of items in the list | Number |
+
+![Array Length Example](<../../../.gitbook/assets/Screenshot 2025-04-17 at 6.20.14 PM.png>)
+
+### How to Use It
+
+1. Drag the Array Length node into your graph.
+2. Connect your list (like `[Red, Green, Blue]`) to the "array" input.
+3. The output will be the number of items in the list (e.g., 3).
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-06 at 13.45.37@2x.png" alt=""><figcaption></figcaption></figure>
+
+### Tips
+
+* An empty array will return 0.
+* This node only counts top-level items; it doesn't count elements in nested arrays.
+
+### See Also
+
+* [**Index Array**](index-array.md): For accessing specific items in a list by their position.
+
+### Use Cases
+
+* **Dynamic Sizing**: Use the length to calculate scalable spacing based on the number of elements.
+* **Limit Checking**: Verify if a token collection has the expected number of items.
+* **Conditional Logic**: Create different behaviors based on how many items exist in a collection.
