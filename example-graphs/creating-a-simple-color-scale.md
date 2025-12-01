@@ -41,8 +41,7 @@ Once we have the base color as the output from our Constant node we want to gene
 * Drag a Scale Colors node into your graph.
 * Connect the output from your Constant node to the input named color in the Scale colors node.
 * You can adjust the number of steps in the scale, in this example we are creating a scale with  11 steps. This is done by setting the `stepsUp` to "5" and `stepsDown` to "5", so we have a scale with 5 colors above and below the base color.
-* The output will be a list (array) of 11 colors from lightest to darkest using your base color.\
-
+* The output will be a list (array) of 11 colors from lightest to darkest using your base color.<br>
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-06-06 at 8.44.27 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -66,8 +65,7 @@ To create design tokens from our color scale, we use the [Array Map](../graph-en
 <figure><img src="../.gitbook/assets/CleanShot 2025-06-09 at 19.32.31@2x.png" alt=""><figcaption></figcaption></figure>
 
 * To create a design token we need to have the value as a string type, at this point the value that we have is a color type.&#x20;
-* To convert a color to string we will use a [Color to string](../graph-engine/available-nodes/color/color-to-string.md) node. Drag the Color to string node into the graph and connect the value from the input node to the color node. This will give us an output which is a string. \
-
+* To convert a color to string we will use a [Color to string](../graph-engine/available-nodes/color/color-to-string.md) node. Drag the Color to string node into the graph and connect the value from the input node to the color node. This will give us an output which is a string. <br>
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-06-09 at 19.48.24@2x.png" alt=""><figcaption></figcaption></figure>
 

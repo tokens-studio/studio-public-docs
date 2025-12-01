@@ -37,8 +37,6 @@ There are multiple ways to navigate to the **API Keys** page:
 
 ## Creating a New API Key
 
-<figure><img src="../.gitbook/assets/Create API Key.gif" alt=""><figcaption></figcaption></figure>
-
 {% hint style="danger" %}
 🚨 **Important:** Once created, the API key will only be shown **once**. Make sure to copy and store it securely.
 {% endhint %}

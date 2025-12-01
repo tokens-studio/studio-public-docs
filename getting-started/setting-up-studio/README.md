@@ -48,7 +48,7 @@ Using Figma variables? follow the steps in the section [Import from Figma variab
 1. Click on the button **Create your first token set.**
 2. Name your token set (e.g., "global", "core", "primitives").
 3. _(Optional)_ Give your token set a description.
-4. Select the type of token set you want to create: Static set or [Graph based set](broken-reference).
+4. Select the type of token set you want to create: Static set or [Graph based set](/broken/pages/2pe0P6ddtiIcBnBmKmq4).
 5. Click **create**.
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>

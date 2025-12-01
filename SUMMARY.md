@@ -34,6 +34,7 @@
 * [Support](platform/support.md)
 * [Plans and Billing](platform/plans-and-billing.md)
 * [Activity Log](platform/activity-log.md)
+* [Data Controls](platform/data-controls.md)
 
 ## STYLE DICTIONARY
 

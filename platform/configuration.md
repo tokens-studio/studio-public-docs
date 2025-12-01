@@ -17,29 +17,24 @@ By creating multiple configurations, you can target different platforms (Android
 ## Overview
 
 1. Configurations List (Left Pane)
-2.  &#x20;You can create and manage multiple configurations. For example, you might have one configuration for Android (XML output), another for Web (CSS output), etc.\
-
+2.  &#x20;You can create and manage multiple configurations. For example, you might have one configuration for Android (XML output), another for Web (CSS output), etc.<br>
 
     <figure><img src="../.gitbook/assets/Configurations.png" alt=""><figcaption></figcaption></figure>
 3. Configuration Details (Center Pane)
    * Name: The name of your configuration (e.g., “Android”, “CSS”, “Web-Mobile”).
-   *   Included Themes: Select which theme groups (e.g., “Color Mode”, “Breakpoint”) should be processed in this configuration. Studio will generate separate output files for each theme permutation if you use the `{theme}` placeholder in your destination paths.\
-
+   *   Included Themes: Select which theme groups (e.g., “Color Mode”, “Breakpoint”) should be processed in this configuration. Studio will generate separate output files for each theme permutation if you use the `{theme}` placeholder in your destination paths.<br>
 
        <figure><img src="../.gitbook/assets/Configurations (1).png" alt=""><figcaption></figcaption></figure>
-   *   Configuration (Visual or Code): Switch between a user-friendly UI or a code editor. In code view, you can add [Style Dictionary](https://amzn.github.io/style-dictionary/) transforms, custom functions, and advanced filtering.\
-
+   *   Configuration (Visual or Code): Switch between a user-friendly UI or a code editor. In code view, you can add [Style Dictionary](https://amzn.github.io/style-dictionary/) transforms, custom functions, and advanced filtering.<br>
 
        <figure><img src="../.gitbook/assets/View Code and UI - configurations.gif" alt=""><figcaption></figcaption></figure>
-   *   Files & Output: Define multiple files within a single configuration—each with its own output path, transforms, and format.\
-
+   *   Files & Output: Define multiple files within a single configuration—each with its own output path, transforms, and format.<br>
 
        <figure><img src="../.gitbook/assets/Multiple Output files.gif" alt=""><figcaption></figcaption></figure>
 4. Preview & Output (Right Pane)
    * Preview Theme Permutations: Toggle between each theme combination (e.g., “light” and “dark” in your CSS config) to preview the generated file.
    * Copy or Download: Quickly copy the generated code or download all output files.
-   *   Code Preview: A read-only preview of the final file (e.g., `.css`, `.xml`, etc.).\
-
+   *   Code Preview: A read-only preview of the final file (e.g., `.css`, `.xml`, etc.).<br>
 
        <figure><img src="../.gitbook/assets/Preview Pane.gif" alt=""><figcaption></figcaption></figure>
 
@@ -48,8 +43,7 @@ By creating multiple configurations, you can target different platforms (Android
 1. Add a New Configuration
    * Click Add configuration in the left pane.
    * Give it a Name.
-   *   Pick themes from the list of theme groups you wish to include. Each chosen group can create multiple permutations (e.g., light/dark, web/mobile).\
-
+   *   Pick themes from the list of theme groups you wish to include. Each chosen group can create multiple permutations (e.g., light/dark, web/mobile).<br>
 
        <figure><img src="../.gitbook/assets/Creating &#x26; Editing Configuration.gif" alt=""><figcaption></figcaption></figure>
 2. Visual Editor vs. Code View
@@ -60,8 +54,7 @@ By creating multiple configurations, you can target different platforms (Android
 * Choose one or more Transform Groups or single transforms (e.g., `name/pascal`, `tokens-studio`).
 * Pick the Format (e.g., `css/variables`, `android/resources`).
 * Specify the build path (folder where files will be generated).
-*   Optionally add a prefix to your token names.\
-
+*   Optionally add a prefix to your token names.<br>
 
     <figure><img src="../.gitbook/assets/Output File.png" alt=""><figcaption></figcaption></figure>
 
@@ -69,16 +62,14 @@ By creating multiple configurations, you can target different platforms (Android
 
 * Exposes the underlying Style Dictionary configuration JSON.
 * You can write custom transforms or custom filter functions if needed.
-*   Refer to the Style Dictionary documentation for examples of advanced usage.\
-
+*   Refer to the Style Dictionary documentation for examples of advanced usage.<br>
 
     <figure><img src="../.gitbook/assets/Code View of Configurations.png" alt=""><figcaption></figcaption></figure>
 
 ### Expanding Complex Tokens
 
 * Under Expand tokens, select which “composition” tokens (typography, border, shadow, etc.) should be decomposed into separate properties.
-*   For example, a typography token could be expanded into separate font size, line height, and font family properties.\
-
+*   For example, a typography token could be expanded into separate font size, line height, and font family properties.<br>
 
     <figure><img src="../.gitbook/assets/Expand Complex Tokens.png" alt=""><figcaption></figcaption></figure>
 
@@ -94,8 +85,7 @@ In the right pane, you’ll see a preview of each generated file:
 
 * Theme Permutations: Use the dropdown to switch among the different permutations created by your selected themes (e.g., `web_light`, `web_dark`, `mobile_light`, `mobile_dark`).
 * File Content: Shows the actual code or XML/JSON structure that Style Dictionary produces.
-*   Copy & Download: Quickly copy the content or download all files at once.\
-
+*   Copy & Download: Quickly copy the content or download all files at once.<br>
 
     <figure><img src="../.gitbook/assets/Preview Pane.gif" alt=""><figcaption></figcaption></figure>
 

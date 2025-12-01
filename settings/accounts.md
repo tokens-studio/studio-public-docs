@@ -9,7 +9,7 @@ description: >-
 
 ## Where to find the Accounts Menu
 
-<figure><img src="../.gitbook/assets/accountmenu.gif" alt=""><figcaption></figcaption></figure>
+{% include "../.gitbook/includes/untitled (4).md" %}
 
 Within Studio, you will see your _name_ and _email address_ in the **bottom-left corner of the UI**. Click to open a popup menu with the following options:
 
@@ -65,6 +65,8 @@ You can toggle between Dark and Light Mode directly from the account menu to adj
 ## Signing Out
 
 Click **Sign Out** to securely log out of Studio and your current session.
+
+
 
 ***
 

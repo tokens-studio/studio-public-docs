@@ -201,21 +201,17 @@ The graph is now complete and it will output the design tokens. Remember to clic
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-06-10 at 6.13.21 PM.png" alt=""><figcaption></figcaption></figure>
 
-We have a token set with harmonically-related font sizes generated from a single base size which creates a mathematically consistent typography scale. We can also now connect to the Tokens Studio for Figma plugin or the Companion by Tokens Studio plugin and use these design tokens in Figma.\
-
+We have a token set with harmonically-related font sizes generated from a single base size which creates a mathematically consistent typography scale. We can also now connect to the Tokens Studio for Figma plugin or the Companion by Tokens Studio plugin and use these design tokens in Figma.<br>
 {% endstep %}
 {% endstepper %}
 
-\
+<br>
 
 
 
+<br>
 
-\
-
-
-\
-
+<br>
 
 
 

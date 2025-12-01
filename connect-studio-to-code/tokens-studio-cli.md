@@ -166,8 +166,7 @@ When successful, a `.tokensstudio.json` file will be created at the root of your
 {% step %}
 ### Pull Tokens into your project
 
-In the `.tokensstudio.json` file, edit the **output** property value to be the local project directory where you'd like the tokens to be stored. For example, if your project uses a `src` directory, you would want to change that to `"output": "src/tokens"`\
-
+In the `.tokensstudio.json` file, edit the **output** property value to be the local project directory where you'd like the tokens to be stored. For example, if your project uses a `src` directory, you would want to change that to `"output": "src/tokens"`<br>
 
 Use the `pull` command to download the tokens from Tokens Studio to your project.
 
